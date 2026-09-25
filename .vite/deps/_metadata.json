@@ -1,0 +1,58 @@
+{
+  "hash": "7d296892",
+  "configHash": "9e7bbc52",
+  "lockfileHash": "8ccbcc5c",
+  "browserHash": "d8de48dc",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "029d176c",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "619af51b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "7a2cc71c",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "49d4739c",
+      "needsInterop": false
+    },
+    "@vercel/analytics/react": {
+      "src": "../../node_modules/@vercel/analytics/dist/react/index.mjs",
+      "file": "@vercel_analytics_react.js",
+      "fileHash": "84507f5c",
+      "needsInterop": false
+    },
+    "next-themes": {
+      "src": "../../node_modules/next-themes/dist/index.mjs",
+      "file": "next-themes.js",
+      "fileHash": "d6e17f96",
+      "needsInterop": false
+    },
+    "sonner": {
+      "src": "../../node_modules/sonner/dist/index.mjs",
+      "file": "sonner.js",
+      "fileHash": "bcfb63b8",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3ZD2L4XJ": {
+      "file": "chunk-3ZD2L4XJ.js"
+    },
+    "chunk-FSD5TXQ7": {
+      "file": "chunk-FSD5TXQ7.js"
+    }
+  }
+}

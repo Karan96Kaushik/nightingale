@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "Nightingale",
+  "short_name": "Nightingale",
+  "description": "A 14-day beginner Spanish plan. Thirty minutes a day: vocabulary, listening, and speaking.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1830",
+  "theme_color": "#1c1830",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "lifestyle"],
+  "prefer_related_applications": false
+}
