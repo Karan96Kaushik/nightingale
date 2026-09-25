@@ -4,9 +4,190 @@
   "sampleRate": "24000",
   "days": {
     "1": {
-      "title": "Meeting someone new",
+      "title": "Greetings & introductions",
       "lines": [
         {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d1-1",
+          "spanish": "Hola, me llamo Alex.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-00.mp3",
+          "textHash": "d36c4434aa33c6cf"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d1-2",
+          "spanish": "¿Cómo te llamas?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-01.mp3",
+          "textHash": "3d846480ff1bd9e6"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d1-3",
+          "spanish": "Mucho gusto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-02.mp3",
+          "textHash": "6ee6a268bd93a08c"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d1-4",
+          "spanish": "Soy de Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-03.mp3",
+          "textHash": "5cbd48ca54b72d7d"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d1-5",
+          "spanish": "¿De dónde eres?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-04.mp3",
+          "textHash": "fa5ce7802dee54e9"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d1-6",
+          "spanish": "Trabajo como ingeniero de software.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-05.mp3",
+          "textHash": "b5e8e38f15c65fbf"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d1-7",
+          "spanish": "¿Cómo estás?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-06.mp3",
+          "textHash": "445c16c45f4f708f"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d1-8",
+          "spanish": "Estoy bien, gracias. ¿Y tú?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-07.mp3",
+          "textHash": "e6b9aeddf32cf163"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d1-9",
+          "spanish": "Buenos días.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-08.mp3",
+          "textHash": "e27e5edfa1169cbc"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d1-10",
+          "spanish": "Buenas tardes.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-09.mp3",
+          "textHash": "f07fb1b27a0015a0"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d1-11",
+          "spanish": "Buenas noches.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-10.mp3",
+          "textHash": "41944d42f9497a9b"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d1-12",
+          "spanish": "Hasta luego.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-11.mp3",
+          "textHash": "91e74582956af940"
+        },
+        {
+          "section": "vocab",
+          "index": 12,
+          "speaker": "d1-13",
+          "spanish": "Tengo veintinueve años.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-12.mp3",
+          "textHash": "1180488041dd26b5"
+        },
+        {
+          "section": "vocab",
+          "index": 13,
+          "speaker": "d1-14",
+          "spanish": "Uno, dos, tres, cuatro, cinco.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/vocab-13.mp3",
+          "textHash": "35356ab4484431a7"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Soy de Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/grammar-00-00.mp3",
+          "textHash": "5cbd48ca54b72d7d"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Me llamo Alex.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/grammar-00-01.mp3",
+          "textHash": "1b7629558bff5c7b"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "¿Cómo te llamas?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/grammar-00-02.mp3",
+          "textHash": "3d846480ff1bd9e6"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "¿De dónde eres?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/grammar-00-03.mp3",
+          "textHash": "fa5ce7802dee54e9"
+        },
+        {
+          "section": "dialogue",
           "index": 0,
           "speaker": "Ana",
           "spanish": "¡Hola! ¿Cómo te llamas?",
@@ -16,6 +197,7 @@
           "textHash": "1fc29f6249c53565"
         },
         {
+          "section": "dialogue",
           "index": 1,
           "speaker": "Alex",
           "spanish": "Me llamo Alex. ¿Y tú?",
@@ -25,6 +207,7 @@
           "textHash": "617e85d0a559a326"
         },
         {
+          "section": "dialogue",
           "index": 2,
           "speaker": "Ana",
           "spanish": "Me llamo Ana. Mucho gusto.",
@@ -34,6 +217,7 @@
           "textHash": "419fe6dd7ef05c89"
         },
         {
+          "section": "dialogue",
           "index": 3,
           "speaker": "Alex",
           "spanish": "Encantado. Soy de Londres.",
@@ -43,6 +227,7 @@
           "textHash": "5ac01289082b44a8"
         },
         {
+          "section": "dialogue",
           "index": 4,
           "speaker": "Ana",
           "spanish": "Yo soy de Madrid. ¿A qué te dedicas?",
@@ -52,6 +237,7 @@
           "textHash": "2a328e3fd5193bad"
         },
         {
+          "section": "dialogue",
           "index": 5,
           "speaker": "Alex",
           "spanish": "Trabajo como ingeniero. ¿Y tú?",
@@ -61,6 +247,7 @@
           "textHash": "f3f52e5ec9d487fb"
         },
         {
+          "section": "dialogue",
           "index": 6,
           "speaker": "Ana",
           "spanish": "Soy profesora. Hasta luego.",
@@ -68,13 +255,244 @@
           "languageCode": "es-ES",
           "file": "/audio/day-01/06-ana.mp3",
           "textHash": "6a236301aed8f3f2"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Hola, me llamo",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/practice-00.mp3",
+          "textHash": "0c065a33a612b88e"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Soy de",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/practice-01.mp3",
+          "textHash": "85a50c46b61f0654"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Vivo en",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/practice-02.mp3",
+          "textHash": "a4dfb9139aa16a82"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Trabajo como. Soy estudiante.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/practice-03.mp3",
+          "textHash": "98ecd31eee678087"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "Mucho gusto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/practice-04.mp3",
+          "textHash": "6ee6a268bd93a08c"
         }
       ]
     },
     "2": {
-      "title": "Making plans",
+      "title": "Days, months & time",
       "lines": [
         {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d2-1",
+          "spanish": "Hoy es lunes.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-00.mp3",
+          "textHash": "2e4a5fac958045cf"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d2-2",
+          "spanish": "Mañana es martes.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-01.mp3",
+          "textHash": "da8688089da6a3ce"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d2-3",
+          "spanish": "¿Qué día es hoy?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-02.mp3",
+          "textHash": "9efde2acc0aba4de"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d2-4",
+          "spanish": "¿Qué mes es? Es septiembre.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-03.mp3",
+          "textHash": "928eb3c086ecbfd1"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d2-5",
+          "spanish": "¿Qué hora es?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-04.mp3",
+          "textHash": "1acb1f97c6a3940d"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d2-6",
+          "spanish": "Es la una.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-05.mp3",
+          "textHash": "0874f09be75d1425"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d2-7",
+          "spanish": "Son las tres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-06.mp3",
+          "textHash": "990f00b6637f7679"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d2-8",
+          "spanish": "Son las tres y media.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-07.mp3",
+          "textHash": "c15c5afeab935c70"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d2-9",
+          "spanish": "Son las diez menos cuarto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-08.mp3",
+          "textHash": "8016abd5781ef739"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d2-10",
+          "spanish": "Por la mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-09.mp3",
+          "textHash": "ca266e5c45e9df5e"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d2-11",
+          "spanish": "Por la tarde.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-10.mp3",
+          "textHash": "3cdf6e0fa3fd0852"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d2-12",
+          "spanish": "Por la noche.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-11.mp3",
+          "textHash": "fb11cdadfc4c2711"
+        },
+        {
+          "section": "vocab",
+          "index": 12,
+          "speaker": "d2-13",
+          "spanish": "¿Cuál es la fecha de hoy?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-12.mp3",
+          "textHash": "0998ab979b06febf"
+        },
+        {
+          "section": "vocab",
+          "index": 13,
+          "speaker": "d2-14",
+          "spanish": "Hoy es el doce de septiembre.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/vocab-13.mp3",
+          "textHash": "f7c75498ff33848d"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Hoy es lunes.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/grammar-00-00.mp3",
+          "textHash": "2e4a5fac958045cf"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Es la una.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/grammar-00-01.mp3",
+          "textHash": "0874f09be75d1425"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Son las tres y media.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/grammar-00-02.mp3",
+          "textHash": "c15c5afeab935c70"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Son las siete de la tarde.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/grammar-00-03.mp3",
+          "textHash": "1753501708fe1346"
+        },
+        {
+          "section": "dialogue",
           "index": 0,
           "speaker": "Luis",
           "spanish": "Buenos días. ¿Qué día es hoy?",
@@ -84,6 +502,7 @@
           "textHash": "28355afb7da84e6d"
         },
         {
+          "section": "dialogue",
           "index": 1,
           "speaker": "Marta",
           "spanish": "Hoy es miércoles.",
@@ -93,6 +512,7 @@
           "textHash": "936f2259cf6fbe08"
         },
         {
+          "section": "dialogue",
           "index": 2,
           "speaker": "Luis",
           "spanish": "¿Qué hora es?",
@@ -102,6 +522,7 @@
           "textHash": "1acb1f97c6a3940d"
         },
         {
+          "section": "dialogue",
           "index": 3,
           "speaker": "Marta",
           "spanish": "Son las siete de la tarde.",
@@ -111,6 +532,7 @@
           "textHash": "168ea808a8ce72a8"
         },
         {
+          "section": "dialogue",
           "index": 4,
           "speaker": "Luis",
           "spanish": "¿El sábado por la mañana?",
@@ -120,6 +542,7 @@
           "textHash": "1536def5b5a58796"
         },
         {
+          "section": "dialogue",
           "index": 5,
           "speaker": "Marta",
           "spanish": "Sí. A las diez.",
@@ -127,6 +550,3276 @@
           "languageCode": "es-ES",
           "file": "/audio/day-02/05-marta.mp3",
           "textHash": "f0fa2c5adf938929"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Buenos días. Buenas tardes. Buenas noches.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/practice-00.mp3",
+          "textHash": "8e3c4e7e14d0e19f"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Hoy es",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/practice-01.mp3",
+          "textHash": "f7eb34071f7d3faa"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Hoy es el de",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/practice-02.mp3",
+          "textHash": "99d48acb7c6ef659"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Es la una. Son las",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/practice-03.mp3",
+          "textHash": "069ce002d3da6b4e"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "El sábado por la mañana",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/practice-04.mp3",
+          "textHash": "658f7f67060fbf3c"
+        }
+      ]
+    },
+    "3": {
+      "title": "Ser — who and what",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d3-1",
+          "spanish": "Soy ingeniero.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-00.mp3",
+          "textHash": "2f6f987acf8902f0"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d3-2",
+          "spanish": "¿Eres de Londres?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-01.mp3",
+          "textHash": "5827710198cb59b2"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d3-3",
+          "spanish": "Tú eres muy amable.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-02.mp3",
+          "textHash": "b53d3feab27fbef4"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d3-4",
+          "spanish": "Ella es de España.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-03.mp3",
+          "textHash": "3cad71938b764cd1"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d3-5",
+          "spanish": "Ella es profesora.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-04.mp3",
+          "textHash": "b6ea513953754444"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d3-6",
+          "spanish": "Nosotros somos amigos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-05.mp3",
+          "textHash": "d53f1291d171d9d8"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d3-7",
+          "spanish": "Ellos son profesores.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-06.mp3",
+          "textHash": "624d8a7096f624f1"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d3-8",
+          "spanish": "¿Eres ingeniero?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-07.mp3",
+          "textHash": "e05801982c0fd6a5"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d3-9",
+          "spanish": "No soy médico.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-08.mp3",
+          "textHash": "8b00f6f1fff10f3e"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d3-10",
+          "spanish": "Somos de Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-09.mp3",
+          "textHash": "4e91c28e47b0286a"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d3-11",
+          "spanish": "¿Quién es ella?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-10.mp3",
+          "textHash": "3fd5ea20aa7c4c23"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d3-12",
+          "spanish": "Es mi amiga.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-11.mp3",
+          "textHash": "510c1bcf6db60943"
+        },
+        {
+          "section": "vocab",
+          "index": 12,
+          "speaker": "d3-13",
+          "spanish": "Hoy es lunes y ella es Ana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/vocab-12.mp3",
+          "textHash": "436488e4f0da9044"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Soy ingeniero.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/grammar-00-00.mp3",
+          "textHash": "2f6f987acf8902f0"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "¿Eres de Londres?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/grammar-00-01.mp3",
+          "textHash": "5827710198cb59b2"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Ella es profesora.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/grammar-00-02.mp3",
+          "textHash": "b6ea513953754444"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "No soy médico.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/grammar-00-03.mp3",
+          "textHash": "8b00f6f1fff10f3e"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Pablo",
+          "spanish": "¡Hola! Me llamo Pablo. ¿Cómo te llamas?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/00-pablo.mp3",
+          "textHash": "4781ea4eadac7641"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Sofía",
+          "spanish": "Me llamo Sofía. ¿Eres de aquí?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/01-sofia.mp3",
+          "textHash": "ee8a6d0977be876c"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Pablo",
+          "spanish": "Sí, soy de aquí. ¿Y tú?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/02-pablo.mp3",
+          "textHash": "008625b0a31746db"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Sofía",
+          "spanish": "No, soy de Valencia. Soy profesora.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/03-sofia.mp3",
+          "textHash": "82581b46bc225e97"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Pablo",
+          "spanish": "Yo soy ingeniero. ¿Quién es él?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/04-pablo.mp3",
+          "textHash": "c259db49b58be315"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Sofía",
+          "spanish": "Es mi amigo. Somos amigos.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/05-sofia.mp3",
+          "textHash": "ff45cb969a66892c"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Hola, me llamo",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-00.mp3",
+          "textHash": "0c065a33a612b88e"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Soy de",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-01.mp3",
+          "textHash": "85a50c46b61f0654"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Soy",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-02.mp3",
+          "textHash": "c46c13b5840d980c"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "¿Eres?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-03.mp3",
+          "textHash": "223348a721b5cec0"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "Ella es. Él es",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-04.mp3",
+          "textHash": "392048dd8e2b652f"
+        },
+        {
+          "section": "practice",
+          "index": 5,
+          "speaker": "5",
+          "spanish": "Somos",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-05.mp3",
+          "textHash": "ddd24eb655286557"
+        },
+        {
+          "section": "practice",
+          "index": 6,
+          "speaker": "6",
+          "spanish": "No soy",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-03/practice-06.mp3",
+          "textHash": "bd9316ab244446ab"
+        }
+      ]
+    },
+    "4": {
+      "title": "Core verbs",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d4-1",
+          "spanish": "Tengo hambre.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-00.mp3",
+          "textHash": "8ab15b82f9ea5aad"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d4-2",
+          "spanish": "¿Tienes tiempo?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-01.mp3",
+          "textHash": "78ae76aa9cca9b3e"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d4-3",
+          "spanish": "Quiero café.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-02.mp3",
+          "textHash": "9ec74739323072f5"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d4-4",
+          "spanish": "¿Qué quieres comer?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-03.mp3",
+          "textHash": "670b2f9583c434aa"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d4-5",
+          "spanish": "Voy al trabajo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-04.mp3",
+          "textHash": "cbfe00389427014c"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d4-6",
+          "spanish": "¿Adónde vas?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-05.mp3",
+          "textHash": "2c2ccf47538cdfdc"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d4-7",
+          "spanish": "Hago ejercicio por la mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-06.mp3",
+          "textHash": "275e6bb86ba2a6aa"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d4-8",
+          "spanish": "¿Qué haces hoy?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-07.mp3",
+          "textHash": "7e202edc19b93773"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d4-9",
+          "spanish": "No tengo dinero.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-08.mp3",
+          "textHash": "2805708f73b433c1"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d4-10",
+          "spanish": "Quiero ir a casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-09.mp3",
+          "textHash": "fdebb9386a9e71bf"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d4-11",
+          "spanish": "Vamos al parque.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-10.mp3",
+          "textHash": "e4106bed8aa111c1"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d4-12",
+          "spanish": "Hacemos la cena juntos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-11.mp3",
+          "textHash": "07a8304e38b22ec9"
+        },
+        {
+          "section": "vocab",
+          "index": 12,
+          "speaker": "d4-13",
+          "spanish": "Tengo que trabajar.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/vocab-12.mp3",
+          "textHash": "2d8f70b19b422b3e"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Tengo hambre. Tengo que trabajar.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/grammar-00-00.mp3",
+          "textHash": "704284ae4cbc8ccb"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Quiero café. ¿Qué quieres comer?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/grammar-00-01.mp3",
+          "textHash": "a9b9d4c2cec22419"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Voy al trabajo. ¿Adónde vas?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/grammar-00-02.mp3",
+          "textHash": "5cff33568d44c05a"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Hago ejercicio. ¿Qué haces hoy?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/grammar-00-03.mp3",
+          "textHash": "91808f61416b5df3"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Noa",
+          "spanish": "¿Qué quieres hacer esta noche?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/00-noa.mp3",
+          "textHash": "fb75dc43fded3dfe"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Diego",
+          "spanish": "Tengo hambre. Quiero comer.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/01-diego.mp3",
+          "textHash": "40887aee475e4fd0"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Noa",
+          "spanish": "Vamos a un restaurante.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/02-noa.mp3",
+          "textHash": "9514a4c191fa8fa8"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Diego",
+          "spanish": "No tengo mucho tiempo. Tengo que trabajar mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/03-diego.mp3",
+          "textHash": "9790d29c31b62d50"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Noa",
+          "spanish": "Entonces hacemos algo rápido.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/04-noa.mp3",
+          "textHash": "bde177fce69b4883"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Diego",
+          "spanish": "Perfecto. Voy a casa a las nueve.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/05-diego.mp3",
+          "textHash": "5f05cff2a01bcadf"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Tengo. No tengo",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/practice-00.mp3",
+          "textHash": "8939a459d38d6c27"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Quiero. ¿Qué quieres?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/practice-01.mp3",
+          "textHash": "dcb5260964bbdb94"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Voy a. Vamos a",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/practice-02.mp3",
+          "textHash": "a872672e501995fe"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Hago. ¿Qué haces?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-04/practice-03.mp3",
+          "textHash": "0adb6ca462b5269c"
+        }
+      ]
+    },
+    "5": {
+      "title": "Food & drinks",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d5-1",
+          "spanish": "Quiero comer.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-00.mp3",
+          "textHash": "cba93d923d9b9a2a"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d5-2",
+          "spanish": "Una mesa para dos, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-01.mp3",
+          "textHash": "b2e774011f453ca6"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d5-3",
+          "spanish": "La carta, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-02.mp3",
+          "textHash": "07877ee5c830fea3"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d5-4",
+          "spanish": "Para mí, una paella.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-03.mp3",
+          "textHash": "e46a5c6c70e07a30"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d5-5",
+          "spanish": "Quiero un café con leche.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-04.mp3",
+          "textHash": "8d902e2893926f0d"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d5-6",
+          "spanish": "¿Qué recomienda?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-05.mp3",
+          "textHash": "36451c6ea7d0b839"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d5-7",
+          "spanish": "Está delicioso.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-06.mp3",
+          "textHash": "4f42da944cb0a876"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d5-8",
+          "spanish": "La cuenta, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-07.mp3",
+          "textHash": "76bd8db06dc4c68f"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d5-9",
+          "spanish": "Sin gluten, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-08.mp3",
+          "textHash": "b9e598149ec8905c"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d5-10",
+          "spanish": "Agua con gas.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-09.mp3",
+          "textHash": "ad95a017fd85e8dc"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d5-11",
+          "spanish": "Un vaso de vino tinto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-10.mp3",
+          "textHash": "ec356152f0fdb5f0"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d5-12",
+          "spanish": "¿Puedo pedir el postre?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-11.mp3",
+          "textHash": "5b7fc69aa7f8b958"
+        },
+        {
+          "section": "vocab",
+          "index": 12,
+          "speaker": "d5-13",
+          "spanish": "Soy vegetariano.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/vocab-12.mp3",
+          "textHash": "490207edc76f64b1"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Un café. Una paella.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/grammar-00-00.mp3",
+          "textHash": "96bac692213df51e"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Quiero comer.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/grammar-00-01.mp3",
+          "textHash": "cba93d923d9b9a2a"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Para mí, una ensalada.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/grammar-00-02.mp3",
+          "textHash": "3d560c5bbec7cb1f"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Soy vegetariano.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/grammar-00-03.mp3",
+          "textHash": "490207edc76f64b1"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Camarero",
+          "spanish": "Buenas tardes. ¿Mesa para cuántos?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-05/00-camarero.mp3",
+          "textHash": "0040642ee8982c5a"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Para uno, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/01-alex.mp3",
+          "textHash": "086e0738e6900f5c"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Camarero",
+          "spanish": "¿Qué desea beber?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-05/02-camarero.mp3",
+          "textHash": "779f8e685fa99e23"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Agua y un café, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/03-alex.mp3",
+          "textHash": "e43318a69da7246c"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Camarero",
+          "spanish": "¿Y para comer?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-05/04-camarero.mp3",
+          "textHash": "5d74ce891b178957"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Quiero una tortilla y una ensalada.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/05-alex.mp3",
+          "textHash": "0229b73ddb8fd734"
+        },
+        {
+          "section": "dialogue",
+          "index": 6,
+          "speaker": "Camarero",
+          "spanish": "Muy bien. Enseguida.",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-05/06-camarero.mp3",
+          "textHash": "e9a6451888c3502b"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Hola, una mesa para uno, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/practice-00.mp3",
+          "textHash": "fb399edb3c36835f"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "¿Qué recomienda?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/practice-01.mp3",
+          "textHash": "36451c6ea7d0b839"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Para mí",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/practice-02.mp3",
+          "textHash": "6427c5dd6f9fc22e"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Quiero",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/practice-03.mp3",
+          "textHash": "c88b7a4fec254f47"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "La cuenta, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-05/practice-04.mp3",
+          "textHash": "76bd8db06dc4c68f"
+        }
+      ]
+    },
+    "6": {
+      "title": "Family & people",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d6-1",
+          "spanish": "Esta es mi familia.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-00.mp3",
+          "textHash": "0d6379381282e319"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d6-2",
+          "spanish": "Tengo un hermano y una hermana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-01.mp3",
+          "textHash": "b00e59b015c379f9"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d6-3",
+          "spanish": "Mi madre se llama…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-02.mp3",
+          "textHash": "3ede624bae771a94"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d6-4",
+          "spanish": "Mi padre es médico.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-03.mp3",
+          "textHash": "fba17a22030079f3"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d6-5",
+          "spanish": "Mis amigos son muy simpáticos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-04.mp3",
+          "textHash": "d980df30e01c9dd3"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d6-6",
+          "spanish": "Vivo con mi pareja.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-05.mp3",
+          "textHash": "6f318ba7fb456b62"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d6-7",
+          "spanish": "No tengo hijos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-06.mp3",
+          "textHash": "e178bae096071f06"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d6-8",
+          "spanish": "Mi abuela vive en la India.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-07.mp3",
+          "textHash": "c237fe1919c1372d"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d6-9",
+          "spanish": "Somos una familia pequeña.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-08.mp3",
+          "textHash": "de4fe0fc04fba2f0"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d6-10",
+          "spanish": "Él es mi mejor amigo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-09.mp3",
+          "textHash": "77e9b79507f16013"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d6-11",
+          "spanish": "Ella es muy inteligente.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-10.mp3",
+          "textHash": "f77f58a0bef2a2a0"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d6-12",
+          "spanish": "¿Tienes hermanos?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/vocab-11.mp3",
+          "textHash": "7c01a1feaab4dd14"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Mi hermana. Mis amigos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/grammar-00-00.mp3",
+          "textHash": "c8ba096a5a3eb8ce"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Mis amigos son simpáticos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/grammar-00-01.mp3",
+          "textHash": "09944a845acad93b"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Somos una familia pequeña.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/grammar-00-02.mp3",
+          "textHash": "de4fe0fc04fba2f0"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Mi padre es médico.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/grammar-00-03.mp3",
+          "textHash": "fba17a22030079f3"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Elena",
+          "spanish": "¿Tienes hermanos?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/00-elena.mp3",
+          "textHash": "322135cdec279ca5"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Sí, tengo una hermana. ¿Y tú?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/01-alex.mp3",
+          "textHash": "243f5898005fe097"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Elena",
+          "spanish": "Tengo dos hermanos. Somos tres.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/02-elena.mp3",
+          "textHash": "269c727cbb2a6ed0"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "¿Dónde vive tu familia?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/03-alex.mp3",
+          "textHash": "6bde3f815aa7bb20"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Elena",
+          "spanish": "Mis padres viven en Sevilla. Yo vivo en Londres.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/04-elena.mp3",
+          "textHash": "88cef11800cf5664"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Esta es mi familia.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/practice-00.mp3",
+          "textHash": "0d6379381282e319"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Tengo",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/practice-01.mp3",
+          "textHash": "2050d49f065932f2"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Mi se llama",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/practice-02.mp3",
+          "textHash": "c27afd690d3f9379"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Es. Son",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/practice-03.mp3",
+          "textHash": "bf5b4bc1c841122d"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "Vive en",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-06/practice-04.mp3",
+          "textHash": "d934fd8a07f1089c"
+        }
+      ]
+    },
+    "7": {
+      "title": "Week one review",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d7-1",
+          "spanish": "Hola, me llamo… y soy de…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-00.mp3",
+          "textHash": "b616fde36c2454b3"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d7-2",
+          "spanish": "Hoy es… y son las…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-01.mp3",
+          "textHash": "b91d32e854ce0eed"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d7-3",
+          "spanish": "Soy ingeniero. No soy médico.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-02.mp3",
+          "textHash": "5225381303025fa4"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d7-4",
+          "spanish": "Tengo hambre y quiero comer.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-03.mp3",
+          "textHash": "cccf0ffb5049f40e"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d7-5",
+          "spanish": "Voy al restaurante con mis amigos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-04.mp3",
+          "textHash": "43e07b24d253406a"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d7-6",
+          "spanish": "¿Qué quieres beber?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-05.mp3",
+          "textHash": "281abe4f92b167bf"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d7-7",
+          "spanish": "Mi hermana es profesora.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-06.mp3",
+          "textHash": "f1d60bbf28b524d8"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d7-8",
+          "spanish": "Somos de Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-07.mp3",
+          "textHash": "4e91c28e47b0286a"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d7-9",
+          "spanish": "Hago ejercicio por la mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-08.mp3",
+          "textHash": "275e6bb86ba2a6aa"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d7-10",
+          "spanish": "Hasta luego. El sábado por la mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/vocab-09.mp3",
+          "textHash": "9a17b9b806da4787"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Soy… / No soy…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/grammar-00-00.mp3",
+          "textHash": "0e9cb14e518be05d"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Es la una. Son las…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/grammar-00-01.mp3",
+          "textHash": "118fbdae1c09018b"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Tengo… Quiero… Voy… Hago…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/grammar-00-02.mp3",
+          "textHash": "2cf2686ebf900e5f"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Mi hermana. Mis amigos son…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/grammar-00-03.mp3",
+          "textHash": "ac4261765b6719d4"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Ana",
+          "spanish": "¡Hola! ¿Cómo estás?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/00-ana.mp3",
+          "textHash": "023121308ffa1a88"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Estoy bien. Hoy es domingo. Quiero ir a un café.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/01-alex.mp3",
+          "textHash": "398a769abbbd67da"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Ana",
+          "spanish": "Yo también. Tengo hambre.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/02-ana.mp3",
+          "textHash": "e7582924c785f5b7"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Vamos. ¿Qué quieres comer?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/03-alex.mp3",
+          "textHash": "e809fbc733c02f75"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Ana",
+          "spanish": "Una tostada y un café con leche.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/04-ana.mp3",
+          "textHash": "942f8cb5d3738147"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Perfecto. Mi hermana vive cerca. Es muy simpática.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/05-alex.mp3",
+          "textHash": "b41550c105cff97b"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Hola, me llamo Alex. Soy de Londres",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/practice-00.mp3",
+          "textHash": "8746dbc0d6e458c9"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Hoy es. Ahora son las",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/practice-01.mp3",
+          "textHash": "2558ec921396d22a"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Quiero. Tengo. Voy a",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/practice-02.mp3",
+          "textHash": "3bb146c6a5cb8161"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Mi familia. Mis amigos",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-07/practice-03.mp3",
+          "textHash": "23b65a29fa01efd0"
+        }
+      ]
+    },
+    "8": {
+      "title": "Places & directions",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d8-1",
+          "spanish": "¿Dónde está la estación?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-00.mp3",
+          "textHash": "655a94cc66fb108c"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d8-2",
+          "spanish": "Está a la derecha.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-01.mp3",
+          "textHash": "13e51aae1ee83d9a"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d8-3",
+          "spanish": "Está a la izquierda.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-02.mp3",
+          "textHash": "d3a6ec9bbbedd434"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d8-4",
+          "spanish": "Siga todo recto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-03.mp3",
+          "textHash": "7bbd8841efb45a98"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d8-5",
+          "spanish": "Está cerca de aquí.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-04.mp3",
+          "textHash": "f1fcea87404fc913"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d8-6",
+          "spanish": "Está lejos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-05.mp3",
+          "textHash": "115066f1af8450ae"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d8-7",
+          "spanish": "Gire en la segunda calle.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-06.mp3",
+          "textHash": "74f98dc89b482d8f"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d8-8",
+          "spanish": "El parque está al lado del café.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-07.mp3",
+          "textHash": "f158225059877c2e"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d8-9",
+          "spanish": "Voy en metro.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-08.mp3",
+          "textHash": "269bfde1ca8e04c8"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d8-10",
+          "spanish": "Voy andando.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-09.mp3",
+          "textHash": "302ee300f741ccfb"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d8-11",
+          "spanish": "¿Cómo llego al centro?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-10.mp3",
+          "textHash": "1dffd26763463cfc"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d8-12",
+          "spanish": "Vivo cerca de la estación.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/vocab-11.mp3",
+          "textHash": "4a1aad38ca7f9037"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Está a la derecha.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/grammar-00-00.mp3",
+          "textHash": "13e51aae1ee83d9a"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Está cerca de aquí.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/grammar-00-01.mp3",
+          "textHash": "f1fcea87404fc913"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Voy en metro.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/grammar-00-02.mp3",
+          "textHash": "269bfde1ca8e04c8"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Voy andando.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/grammar-00-03.mp3",
+          "textHash": "302ee300f741ccfb"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Alex",
+          "spanish": "Perdone, ¿dónde está el museo?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/00-alex.mp3",
+          "textHash": "a3f02b02029c2e31"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Local",
+          "spanish": "Siga todo recto y gire a la izquierda.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/01-local.mp3",
+          "textHash": "ea82d1dba6ef1cac"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Alex",
+          "spanish": "¿Está lejos?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/02-alex.mp3",
+          "textHash": "0f8bd121d9bdc639"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Local",
+          "spanish": "No, está cerca. Diez minutos andando.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/03-local.mp3",
+          "textHash": "1f4ab34ce1af672d"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Alex",
+          "spanish": "Muchas gracias.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/04-alex.mp3",
+          "textHash": "b6af6e4e9d479456"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Local",
+          "spanish": "De nada. ¡Buen día!",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/05-local.mp3",
+          "textHash": "7b7fd2710b94f7d1"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Voy andando. Voy en metro.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/practice-00.mp3",
+          "textHash": "6117d9f2284c79ad"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Siga todo recto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/practice-01.mp3",
+          "textHash": "7bbd8841efb45a98"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Está a la derecha.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/practice-02.mp3",
+          "textHash": "13e51aae1ee83d9a"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Está cerca de aquí.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/practice-03.mp3",
+          "textHash": "f1fcea87404fc913"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "Vivo cerca de",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-08/practice-04.mp3",
+          "textHash": "32670b1cd09d6604"
+        }
+      ]
+    },
+    "9": {
+      "title": "Daily routine",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d9-1",
+          "spanish": "Me levanto a las siete.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-00.mp3",
+          "textHash": "c98c78250a843bfe"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d9-2",
+          "spanish": "Desayuno en casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-01.mp3",
+          "textHash": "0a1a523935915d8c"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d9-3",
+          "spanish": "Voy al trabajo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-02.mp3",
+          "textHash": "cbfe00389427014c"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d9-4",
+          "spanish": "Trabajo desde casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-03.mp3",
+          "textHash": "fa6d03719e8e14c1"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d9-5",
+          "spanish": "Como a la una.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-04.mp3",
+          "textHash": "225d8992586b20b3"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d9-6",
+          "spanish": "Por la tarde, hago ejercicio.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-05.mp3",
+          "textHash": "98563594d5b08d31"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d9-7",
+          "spanish": "Ceno con mi familia.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-06.mp3",
+          "textHash": "d88298d0159c7bc2"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d9-8",
+          "spanish": "Me acuesto a las once.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-07.mp3",
+          "textHash": "fc6eb0fdcfc736c6"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d9-9",
+          "spanish": "Me ducho por la mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-08.mp3",
+          "textHash": "932be8d71d9b4211"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d9-10",
+          "spanish": "Primero… después… luego…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-09.mp3",
+          "textHash": "dbc5b493bb43bbd6"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d9-11",
+          "spanish": "Normalmente llego a casa a las seis.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-10.mp3",
+          "textHash": "6b6c7db195d6291f"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d9-12",
+          "spanish": "Me gusta correr.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/vocab-11.mp3",
+          "textHash": "9c6e18efe1f313b0"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Me levanto. Me ducho. Me acuesto.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/grammar-00-00.mp3",
+          "textHash": "276ce3aa0364cb47"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Me gusta correr.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/grammar-00-01.mp3",
+          "textHash": "9c6e18efe1f313b0"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Primero desayuno. Después trabajo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/grammar-00-02.mp3",
+          "textHash": "42528a560edc3355"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Me levanto a las siete.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/grammar-00-03.mp3",
+          "textHash": "c98c78250a843bfe"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Lucía",
+          "spanish": "¿Cómo es tu día?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/00-lucia.mp3",
+          "textHash": "b69ec566ce83cf08"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Me levanto a las siete y desayuno un café.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/01-alex.mp3",
+          "textHash": "6cbd791ddb036855"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Lucía",
+          "spanish": "¿Trabajas en una oficina?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/02-lucia.mp3",
+          "textHash": "01a10132dd3ffc04"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "A veces. Hoy trabajo desde casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/03-alex.mp3",
+          "textHash": "8772f065b6515c76"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Lucía",
+          "spanish": "Por la tarde, ¿qué haces?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/04-lucia.mp3",
+          "textHash": "1abe0d7d2b6354d8"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Hago ejercicio. Me gusta correr.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/05-alex.mp3",
+          "textHash": "e8e81e3242e5bd9a"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Me levanto a las",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/practice-00.mp3",
+          "textHash": "f9160801671f4f7c"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Desayuno",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/practice-01.mp3",
+          "textHash": "a0426248b86881ea"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Voy al trabajo. Trabajo desde casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/practice-02.mp3",
+          "textHash": "fc2261bfbdf5a8f1"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Por la tarde hago",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/practice-03.mp3",
+          "textHash": "07afd149c1332319"
+        },
+        {
+          "section": "practice",
+          "index": 4,
+          "speaker": "4",
+          "spanish": "Me acuesto a las",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-09/practice-04.mp3",
+          "textHash": "fe4eb00728dcd627"
+        }
+      ]
+    },
+    "10": {
+      "title": "Regular present tense",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d10-1",
+          "spanish": "Yo hablo español.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-00.mp3",
+          "textHash": "2871e071551cd603"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d10-2",
+          "spanish": "Tú hablas muy bien.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-01.mp3",
+          "textHash": "ff57f5d81fb99961"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d10-3",
+          "spanish": "Ella habla inglés.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-02.mp3",
+          "textHash": "99e61fe79a82f6c1"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d10-4",
+          "spanish": "Como fruta por la mañana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-03.mp3",
+          "textHash": "87e88d204e52586d"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d10-5",
+          "spanish": "¿Comes carne?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-04.mp3",
+          "textHash": "b46d7f01885adfc5"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d10-6",
+          "spanish": "Vivo en Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-05.mp3",
+          "textHash": "914d0709fa789320"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d10-7",
+          "spanish": "¿Dónde vives?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-06.mp3",
+          "textHash": "f58fd9c9db2ec68e"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d10-8",
+          "spanish": "Estudiamos por la noche.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-07.mp3",
+          "textHash": "43a186b3b877a3d0"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d10-9",
+          "spanish": "Ellos viven cerca.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-08.mp3",
+          "textHash": "1de31b28df36f3d7"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d10-10",
+          "spanish": "Trabajo, trabajas, trabaja.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-09.mp3",
+          "textHash": "3c6ce1ce0cf30654"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d10-11",
+          "spanish": "Bebo agua.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-10.mp3",
+          "textHash": "143fcc4c1b7485b7"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d10-12",
+          "spanish": "Escribimos mensajes.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/vocab-11.mp3",
+          "textHash": "64acd551b86dec3b"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "hablo, hablas, habla, hablamos, hablan",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/grammar-00-00.mp3",
+          "textHash": "299c8019c56a9e44"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "como, comes, come, comemos, comen",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/grammar-00-01.mp3",
+          "textHash": "e5abfebb9dbcaad9"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "vivo, vives, vive, vivimos, viven",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/grammar-00-02.mp3",
+          "textHash": "47ca13eb8165a0aa"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "¿Dónde vives?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/grammar-00-03.mp3",
+          "textHash": "f58fd9c9db2ec68e"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Nico",
+          "spanish": "¿Hablas español todos los días?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-10/00-nico.mp3",
+          "textHash": "4917a4622c6c6a6a"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Sí. Estudio por la mañana y hablo por la noche.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/01-alex.mp3",
+          "textHash": "fde95081e1fb179c"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Nico",
+          "spanish": "¿Dónde vives ahora?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-10/02-nico.mp3",
+          "textHash": "b872a1fba18f3887"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Vivo en Londres. Trabajo desde casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/03-alex.mp3",
+          "textHash": "6e6fb84b48d00b92"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Nico",
+          "spanish": "Nosotros también estudiamos. Bebemos café y practicamos.",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-10/04-nico.mp3",
+          "textHash": "5a16d5db10852232"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Yo hablo. Tú hablas",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/practice-00.mp3",
+          "textHash": "b5cf14cc4224339d"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Como. ¿Comes?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/practice-01.mp3",
+          "textHash": "e2d475efcfe0c756"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Vivo en Londres. ¿Dónde vives?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-10/practice-02.mp3",
+          "textHash": "d057356eb1c53905"
+        }
+      ]
+    },
+    "11": {
+      "title": "Estar — place and feeling",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d11-1",
+          "spanish": "Estoy en casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-00.mp3",
+          "textHash": "a09f255b57bfee38"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d11-2",
+          "spanish": "¿Dónde estás?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-01.mp3",
+          "textHash": "8a0d1149d5c6a319"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d11-3",
+          "spanish": "Estoy cansado.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-02.mp3",
+          "textHash": "8d6c9f67378d2e7d"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d11-4",
+          "spanish": "Estoy bien.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-03.mp3",
+          "textHash": "f469a12e2c7e3cd9"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d11-5",
+          "spanish": "Está feliz hoy.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-04.mp3",
+          "textHash": "388228528e08b8e6"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d11-6",
+          "spanish": "El café está aquí.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-05.mp3",
+          "textHash": "750f2650392402eb"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d11-7",
+          "spanish": "Estamos en Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-06.mp3",
+          "textHash": "99f4f542473bc4e2"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d11-8",
+          "spanish": "No estoy ocupado.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-07.mp3",
+          "textHash": "6030b0eb8e45c1e8"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d11-9",
+          "spanish": "Soy ingeniero, pero ahora estoy de vacaciones.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-08.mp3",
+          "textHash": "b233fcf727c5d63b"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d11-10",
+          "spanish": "La sopa está caliente.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-09.mp3",
+          "textHash": "f58dd7f6a313d9a4"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d11-11",
+          "spanish": "¿Cómo estás hoy?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-10.mp3",
+          "textHash": "4c5c8f53b95117db"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d11-12",
+          "spanish": "Estoy un poco nervioso.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/vocab-11.mp3",
+          "textHash": "077c7d54a9a4f7b2"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Soy ingeniero.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/grammar-00-00.mp3",
+          "textHash": "2f6f987acf8902f0"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Estoy en casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/grammar-00-01.mp3",
+          "textHash": "a09f255b57bfee38"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Estoy cansado.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/grammar-00-02.mp3",
+          "textHash": "8d6c9f67378d2e7d"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Estoy cansada.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/grammar-00-03.mp3",
+          "textHash": "4ed0b5fb33345368"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Inés",
+          "spanish": "¿Dónde estás?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/00-ines.mp3",
+          "textHash": "a39159e67ed93d7b"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Estoy en casa. Estoy un poco cansado.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/01-alex.mp3",
+          "textHash": "c3729049821a37fa"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Inés",
+          "spanish": "¿Estás ocupado?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/02-ines.mp3",
+          "textHash": "562b5d6ba521305b"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "No. ¿Y tú? ¿Cómo estás?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/03-alex.mp3",
+          "textHash": "6924009a9afccbff"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Inés",
+          "spanish": "Estoy bien. Estoy en el parque con mis amigos.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/04-ines.mp3",
+          "textHash": "33fc801d47ac55e8"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Eres muy sociable. Yo estoy tranquilo hoy.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/05-alex.mp3",
+          "textHash": "015ca789cf1883f2"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Estoy en",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/practice-00.mp3",
+          "textHash": "a16db48e48caaf4e"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Hoy estoy",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/practice-01.mp3",
+          "textHash": "523773900dc1faa8"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Soy, pero ahora estoy",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/practice-02.mp3",
+          "textHash": "2e924803845591fe"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Mis amigos están",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-11/practice-03.mp3",
+          "textHash": "35905513b65a16b9"
+        }
+      ]
+    },
+    "12": {
+      "title": "Shopping",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d12-1",
+          "spanish": "¿Cuánto cuesta?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-00.mp3",
+          "textHash": "903125f0e3c3446c"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d12-2",
+          "spanish": "Cuesta veinte euros.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-01.mp3",
+          "textHash": "8809af988a98bd42"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d12-3",
+          "spanish": "¿Tiene una talla más grande?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-02.mp3",
+          "textHash": "e6c5a1f6aee5a618"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d12-4",
+          "spanish": "¿Puedo probarme esto?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-03.mp3",
+          "textHash": "eb61bdde12598b65"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d12-5",
+          "spanish": "Me lo llevo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-04.mp3",
+          "textHash": "04079083559d807d"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d12-6",
+          "spanish": "Es demasiado caro.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-05.mp3",
+          "textHash": "159960a90a23226e"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d12-7",
+          "spanish": "¿Hay descuento?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-06.mp3",
+          "textHash": "28ab3566b7ecfe84"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d12-8",
+          "spanish": "Pago con tarjeta.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-07.mp3",
+          "textHash": "5bb38d1e9f5fa930"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d12-9",
+          "spanish": "Busco una camisa azul.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-08.mp3",
+          "textHash": "58eee859adb2ef5c"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d12-10",
+          "spanish": "¿De qué color lo quiere?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-09.mp3",
+          "textHash": "dff45faa6c0cbb27"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d12-11",
+          "spanish": "Solo estoy mirando.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-10.mp3",
+          "textHash": "c592d95e56ba0b0b"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d12-12",
+          "spanish": "¿Dónde está el probador?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/vocab-11.mp3",
+          "textHash": "727f0110f610431b"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "¿Cuánto cuesta?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/grammar-00-00.mp3",
+          "textHash": "903125f0e3c3446c"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "¿Puedo probarme esto?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/grammar-00-01.mp3",
+          "textHash": "eb61bdde12598b65"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Me lo llevo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/grammar-00-02.mp3",
+          "textHash": "04079083559d807d"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "¿Hay descuento?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/grammar-00-03.mp3",
+          "textHash": "28ab3566b7ecfe84"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Dependienta",
+          "spanish": "Hola, ¿le ayudo?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/00-dependienta.mp3",
+          "textHash": "b02a22188aa7d360"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Sí. Busco una chaqueta. ¿Cuánto cuesta esto?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/01-alex.mp3",
+          "textHash": "5332a12110cc1528"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Dependienta",
+          "spanish": "Cuesta cuarenta euros. ¿Qué talla usa?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/02-dependienta.mp3",
+          "textHash": "984a8fc461ea94ef"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Mediana. ¿Puedo probarme esto?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/03-alex.mp3",
+          "textHash": "790ce5450d3d9607"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Dependienta",
+          "spanish": "Claro. El probador está a la derecha.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/04-dependienta.mp3",
+          "textHash": "00d6971f5340fdca"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Me queda bien. Me lo llevo. Pago con tarjeta.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/05-alex.mp3",
+          "textHash": "beaef93085ec2cd7"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Hola, busco",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/practice-00.mp3",
+          "textHash": "a6575b9c07c2452c"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "¿Cuánto cuesta?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/practice-01.mp3",
+          "textHash": "903125f0e3c3446c"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "¿Puedo probarme esto?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/practice-02.mp3",
+          "textHash": "eb61bdde12598b65"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Me lo llevo. Pago con tarjeta.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-12/practice-03.mp3",
+          "textHash": "a0281197e0c2631d"
+        }
+      ]
+    },
+    "13": {
+      "title": "Yesterday",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d13-1",
+          "spanish": "Ayer fui al trabajo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-00.mp3",
+          "textHash": "319243fb72401ada"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d13-2",
+          "spanish": "Hice ejercicio.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-01.mp3",
+          "textHash": "5f6324e1c11380c2"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d13-3",
+          "spanish": "Comí en un restaurante.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-02.mp3",
+          "textHash": "06084ac1f461c56e"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d13-4",
+          "spanish": "Vi una película.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-03.mp3",
+          "textHash": "743b33a1970ba3a5"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d13-5",
+          "spanish": "Tuve una reunión.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-04.mp3",
+          "textHash": "ee51e88b252bbb32"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d13-6",
+          "spanish": "No fui a casa temprano.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-05.mp3",
+          "textHash": "a4bec8768d48e7e7"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d13-7",
+          "spanish": "¿Qué hiciste ayer?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-06.mp3",
+          "textHash": "070d7512490d4fdb"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d13-8",
+          "spanish": "Por la mañana trabajé.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-07.mp3",
+          "textHash": "8249d9c862c2aff4"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d13-9",
+          "spanish": "Por la noche cené con amigos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-08.mp3",
+          "textHash": "44c989d9db9b7c83"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d13-10",
+          "spanish": "Fue un día largo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-09.mp3",
+          "textHash": "57899d5f04db7c70"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d13-11",
+          "spanish": "Estuve en casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-10.mp3",
+          "textHash": "0369427cfa47aa61"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d13-12",
+          "spanish": "Me gustó mucho.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/vocab-11.mp3",
+          "textHash": "afe1ca570fcc54cc"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Ayer fui al trabajo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/grammar-00-00.mp3",
+          "textHash": "319243fb72401ada"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Hice ejercicio. Comí. Vi. Tuve.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/grammar-00-01.mp3",
+          "textHash": "c2466aa12f22f446"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "No fui a casa temprano.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/grammar-00-02.mp3",
+          "textHash": "a4bec8768d48e7e7"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Fue un día largo. Estuve en casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/grammar-00-03.mp3",
+          "textHash": "1ad3fa44e73e8d78"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Omar",
+          "spanish": "¿Qué hiciste ayer?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-13/00-omar.mp3",
+          "textHash": "a214239ce190807c"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Por la mañana fui al trabajo. Tuve muchas reuniones.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/01-alex.mp3",
+          "textHash": "ed51731c42a95e0f"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Omar",
+          "spanish": "¿Y por la tarde?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-13/02-omar.mp3",
+          "textHash": "bd09b41f16dde346"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Hice ejercicio y después comí en casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/03-alex.mp3",
+          "textHash": "49387d2a5a06b518"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Omar",
+          "spanish": "Por la noche vi una película. Fue muy buena.",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-13/04-omar.mp3",
+          "textHash": "b087b59402000e19"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Qué bien. Yo estuve cansado. Fue un día largo.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/05-alex.mp3",
+          "textHash": "16399c0b9bccabee"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Ayer por la mañana fui",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/practice-00.mp3",
+          "textHash": "07c7b6b2fcff6c38"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Por la tarde hice",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/practice-01.mp3",
+          "textHash": "8e9a2def7a556a68"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Por la noche vi. Cené",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/practice-02.mp3",
+          "textHash": "6760bd7b783fbc11"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Fue un día",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-13/practice-03.mp3",
+          "textHash": "c08ca7c86b4fd574"
+        }
+      ]
+    },
+    "14": {
+      "title": "Full review",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d14-1",
+          "spanish": "Hola, me llamo Alex. Vivo en Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-00.mp3",
+          "textHash": "030bd3d38627dc76"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d14-2",
+          "spanish": "Trabajo como ingeniero de software.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-01.mp3",
+          "textHash": "b5e8e38f15c65fbf"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d14-3",
+          "spanish": "Hoy trabajo desde casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-02.mp3",
+          "textHash": "f743166631693918"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d14-4",
+          "spanish": "Me gusta correr y estudiar español.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-03.mp3",
+          "textHash": "00553e451b947957"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d14-5",
+          "spanish": "Por la mañana me levanto y desayuno.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-04.mp3",
+          "textHash": "130f2e60c605c0e5"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d14-6",
+          "spanish": "Ayer fui al trabajo y tuve reuniones.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-05.mp3",
+          "textHash": "155d757a67ead5d1"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d14-7",
+          "spanish": "Quiero un café y algo de comer.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-06.mp3",
+          "textHash": "ef674623c52de075"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d14-8",
+          "spanish": "Mi familia es pequeña. Tengo una hermana.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-07.mp3",
+          "textHash": "67cfb31056ab1546"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d14-9",
+          "spanish": "Vivo cerca de la estación. Voy en metro.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-08.mp3",
+          "textHash": "0a678eaf47f6989a"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d14-10",
+          "spanish": "Ahora estoy en casa y estoy bien.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-09.mp3",
+          "textHash": "97e680ddb9712712"
+        },
+        {
+          "section": "vocab",
+          "index": 10,
+          "speaker": "d14-11",
+          "spanish": "¿Puede repetir, por favor?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-10.mp3",
+          "textHash": "445828a0c1359fe3"
+        },
+        {
+          "section": "vocab",
+          "index": 11,
+          "speaker": "d14-12",
+          "spanish": "No entiendo. Más despacio, por favor.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/vocab-11.mp3",
+          "textHash": "c71e3e047b600512"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Soy… Vivo… Trabajo… Me levanto…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/grammar-00-00.mp3",
+          "textHash": "c86ff5b88851e3bc"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Ahora estoy…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/grammar-00-01.mp3",
+          "textHash": "2de6f0ee7cdec113"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Ayer fui… Hice… Comí…",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/grammar-00-02.mp3",
+          "textHash": "959415eba17b9947"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Alex",
+          "spanish": "Hola. Me llamo Alex. Soy de Londres y trabajo como ingeniero.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/00-alex.mp3",
+          "textHash": "511ab181b4bf80b0"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Hoy es jueves. Me levanto a las siete y trabajo desde casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/01-alex.mp3",
+          "textHash": "392c757ee326a39d"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Alex",
+          "spanish": "A la una como algo simple. Por la tarde hago ejercicio.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/02-alex.mp3",
+          "textHash": "ce601e62b5be5c94"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Ayer fui a un restaurante con un amigo. Comí una ensalada.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/03-alex.mp3",
+          "textHash": "927ecf42175f170e"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Alex",
+          "spanish": "Estoy un poco cansado, pero estoy bien. Me gusta estudiar español todos los días.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/04-alex.mp3",
+          "textHash": "ab9861b31618abcf"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Hola, me llamo. Vivo en. Trabajo como",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/practice-00.mp3",
+          "textHash": "cf4d051bdb7a56c9"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Hoy es. Me levanto. Trabajo",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/practice-01.mp3",
+          "textHash": "b94c33af9ece2534"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Mi familia. Mis amigos",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/practice-02.mp3",
+          "textHash": "23b65a29fa01efd0"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Ayer fui. Hice. Comí. Vi",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-14/practice-03.mp3",
+          "textHash": "d805ea223243b891"
         }
       ]
     }

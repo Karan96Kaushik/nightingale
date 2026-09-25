@@ -9,6 +9,7 @@ import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
 import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
+import { VocabTutorial } from '@/components/learn/vocab-tutorial'
 import type { ReviewRating } from '@/lib/progress/types'
 
 export function VocabSession() {
@@ -63,6 +64,7 @@ export function VocabSession() {
         <p className="text-xs uppercase tracking-wide text-muted-foreground">Vocabulary · phrases, not words</p>
         <h1 className="font-display text-2xl">{day.vocabFocus}</h1>
       </div>
+      <VocabTutorial />
       <SessionTimer onTick={onTick} />
 
       <button
