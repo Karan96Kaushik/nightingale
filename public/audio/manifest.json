@@ -1,0 +1,134 @@
+{
+  "engine": "generative",
+  "region": "us-east-1",
+  "sampleRate": "24000",
+  "days": {
+    "1": {
+      "title": "Meeting someone new",
+      "lines": [
+        {
+          "index": 0,
+          "speaker": "Ana",
+          "spanish": "¡Hola! ¿Cómo te llamas?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/00-ana.mp3",
+          "textHash": "1fc29f6249c53565"
+        },
+        {
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Me llamo Alex. ¿Y tú?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/01-alex.mp3",
+          "textHash": "617e85d0a559a326"
+        },
+        {
+          "index": 2,
+          "speaker": "Ana",
+          "spanish": "Me llamo Ana. Mucho gusto.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/02-ana.mp3",
+          "textHash": "419fe6dd7ef05c89"
+        },
+        {
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "Encantado. Soy de Londres.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/03-alex.mp3",
+          "textHash": "5ac01289082b44a8"
+        },
+        {
+          "index": 4,
+          "speaker": "Ana",
+          "spanish": "Yo soy de Madrid. ¿A qué te dedicas?",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/04-ana.mp3",
+          "textHash": "2a328e3fd5193bad"
+        },
+        {
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Trabajo como ingeniero. ¿Y tú?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/05-alex.mp3",
+          "textHash": "f3f52e5ec9d487fb"
+        },
+        {
+          "index": 6,
+          "speaker": "Ana",
+          "spanish": "Soy profesora. Hasta luego.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-01/06-ana.mp3",
+          "textHash": "6a236301aed8f3f2"
+        }
+      ]
+    },
+    "2": {
+      "title": "Making plans",
+      "lines": [
+        {
+          "index": 0,
+          "speaker": "Luis",
+          "spanish": "Buenos días. ¿Qué día es hoy?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/00-luis.mp3",
+          "textHash": "28355afb7da84e6d"
+        },
+        {
+          "index": 1,
+          "speaker": "Marta",
+          "spanish": "Hoy es miércoles.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/01-marta.mp3",
+          "textHash": "936f2259cf6fbe08"
+        },
+        {
+          "index": 2,
+          "speaker": "Luis",
+          "spanish": "¿Qué hora es?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/02-luis.mp3",
+          "textHash": "1acb1f97c6a3940d"
+        },
+        {
+          "index": 3,
+          "speaker": "Marta",
+          "spanish": "Son las siete de la tarde.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/03-marta.mp3",
+          "textHash": "168ea808a8ce72a8"
+        },
+        {
+          "index": 4,
+          "speaker": "Luis",
+          "spanish": "¿El sábado por la mañana?",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/04-luis.mp3",
+          "textHash": "1536def5b5a58796"
+        },
+        {
+          "index": 5,
+          "speaker": "Marta",
+          "spanish": "Sí. A las diez.",
+          "voiceId": "Lucia",
+          "languageCode": "es-ES",
+          "file": "/audio/day-02/05-marta.mp3",
+          "textHash": "f0fa2c5adf938929"
+        }
+      ]
+    }
+  }
+}

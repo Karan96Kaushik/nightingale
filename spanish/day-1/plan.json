@@ -13,16 +13,16 @@
         "rule": "Soy means “I am” for origin and job. Me llamo means “my name is”. A question starts with the question word; the rest stays in the same order.",
         "examples": [
           { "spanish": "Soy de Londres.", "english": "I am from London." },
-          { "spanish": "Me llamo Karan.", "english": "My name is Karan." },
+          { "spanish": "Me llamo Alex.", "english": "My name is Alex." },
           { "spanish": "¿Cómo te llamas?", "english": "What is your name?" },
           { "spanish": "¿De dónde eres?", "english": "Where are you from?" }
         ]
       }
     ],
-    "notYet": "The full ser table, gender, and vosotros. Later days add them when a phrase needs them."
+    "notYet": "The other forms of ser come on day 3, after es is used for the day and the time. Gender and vosotros wait until a phrase needs them."
   },
   "phrases": [
-    { "id": "d1-1", "spanish": "Hola, me llamo Karan.", "english": "Hi, my name is Karan." },
+    { "id": "d1-1", "spanish": "Hola, me llamo Alex.", "english": "Hi, my name is Alex." },
     { "id": "d1-2", "spanish": "¿Cómo te llamas?", "english": "What is your name?" },
     { "id": "d1-3", "spanish": "Mucho gusto.", "english": "Nice to meet you." },
     { "id": "d1-4", "spanish": "Soy de Londres.", "english": "I am from London." },
@@ -46,11 +46,11 @@
     "title": "Meeting someone new",
     "lines": [
       { "speaker": "Ana", "spanish": "¡Hola! ¿Cómo te llamas?", "english": "Hi! What is your name?" },
-      { "speaker": "Karan", "spanish": "Me llamo Karan. ¿Y tú?", "english": "My name is Karan. And you?" },
+      { "speaker": "Alex", "spanish": "Me llamo Alex. ¿Y tú?", "english": "My name is Alex. And you?" },
       { "speaker": "Ana", "spanish": "Me llamo Ana. Mucho gusto.", "english": "My name is Ana. Nice to meet you." },
-      { "speaker": "Karan", "spanish": "Encantado. Soy de Londres.", "english": "Nice to meet you. I am from London." },
+      { "speaker": "Alex", "spanish": "Encantado. Soy de Londres.", "english": "Nice to meet you. I am from London." },
       { "speaker": "Ana", "spanish": "Yo soy de Madrid. ¿A qué te dedicas?", "english": "I am from Madrid. What do you do?" },
-      { "speaker": "Karan", "spanish": "Trabajo como ingeniero. ¿Y tú?", "english": "I work as an engineer. And you?" },
+      { "speaker": "Alex", "spanish": "Trabajo como ingeniero. ¿Y tú?", "english": "I work as an engineer. And you?" },
       { "speaker": "Ana", "spanish": "Soy profesora. Hasta luego.", "english": "I am a teacher. See you later." }
     ]
   },

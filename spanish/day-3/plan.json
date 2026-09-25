@@ -1,0 +1,82 @@
+{
+  "day": 3,
+  "title": "Ser — who and what",
+  "isReview": false,
+  "vocabFocus": "Ser: soy, eres, es, somos, son",
+  "grammarFocus": "Ser for who and what",
+  "listenFocus": "A beginner dialogue using ser",
+  "practiceFocus": "Say who you are, then who someone else is",
+  "grammar": {
+    "points": [
+      {
+        "title": "Five forms, no article before a job",
+        "rule": "Day 1 was soy and me llamo. Hoy es from day 2 is the same es. Ser is for who someone is, where they are from, and a lasting quality. Say soy, eres, es, somos, son. Do not put un or una before a job. Put no before the verb to negate. Use -o for a man and -a for a woman on these jobs: ingeniero, ingeniera, profesor, profesora.",
+        "examples": [
+          { "spanish": "Soy ingeniero.", "english": "I am an engineer." },
+          { "spanish": "¿Eres de Londres?", "english": "Are you from London?" },
+          { "spanish": "Ella es profesora.", "english": "She is a teacher." },
+          { "spanish": "No soy médico.", "english": "I am not a doctor." }
+        ]
+      }
+    ],
+    "notYet": "Vosotros (sois) and estar. You will hear sois in Spain; you do not need to say it. Gender beyond these job endings waits until a later phrase needs it."
+  },
+  "phrases": [
+    {
+      "id": "d3-1",
+      "spanish": "Soy ingeniero.",
+      "english": "I am an engineer.",
+      "note": "No un or una before a job. This is the same fact as trabajo como ingeniero from day 1."
+    },
+    { "id": "d3-2", "spanish": "¿Eres de Londres?", "english": "Are you from London?" },
+    { "id": "d3-3", "spanish": "Tú eres muy amable.", "english": "You are very kind." },
+    { "id": "d3-4", "spanish": "Ella es de España.", "english": "She is from Spain." },
+    {
+      "id": "d3-5",
+      "spanish": "Ella es profesora.",
+      "english": "She is a teacher.",
+      "note": "Profesora for a woman, profesor for a man. Ingeniera and ingeniero work the same way."
+    },
+    { "id": "d3-6", "spanish": "Nosotros somos amigos.", "english": "We are friends." },
+    { "id": "d3-7", "spanish": "Ellos son profesores.", "english": "They are teachers." },
+    { "id": "d3-8", "spanish": "¿Eres ingeniero?", "english": "Are you an engineer?" },
+    { "id": "d3-9", "spanish": "No soy médico.", "english": "I am not a doctor." },
+    { "id": "d3-10", "spanish": "Somos de Londres.", "english": "We are from London." },
+    { "id": "d3-11", "spanish": "¿Quién es ella?", "english": "Who is she?" },
+    { "id": "d3-12", "spanish": "Es mi amiga.", "english": "She is my friend." },
+    {
+      "id": "d3-13",
+      "spanish": "Hoy es lunes y ella es Ana.",
+      "english": "Today is Monday and she is Ana.",
+      "note": "Es is the same word for the day and for a person."
+    }
+  ],
+  "dialogue": {
+    "title": "Who is who",
+    "lines": [
+      { "speaker": "Pablo", "spanish": "¡Hola! Me llamo Pablo. ¿Cómo te llamas?", "english": "Hi! My name is Pablo. What is your name?" },
+      { "speaker": "Sofía", "spanish": "Me llamo Sofía. ¿Eres de aquí?", "english": "My name is Sofía. Are you from here?" },
+      { "speaker": "Pablo", "spanish": "Sí, soy de aquí. ¿Y tú?", "english": "Yes, I am from here. And you?" },
+      { "speaker": "Sofía", "spanish": "No, soy de Valencia. Soy profesora.", "english": "No, I am from Valencia. I am a teacher." },
+      { "speaker": "Pablo", "spanish": "Yo soy ingeniero. ¿Quién es él?", "english": "I am an engineer. Who is he?" },
+      { "speaker": "Sofía", "spanish": "Es mi amigo. Somos amigos.", "english": "He is my friend. We are friends." }
+    ]
+  },
+  "practice": {
+    "title": "Who you are",
+    "instruction": "Introduce yourself again: name, origin, and job with soy. Then say who one other person is, using es. Aim for ten short sentences.",
+    "starters": [
+      "Hola, me llamo…",
+      "Soy de…",
+      "Soy…",
+      "¿Eres…?",
+      "Ella es… / Él es…",
+      "Somos…",
+      "No soy…"
+    ],
+    "tips": [
+      "Ser is for identity, origin, and lasting qualities.",
+      "No un or una before a job. Hoy es and ella es are the same es."
+    ]
+  }
+}

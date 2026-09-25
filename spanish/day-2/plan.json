@@ -1,0 +1,96 @@
+{
+  "day": 2,
+  "title": "Days, months & time",
+  "isReview": false,
+  "vocabFocus": "Days, months, and the clock",
+  "grammarFocus": "Es la una, son las…",
+  "listenFocus": "A slow dialogue about the day and the time",
+  "practiceFocus": "Say the greeting, the day, the date, and the time",
+  "grammar": {
+    "points": [
+      {
+        "title": "One o’clock is singular",
+        "rule": "Es means “it is” for the day and for one o’clock: es la una. Every other hour is son las. Y media is half past, and menos cuarto is a quarter to. On the clock, say de la tarde. For a plan, say por la tarde. Days and months are not capitalised. Day 3 uses this same es for people.",
+        "examples": [
+          { "spanish": "Hoy es lunes.", "english": "Today is Monday." },
+          { "spanish": "Es la una.", "english": "It is one o’clock." },
+          { "spanish": "Son las tres y media.", "english": "It is half past three." },
+          { "spanish": "Son las siete de la tarde.", "english": "It is seven in the evening." }
+        ]
+      }
+    ],
+    "notYet": "Estar (estoy, está, estamos). Minutes other than y media and menos cuarto. People with es come on day 3."
+  },
+  "phrases": [
+    {
+      "id": "d2-1",
+      "spanish": "Hoy es lunes.",
+      "english": "Today is Monday.",
+      "note": "Days are not capitalised: lunes, martes, miércoles, jueves, viernes, sábado, domingo."
+    },
+    {
+      "id": "d2-2",
+      "spanish": "Mañana es martes.",
+      "english": "Tomorrow is Tuesday.",
+      "note": "Mañana means tomorrow. Por la mañana means in the morning."
+    },
+    { "id": "d2-3", "spanish": "¿Qué día es hoy?", "english": "What day is it today?" },
+    {
+      "id": "d2-4",
+      "spanish": "¿Qué mes es? Es septiembre.",
+      "english": "What month is it? It is September.",
+      "note": "Months are not capitalised: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre."
+    },
+    { "id": "d2-5", "spanish": "¿Qué hora es?", "english": "What time is it?" },
+    {
+      "id": "d2-6",
+      "spanish": "Es la una.",
+      "english": "It is one o’clock.",
+      "note": "One o’clock uses una, not uno. The other hours: dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce."
+    },
+    { "id": "d2-7", "spanish": "Son las tres.", "english": "It is three o’clock." },
+    { "id": "d2-8", "spanish": "Son las tres y media.", "english": "It is half past three." },
+    { "id": "d2-9", "spanish": "Son las diez menos cuarto.", "english": "It is a quarter to ten." },
+    { "id": "d2-10", "spanish": "Por la mañana.", "english": "In the morning." },
+    {
+      "id": "d2-11",
+      "spanish": "Por la tarde.",
+      "english": "In the afternoon.",
+      "note": "Plans use por la tarde. The clock uses de la tarde: son las siete de la tarde."
+    },
+    { "id": "d2-12", "spanish": "Por la noche.", "english": "At night." },
+    { "id": "d2-13", "spanish": "¿Cuál es la fecha de hoy?", "english": "What is today’s date?" },
+    {
+      "id": "d2-14",
+      "spanish": "Hoy es el doce de septiembre.",
+      "english": "Today is the twelfth of September.",
+      "note": "The date is el + number + de + month. Doce is twelve, from the clock numbers."
+    }
+  ],
+  "dialogue": {
+    "title": "Making plans",
+    "lines": [
+      { "speaker": "Luis", "spanish": "Buenos días. ¿Qué día es hoy?", "english": "Good morning. What day is it today?" },
+      { "speaker": "Marta", "spanish": "Hoy es miércoles.", "english": "Today is Wednesday." },
+      { "speaker": "Luis", "spanish": "¿Qué hora es?", "english": "What time is it?" },
+      { "speaker": "Marta", "spanish": "Son las siete de la tarde.", "english": "It is seven in the evening." },
+      { "speaker": "Luis", "spanish": "¿El sábado por la mañana?", "english": "Saturday morning?" },
+      { "speaker": "Marta", "spanish": "Sí. A las diez.", "english": "Yes. At ten." }
+    ]
+  },
+  "practice": {
+    "title": "Time and date",
+    "instruction": "Greet for this part of the day, then say today’s day, the date, and the time. Add one plan for the weekend.",
+    "starters": [
+      "Buenos días. / Buenas tardes. / Buenas noches.",
+      "Hoy es…",
+      "Hoy es el … de …",
+      "Es la una. / Son las…",
+      "El sábado por la mañana…"
+    ],
+    "tips": [
+      "One o’clock is es la una. Every other hour is son las.",
+      "Days and months are not capitalised."
+    ]
+  }
+}

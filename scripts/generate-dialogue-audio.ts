@@ -1,12 +1,18 @@
 /**
  * Write one MP3 per dialogue line with Amazon Polly's generative engine.
  *
- * Uses the default AWS credential chain. Set POLLY_REGION to override the
- * client region (otherwise AWS_REGION, otherwise us-east-1).
+ * Uses the mis-api-full profile from ~/.aws/credentials. Set AWS_PROFILE to
+ * use another profile. Polly runs in us-east-1 unless POLLY_REGION is set.
+ * The profile has no region, and a shell AWS_REGION is not used, because
+ * Spanish generative voices are not in every region.
  *
  * Lucia and Sergio (es-ES) are the course voices. Pedro (es-US) is only used
- * when a second man shares a scene with Karan. Spanish generative voices are
+ * when a second man shares a scene with Alex. Spanish generative voices are
  * not offered in eu-west-2, ca-central-1, or eu-central-2.
+ *
+ * Dialogue lines come from each plan.json under spanish/. Those files override
+ * the matching day in lib/curriculum/builtin-days.ts. Adding another plan.json
+ * there includes it here on the next run.
  *
  *   npm run audio:dialogues
  *   npm run audio:dialogues -- --day 1
@@ -24,6 +30,7 @@ import {
   type LanguageCode,
   type VoiceId,
 } from '@aws-sdk/client-polly'
+import { fromIni } from '@aws-sdk/credential-provider-ini'
 import { assemblePlan } from '../lib/curriculum/assemble.ts'
 import { BUILTIN_DAYS } from '../lib/curriculum/builtin-days.ts'
 import type { DayPlan } from '../lib/curriculum/types.ts'
@@ -47,7 +54,7 @@ const SPEAKER_VOICES: Record<string, PollyVoice> = {
   Inés: LUCIA,
   Dependienta: LUCIA,
   Local: LUCIA,
-  Karan: SERGIO,
+  Alex: SERGIO,
   Luis: SERGIO,
   Pablo: SERGIO,
   Diego: SERGIO,
@@ -56,7 +63,12 @@ const SPEAKER_VOICES: Record<string, PollyVoice> = {
   Omar: PEDRO,
 }
 
+const AWS_PROFILE_NAME = 'mis-api-full'
 const REGIONS_WITHOUT_SPANISH_GENERATIVE = new Set(['eu-west-2', 'ca-central-1', 'eu-central-2'])
+
+function awsProfile() {
+  return process.env.AWS_PROFILE || AWS_PROFILE_NAME
+}
 
 type ManifestLine = {
   index: number
@@ -167,6 +179,10 @@ async function loadPlan(): Promise<DayPlan[]> {
   }
 
   await walk(spanishDir, 'spanish')
+  if (sources.length === 0) {
+    throw new Error(`No plan.json files under ${spanishDir}`)
+  }
+  console.log(`dialogues from ${sources.map((entry) => entry.source).join(', ')}`)
   return assemblePlan(sources, BUILTIN_DAYS)
 }
 
@@ -241,7 +257,7 @@ async function fileExists(path: string) {
 }
 
 function region() {
-  return process.env.POLLY_REGION || process.env.AWS_REGION || 'us-east-1'
+  return process.env.POLLY_REGION || 'us-east-1'
 }
 
 function assertSpanishGenerativeRegion(selected: string) {
@@ -364,13 +380,20 @@ function manifestFrom(jobs: Job[], selectedRegion: string, existing: Manifest | 
 async function main() {
   const { days, force, dryRun } = parseArgs(process.argv.slice(2))
   const selectedRegion = region()
+  const profile = awsProfile()
   assertSpanishGenerativeRegion(selectedRegion)
+  console.log(`aws profile ${profile}, region ${selectedRegion}`)
   const jobs = buildJobs(await loadPlan(), days)
   const existing = await readManifest()
 
   let skipped = 0
   let written = 0
-  const client = dryRun ? null : new PollyClient({ region: selectedRegion })
+  const client = dryRun
+    ? null
+    : new PollyClient({
+        region: selectedRegion,
+        credentials: fromIni({ profile }),
+      })
   if (client) await assertVoicesAvailable(client, jobs)
 
   for (const job of jobs) {
