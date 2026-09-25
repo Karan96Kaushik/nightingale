@@ -24,7 +24,9 @@ import {
   type LanguageCode,
   type VoiceId,
 } from '@aws-sdk/client-polly'
-import { PLAN } from '../lib/curriculum/plan.ts'
+import { assemblePlan } from '../lib/curriculum/assemble.ts'
+import { BUILTIN_DAYS } from '../lib/curriculum/builtin-days.ts'
+import type { DayPlan } from '../lib/curriculum/types.ts'
 
 type PollyVoice = {
   voiceId: VoiceId
@@ -141,10 +143,37 @@ function voiceFor(speaker: string): PollyVoice {
   return voice
 }
 
-function buildJobs(dayFilter: Set<number>): Job[] {
+async function loadPlan(): Promise<DayPlan[]> {
+  const spanishDir = join(root, 'spanish')
+  const sources: { source: string; value: unknown }[] = []
+
+  async function walk(dir: string, prefix: string) {
+    let entries
+    try {
+      entries = await readdir(dir, { withFileTypes: true })
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code === 'ENOENT') return
+      throw error
+    }
+    for (const entry of entries) {
+      const relative = `${prefix}/${entry.name}`
+      if (entry.isDirectory()) {
+        await walk(join(dir, entry.name), relative)
+      } else if (entry.name === 'plan.json') {
+        const raw = await readFile(join(dir, entry.name), 'utf8')
+        sources.push({ source: relative, value: JSON.parse(raw) as unknown })
+      }
+    }
+  }
+
+  await walk(spanishDir, 'spanish')
+  return assemblePlan(sources, BUILTIN_DAYS)
+}
+
+function buildJobs(plan: DayPlan[], dayFilter: Set<number>): Job[] {
   const jobs: Job[] = []
 
-  for (const day of PLAN) {
+  for (const day of plan) {
     if (dayFilter.size > 0 && !dayFilter.has(day.day)) continue
     const seen = new Map<string, VoiceId>()
 
@@ -336,7 +365,7 @@ async function main() {
   const { days, force, dryRun } = parseArgs(process.argv.slice(2))
   const selectedRegion = region()
   assertSpanishGenerativeRegion(selectedRegion)
-  const jobs = buildJobs(days)
+  const jobs = buildJobs(await loadPlan(), days)
   const existing = await readManifest()
 
   let skipped = 0

@@ -87,7 +87,7 @@ export function HomePage() {
 
       <section className="space-y-3">
         <div className="flex items-center justify-between">
-          <h2 className="font-display text-lg">14-day plan</h2>
+          <h2 className="font-display text-lg">{PLAN_LENGTH}-day plan</h2>
           <Link to={paths.plan()} className="text-sm text-primary">
             See all
           </Link>

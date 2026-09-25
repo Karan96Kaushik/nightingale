@@ -4,8 +4,9 @@ import { ArrowLeft, Volume2 } from 'lucide-react'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
 import { speakSpanish } from '@/lib/speech'
-import { useProgress } from '@/hooks/use-progress'
+import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
+import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
 
 export function PracticeSession() {
@@ -13,6 +14,7 @@ export function PracticeSession() {
   const dayNumber = Number(dayParam)
   const day = getDay(dayNumber)
   const { completeSection, recordSeconds } = useProgress()
+  const done = Boolean(useDayProgress(dayNumber)?.sections.practice.completed)
   const [speakLeft, setSpeakLeft] = useState(0)
   const [speaking, setSpeaking] = useState(false)
 
@@ -101,12 +103,14 @@ export function PracticeSession() {
         ))}
       </ul>
 
-      <Button type="button" className="mt-auto" onClick={() => completeSection(day.day, 'practice')}>
-        Mark speaking complete
-      </Button>
-      <Button asChild variant="ghost">
-        <Link to={paths.home()}>Back to today</Link>
-      </Button>
+      <SessionActions
+        done={done}
+        completeLabel="Mark speaking complete"
+        doneLabel="Speaking complete"
+        onComplete={() => completeSection(day.day, 'practice')}
+        continueTo={paths.home()}
+        continueLabel="Back to today"
+      />
     </main>
   )
 }

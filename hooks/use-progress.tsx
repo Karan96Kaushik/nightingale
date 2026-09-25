@@ -34,23 +34,29 @@ const ProgressContext = createContext<ProgressContextValue | null>(null)
 export function ProgressProvider({ children }: { children: ReactNode }) {
   const { user, isSyncing } = useAuth()
   const [progress, setProgress] = useState<ProgressState>(() => readProgress())
+  const progressRef = useRef(progress)
+  progressRef.current = progress
   const pushTimer = useRef<number | null>(null)
 
   const persist = useCallback(
-    (next: ProgressState) => {
+    (update: ProgressState | ((current: ProgressState) => ProgressState)) => {
+      const next = typeof update === 'function' ? update(progressRef.current) : update
+      progressRef.current = next
       writeProgress(next)
       setProgress(next)
       if (!user) return
       if (pushTimer.current) window.clearTimeout(pushTimer.current)
       pushTimer.current = window.setTimeout(() => {
-        pushProgress(user.id, next).catch((err) => console.error('Progress sync failed:', err))
+        pushProgress(user.id, progressRef.current).catch((err) => console.error('Progress sync failed:', err))
       }, 800)
     },
     [user],
   )
 
   const reload = useCallback(() => {
-    setProgress(readProgress())
+    const next = readProgress()
+    progressRef.current = next
+    setProgress(next)
   }, [])
 
   useEffect(() => {
@@ -59,31 +65,33 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
 
   const completeSection = useCallback(
     (day: number, section: SectionId) => {
-      persist(markSectionComplete(progress, day, section))
+      persist((current) => markSectionComplete(current, day, section))
     },
-    [persist, progress],
+    [persist],
   )
 
   const recordSeconds = useCallback(
     (day: number, section: SectionId, seconds: number) => {
-      persist(addSeconds(progress, day, section, seconds))
+      persist((current) => addSeconds(current, day, section, seconds))
     },
-    [persist, progress],
+    [persist],
   )
 
   const ratePhrase = useCallback(
     (phraseId: string, rating: ReviewRating) => {
-      const current = progress.reviews[phraseId] ?? createReview(phraseId)
-      persist({
-        ...progress,
-        reviews: {
-          ...progress.reviews,
-          [phraseId]: rateReview(current, rating),
-        },
-        updatedAt: new Date().toISOString(),
+      persist((current) => {
+        const review = current.reviews[phraseId] ?? createReview(phraseId)
+        return {
+          ...current,
+          reviews: {
+            ...current.reviews,
+            [phraseId]: rateReview(review, rating),
+          },
+          updatedAt: new Date().toISOString(),
+        }
       })
     },
-    [persist, progress],
+    [persist],
   )
 
   const resetProgress = useCallback(() => {

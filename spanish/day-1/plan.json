@@ -1,0 +1,76 @@
+{
+  "day": 1,
+  "title": "Greetings & introductions",
+  "isReview": false,
+  "vocabFocus": "Greetings, introductions, numbers 1–20",
+  "grammarFocus": "Soy and me llamo",
+  "listenFocus": "Beginner Spanish pronunciation",
+  "practiceFocus": "Say your name, where you are from, and what you do",
+  "grammar": {
+    "points": [
+      {
+        "title": "Two ways to say who you are",
+        "rule": "Soy means “I am” for origin and job. Me llamo means “my name is”. A question starts with the question word; the rest stays in the same order.",
+        "examples": [
+          { "spanish": "Soy de Londres.", "english": "I am from London." },
+          { "spanish": "Me llamo Karan.", "english": "My name is Karan." },
+          { "spanish": "¿Cómo te llamas?", "english": "What is your name?" },
+          { "spanish": "¿De dónde eres?", "english": "Where are you from?" }
+        ]
+      }
+    ],
+    "notYet": "The full ser table, gender, and vosotros. Later days add them when a phrase needs them."
+  },
+  "phrases": [
+    { "id": "d1-1", "spanish": "Hola, me llamo Karan.", "english": "Hi, my name is Karan." },
+    { "id": "d1-2", "spanish": "¿Cómo te llamas?", "english": "What is your name?" },
+    { "id": "d1-3", "spanish": "Mucho gusto.", "english": "Nice to meet you." },
+    { "id": "d1-4", "spanish": "Soy de Londres.", "english": "I am from London." },
+    { "id": "d1-5", "spanish": "¿De dónde eres?", "english": "Where are you from?" },
+    { "id": "d1-6", "spanish": "Trabajo como ingeniero de software.", "english": "I work as a software engineer." },
+    { "id": "d1-7", "spanish": "¿Cómo estás?", "english": "How are you?" },
+    { "id": "d1-8", "spanish": "Estoy bien, gracias. ¿Y tú?", "english": "I am well, thank you. And you?" },
+    { "id": "d1-9", "spanish": "Buenos días.", "english": "Good morning." },
+    { "id": "d1-10", "spanish": "Buenas tardes.", "english": "Good afternoon." },
+    { "id": "d1-11", "spanish": "Buenas noches.", "english": "Good evening / good night." },
+    { "id": "d1-12", "spanish": "Hasta luego.", "english": "See you later." },
+    {
+      "id": "d1-13",
+      "spanish": "Tengo veintinueve años.",
+      "english": "I am twenty-nine years old.",
+      "note": "Numbers 1–20: uno, dos, tres… veinte."
+    },
+    { "id": "d1-14", "spanish": "Uno, dos, tres, cuatro, cinco.", "english": "One, two, three, four, five." }
+  ],
+  "dialogue": {
+    "title": "Meeting someone new",
+    "lines": [
+      { "speaker": "Ana", "spanish": "¡Hola! ¿Cómo te llamas?", "english": "Hi! What is your name?" },
+      { "speaker": "Karan", "spanish": "Me llamo Karan. ¿Y tú?", "english": "My name is Karan. And you?" },
+      { "speaker": "Ana", "spanish": "Me llamo Ana. Mucho gusto.", "english": "My name is Ana. Nice to meet you." },
+      { "speaker": "Karan", "spanish": "Encantado. Soy de Londres.", "english": "Nice to meet you. I am from London." },
+      { "speaker": "Ana", "spanish": "Yo soy de Madrid. ¿A qué te dedicas?", "english": "I am from Madrid. What do you do?" },
+      { "speaker": "Karan", "spanish": "Trabajo como ingeniero. ¿Y tú?", "english": "I work as an engineer. And you?" },
+      { "speaker": "Ana", "spanish": "Soy profesora. Hasta luego.", "english": "I am a teacher. See you later." }
+    ]
+  },
+  "extraListen": {
+    "title": "Spanish pronunciation for beginners (YouTube)",
+    "url": "https://www.youtube.com/results?search_query=beginner+spanish+pronunciation"
+  },
+  "practice": {
+    "title": "Introduce yourself",
+    "instruction": "Say your name, where you are from, and what you do. Keep going even if you stumble.",
+    "starters": [
+      "Hola, me llamo…",
+      "Soy de…",
+      "Vivo en…",
+      "Trabajo como… / Soy estudiante.",
+      "Mucho gusto."
+    ],
+    "tips": [
+      "Speak out loud. Do not stop to translate every word.",
+      "Repeat the whole introduction three times."
+    ]
+  }
+}

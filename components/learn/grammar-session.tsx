@@ -5,8 +5,8 @@ import { getDay } from '@/lib/curriculum/plan'
 import { SECTIONS } from '@/lib/curriculum/types'
 import { paths } from '@/lib/routes'
 import { speakSpanish } from '@/lib/speech'
-import { useProgress } from '@/hooks/use-progress'
-import { Button } from '@/components/ui/button'
+import { useDayProgress, useProgress } from '@/hooks/use-progress'
+import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
 
 export function GrammarSession() {
@@ -14,6 +14,7 @@ export function GrammarSession() {
   const dayNumber = Number(dayParam)
   const day = getDay(dayNumber)
   const { completeSection, recordSeconds } = useProgress()
+  const done = Boolean(useDayProgress(dayNumber)?.sections.grammar.completed)
 
   const onTick = useCallback(
     (seconds: number) => {
@@ -74,12 +75,14 @@ export function GrammarSession() {
         Leave for later: {day.grammar.notYet}
       </p>
 
-      <Button type="button" className="mt-auto" onClick={() => completeSection(day.day, 'grammar')}>
-        Mark grammar complete
-      </Button>
-      <Button asChild variant="ghost">
-        <Link to={paths.section(day.day, 'listen')}>Continue to listening</Link>
-      </Button>
+      <SessionActions
+        done={done}
+        completeLabel="Mark grammar complete"
+        doneLabel="Grammar complete"
+        onComplete={() => completeSection(day.day, 'grammar')}
+        continueTo={paths.section(day.day, 'listen')}
+        continueLabel="Continue to listening"
+      />
     </main>
   )
 }

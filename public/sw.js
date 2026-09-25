@@ -15,7 +15,7 @@ self.addEventListener('message', function (event) {
 self.addEventListener('push', function (event) {
   var title = 'Nightingale'
   var options = {
-    body: 'Time for your 30 minutes of Spanish.',
+    body: 'Time for your 35 minutes of Spanish.',
     icon: '/favicon.svg',
     tag: 'nightingale-reminder',
     renotify: true,
@@ -31,7 +31,7 @@ self.addEventListener('push', function (event) {
       }
       options = Object.assign({}, options, payload)
     } catch (e) {
-      options.body = event.data.text() || 'Time for your 30 minutes of Spanish.'
+      options.body = event.data.text() || 'Time for your 35 minutes of Spanish.'
     }
   }
 

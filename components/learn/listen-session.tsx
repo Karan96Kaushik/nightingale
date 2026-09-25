@@ -4,8 +4,9 @@ import { ArrowLeft, ExternalLink, Volume2 } from 'lucide-react'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
 import { speakSpanish } from '@/lib/speech'
-import { useProgress } from '@/hooks/use-progress'
+import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
+import { SessionActions } from '@/components/learn/session-actions'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { SessionTimer } from '@/components/learn/session-timer'
 
@@ -16,6 +17,7 @@ export function ListenSession() {
   const dayNumber = Number(dayParam)
   const day = getDay(dayNumber)
   const { completeSection, recordSeconds } = useProgress()
+  const done = Boolean(useDayProgress(dayNumber)?.sections.listen.completed)
   const [pass, setPass] = useState<Pass>('en')
 
   const onTick = useCallback(
@@ -106,12 +108,14 @@ export function ListenSession() {
         </a>
       )}
 
-      <Button type="button" className="mt-auto" onClick={() => completeSection(day.day, 'listen')}>
-        Mark listening complete
-      </Button>
-      <Button asChild variant="ghost">
-        <Link to={paths.section(day.day, 'practice')}>Continue to speaking</Link>
-      </Button>
+      <SessionActions
+        done={done}
+        completeLabel="Mark listening complete"
+        doneLabel="Listening complete"
+        onComplete={() => completeSection(day.day, 'listen')}
+        continueTo={paths.section(day.day, 'practice')}
+        continueLabel="Continue to speaking"
+      />
     </main>
   )
 }

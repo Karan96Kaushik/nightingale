@@ -4,8 +4,9 @@ import { ArrowLeft, Volume2 } from 'lucide-react'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
 import { speakSpanish } from '@/lib/speech'
-import { useProgress } from '@/hooks/use-progress'
+import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
+import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
 import type { ReviewRating } from '@/lib/progress/types'
 
@@ -14,6 +15,7 @@ export function VocabSession() {
   const dayNumber = Number(dayParam)
   const day = getDay(dayNumber)
   const { completeSection, recordSeconds, ratePhrase, progress } = useProgress()
+  const done = Boolean(useDayProgress(dayNumber)?.sections.vocab.completed)
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
 
@@ -105,12 +107,14 @@ export function VocabSession() {
         Aim for 10–15 phrases. Learn chunks like <em>Quiero comer</em>, not isolated words.
       </p>
 
-      <Button type="button" className="mt-auto" onClick={() => completeSection(day.day, 'vocab')}>
-        Mark vocabulary complete
-      </Button>
-      <Button asChild variant="ghost">
-        <Link to={paths.section(day.day, 'grammar')}>Continue to grammar</Link>
-      </Button>
+      <SessionActions
+        done={done}
+        completeLabel="Mark vocabulary complete"
+        doneLabel="Vocabulary complete"
+        onComplete={() => completeSection(day.day, 'vocab')}
+        continueTo={paths.section(day.day, 'grammar')}
+        continueLabel="Continue to grammar"
+      />
     </main>
   )
 }

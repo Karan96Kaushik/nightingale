@@ -1,4 +1,4 @@
-import { PLAN_LENGTH } from '@/lib/curriculum/plan'
+import { PLAN } from '@/lib/curriculum/plan'
 import { SECTIONS, type SectionId } from '@/lib/curriculum/types'
 import { createEmptyProgress, emptyDayProgress, EMPTY_SECTION, type DayProgress, type ProgressState } from './types'
 
@@ -117,10 +117,8 @@ export function completeSection(state: ProgressState, day: number, section: Sect
 }
 
 export function currentDay(state: ProgressState) {
-  for (let day = 1; day <= PLAN_LENGTH; day += 1) {
-    if (!state.days[String(day)]?.completedAt) return day
-  }
-  return PLAN_LENGTH
+  const next = PLAN.find((day) => !state.days[String(day.day)]?.completedAt)
+  return next?.day ?? PLAN[PLAN.length - 1]?.day ?? 1
 }
 
 export function completedDayCount(state: ProgressState) {
