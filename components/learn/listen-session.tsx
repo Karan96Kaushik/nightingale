@@ -1,9 +1,18 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { ArrowLeft, ExternalLink, Volume2 } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Pause, Play, Volume2 } from 'lucide-react'
+import {
+  dialogueClips,
+  pauseDialogue,
+  playDialogueLine,
+  playDialogueSequence,
+  resumeDialogue,
+  stopDialogue,
+  subscribeDialogue,
+  type DialoguePlayback,
+} from '@/lib/audio/dialogue-player'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
-import { speakSpanish } from '@/lib/speech'
 import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
 import { SessionActions } from '@/components/learn/session-actions'
@@ -19,6 +28,17 @@ export function ListenSession() {
   const { completeSection, recordSeconds } = useProgress()
   const done = Boolean(useDayProgress(dayNumber)?.sections.listen.completed)
   const [pass, setPass] = useState<Pass>('en')
+  const [activeIndex, setActiveIndex] = useState<number | null>(null)
+  const [playback, setPlayback] = useState<DialoguePlayback>('idle')
+  const clips = day ? dialogueClips(day.day, day.dialogue.lines) : []
+
+  useEffect(() => {
+    const unsubscribe = subscribeDialogue(setPlayback)
+    return () => {
+      unsubscribe()
+      stopDialogue()
+    }
+  }, [])
 
   const onTick = useCallback(
     (seconds: number) => {
@@ -36,9 +56,16 @@ export function ListenSession() {
     )
   }
 
-  const playAll = () => {
-    const text = day.dialogue.lines.map((line) => `${line.speaker}. ${line.spanish}`).join('. ')
-    speakSpanish(text)
+  const onPlaybackClick = () => {
+    if (playback === 'playing') {
+      pauseDialogue()
+      return
+    }
+    if (playback === 'paused') {
+      resumeDialogue()
+      return
+    }
+    void playDialogueSequence(clips, setActiveIndex)
   }
 
   return (
@@ -58,8 +85,9 @@ export function ListenSession() {
       <div className="rounded-xl border bg-card p-4">
         <div className="flex items-start justify-between gap-3">
           <h2 className="font-display text-lg">{day.dialogue.title}</h2>
-          <Button type="button" size="sm" variant="outline" onClick={playAll}>
-            <Volume2 /> Play
+          <Button type="button" size="sm" variant="outline" onClick={onPlaybackClick}>
+            {playback === 'playing' ? <Pause /> : playback === 'paused' ? <Play /> : <Volume2 />}
+            {playback === 'playing' ? 'Pause' : playback === 'paused' ? 'Resume' : 'Play'}
           </Button>
         </div>
         <p className="mt-1 text-sm text-muted-foreground">
@@ -84,8 +112,8 @@ export function ListenSession() {
             <button
               key={`${line.speaker}-${index}`}
               type="button"
-              onClick={() => speakSpanish(line.spanish)}
-              className="w-full rounded-lg border bg-card px-3 py-3 text-left"
+              onClick={() => void playDialogueLine(clips[index], setActiveIndex, index)}
+              className={`w-full rounded-lg border bg-card px-3 py-3 text-left ${activeIndex === index ? 'border-primary' : ''}`}
             >
               <p className="text-xs uppercase tracking-wide text-muted-foreground">{line.speaker}</p>
               {(pass === 'es' || pass === 'en') && <p className="font-medium">{line.spanish}</p>}

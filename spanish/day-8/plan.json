@@ -1,0 +1,84 @@
+{
+  "day": 8,
+  "title": "Places & directions",
+  "isReview": false,
+  "vocabFocus": "Places and directions",
+  "grammarFocus": "Está for location",
+  "listenFocus": "A beginner directions dialogue",
+  "practiceFocus": "Explain how to get from home to a place",
+  "grammar": {
+    "points": [
+      {
+        "title": "Where something is",
+        "rule": "Ser says who you are. Está says where a place is. Voy from day 4 plus en names the transport: voy en metro. Voy andando is on foot. Siga and gire are fixed direction phrases. Say them whole. Do not build an imperative chart.",
+        "examples": [
+          { "spanish": "Está a la derecha.", "english": "It is on the right." },
+          { "spanish": "Está cerca de aquí.", "english": "It is near here." },
+          { "spanish": "Voy en metro.", "english": "I go by metro." },
+          { "spanish": "Voy andando.", "english": "I go on foot." }
+        ]
+      }
+    ],
+    "notYet": "The full estar table. Feelings come on day 11. Do not study the imperative."
+  },
+  "phrases": [
+    { "id": "d8-1", "spanish": "¿Dónde está la estación?", "english": "Where is the station?" },
+    { "id": "d8-2", "spanish": "Está a la derecha.", "english": "It is on the right." },
+    { "id": "d8-3", "spanish": "Está a la izquierda.", "english": "It is on the left." },
+    {
+      "id": "d8-4",
+      "spanish": "Siga todo recto.",
+      "english": "Go straight ahead.",
+      "note": "A fixed direction phrase. Do not change the ending."
+    },
+    { "id": "d8-5", "spanish": "Está cerca de aquí.", "english": "It is near here." },
+    { "id": "d8-6", "spanish": "Está lejos.", "english": "It is far." },
+    {
+      "id": "d8-7",
+      "spanish": "Gire en la segunda calle.",
+      "english": "Turn at the second street.",
+      "note": "Another fixed direction phrase, like siga."
+    },
+    { "id": "d8-8", "spanish": "El parque está al lado del café.", "english": "The park is next to the café." },
+    { "id": "d8-9", "spanish": "Voy en metro.", "english": "I go by metro." },
+    { "id": "d8-10", "spanish": "Voy andando.", "english": "I go on foot." },
+    {
+      "id": "d8-11",
+      "spanish": "¿Cómo llego al centro?",
+      "english": "How do I get to the centre?",
+      "note": "Learn the question as one chunk."
+    },
+    {
+      "id": "d8-12",
+      "spanish": "Vivo cerca de la estación.",
+      "english": "I live near the station.",
+      "note": "Vivo is still the day 6 chunk."
+    }
+  ],
+  "dialogue": {
+    "title": "Asking for directions",
+    "lines": [
+      { "speaker": "Alex", "spanish": "Perdone, ¿dónde está el museo?", "english": "Excuse me, where is the museum?" },
+      { "speaker": "Local", "spanish": "Siga todo recto y gire a la izquierda.", "english": "Go straight and turn left." },
+      { "speaker": "Alex", "spanish": "¿Está lejos?", "english": "Is it far?" },
+      { "speaker": "Local", "spanish": "No, está cerca. Diez minutos andando.", "english": "No, it is close. Ten minutes on foot." },
+      { "speaker": "Alex", "spanish": "Muchas gracias.", "english": "Thank you very much." },
+      { "speaker": "Local", "spanish": "De nada. ¡Buen día!", "english": "You’re welcome. Have a good day!" }
+    ]
+  },
+  "practice": {
+    "title": "From home to a place",
+    "instruction": "Explain how you get from home to the station, a café, or work. Use está for the place and voy for how you travel.",
+    "starters": [
+      "Voy andando. / Voy en metro.",
+      "Siga todo recto.",
+      "Está a la derecha.",
+      "Está cerca de aquí.",
+      "Vivo cerca de…"
+    ],
+    "tips": [
+      "Use está for location, not soy.",
+      "Keep it to 6–8 spoken sentences."
+    ]
+  }
+}

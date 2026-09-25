@@ -31,6 +31,7 @@ import {
   type VoiceId,
 } from '@aws-sdk/client-polly'
 import { fromIni } from '@aws-sdk/credential-provider-ini'
+import { dialogueAudioSrc } from '../lib/audio/dialogue-path.ts'
 import { assemblePlan } from '../lib/curriculum/assemble.ts'
 import { BUILTIN_DAYS } from '../lib/curriculum/builtin-days.ts'
 import type { DayPlan } from '../lib/curriculum/types.ts'
@@ -136,15 +137,6 @@ function parseArgs(argv: string[]) {
   return { days, force, dryRun }
 }
 
-function speakerSlug(speaker: string) {
-  return speaker
-    .normalize('NFD')
-    .replace(/\p{M}/gu, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '')
-}
-
 function textHash(voice: PollyVoice, spanish: string) {
   return createHash('sha256').update(`${voice.voiceId}\n${voice.languageCode}\n${spanish}`).digest('hex').slice(0, 16)
 }
@@ -205,9 +197,7 @@ function buildJobs(plan: DayPlan[], dayFilter: Set<number>): Job[] {
       }
       seen.set(line.speaker, voice.voiceId)
 
-      const folder = `day-${String(day.day).padStart(2, '0')}`
-      const fileName = `${String(index).padStart(2, '0')}-${speakerSlug(line.speaker)}.mp3`
-      const relativeFile = `/audio/${folder}/${fileName}`
+      const relativeFile = dialogueAudioSrc(day.day, index, line.speaker)
       jobs.push({
         day: day.day,
         title: day.dialogue.title,

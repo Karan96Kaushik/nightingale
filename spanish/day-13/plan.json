@@ -1,0 +1,68 @@
+{
+  "day": 13,
+  "title": "Yesterday",
+  "isReview": false,
+  "vocabFocus": "Past basics: fui, hice, comí, vi, tuve",
+  "grammarFocus": "Yesterday as chunks",
+  "listenFocus": "A simple story about yesterday",
+  "practiceFocus": "Tell the story of what you did yesterday",
+  "grammar": {
+    "points": [
+      {
+        "title": "Memorise the words, not the tense",
+        "rule": "Ayer puts the story in the past. No still goes before the verb. Learn each past word next to the chunk you already say: fui with voy, hice with hago, comí with como, tuve with tengo, and estuve with estoy. Trabajé and cené are the one regular pattern worth copying: an -ar “I” form ends in -é. Fue means it was, next to es.",
+        "examples": [
+          { "spanish": "Ayer fui al trabajo.", "english": "Yesterday I went to work." },
+          { "spanish": "Hice ejercicio. Comí. Vi. Tuve.", "english": "I did. I ate. I saw. I had." },
+          { "spanish": "No fui a casa temprano.", "english": "I did not go home early." },
+          { "spanish": "Fue un día largo. Estuve en casa.", "english": "It was a long day. I was at home." }
+        ]
+      }
+    ],
+    "notYet": "The preterite chart, the imperfect, and every other past form."
+  },
+  "phrases": [
+    { "id": "d13-1", "spanish": "Ayer fui al trabajo.", "english": "Yesterday I went to work.", "note": "The past of voy." },
+    { "id": "d13-2", "spanish": "Hice ejercicio.", "english": "I exercised.", "note": "The past of hago." },
+    { "id": "d13-3", "spanish": "Comí en un restaurante.", "english": "I ate at a restaurant.", "note": "The past of como." },
+    { "id": "d13-4", "spanish": "Vi una película.", "english": "I watched a film." },
+    { "id": "d13-5", "spanish": "Tuve una reunión.", "english": "I had a meeting.", "note": "The past of tengo." },
+    { "id": "d13-6", "spanish": "No fui a casa temprano.", "english": "I did not go home early." },
+    { "id": "d13-7", "spanish": "¿Qué hiciste ayer?", "english": "What did you do yesterday?" },
+    {
+      "id": "d13-8",
+      "spanish": "Por la mañana trabajé.",
+      "english": "In the morning I worked.",
+      "note": "Regular -ar “I” form: trabajé, from trabajo."
+    },
+    { "id": "d13-9", "spanish": "Por la noche cené con amigos.", "english": "At night I had dinner with friends." },
+    { "id": "d13-10", "spanish": "Fue un día largo.", "english": "It was a long day.", "note": "The past of es for a finished day." },
+    { "id": "d13-11", "spanish": "Estuve en casa.", "english": "I was at home.", "note": "The past of estoy." },
+    { "id": "d13-12", "spanish": "Me gustó mucho.", "english": "I liked it a lot.", "note": "The past of me gusta." }
+  ],
+  "dialogue": {
+    "title": "What happened yesterday",
+    "lines": [
+      { "speaker": "Omar", "spanish": "¿Qué hiciste ayer?", "english": "What did you do yesterday?" },
+      { "speaker": "Alex", "spanish": "Por la mañana fui al trabajo. Tuve muchas reuniones.", "english": "In the morning I went to work. I had many meetings." },
+      { "speaker": "Omar", "spanish": "¿Y por la tarde?", "english": "And in the afternoon?" },
+      { "speaker": "Alex", "spanish": "Hice ejercicio y después comí en casa.", "english": "I worked out and then I ate at home." },
+      { "speaker": "Omar", "spanish": "Por la noche vi una película. Fue muy buena.", "english": "At night I watched a film. It was very good." },
+      { "speaker": "Alex", "spanish": "Qué bien. Yo estuve cansado. Fue un día largo.", "english": "Nice. I was tired. It was a long day." }
+    ]
+  },
+  "practice": {
+    "title": "Yesterday in three parts",
+    "instruction": "Tell morning, afternoon, and night. Use fui, hice, comí, vi, or tuve at least once each if you can.",
+    "starters": [
+      "Ayer por la mañana fui…",
+      "Por la tarde hice…",
+      "Por la noche vi… / Cené…",
+      "Fue un día…"
+    ],
+    "tips": [
+      "Learn these past words as chunks next to voy, hago, como, and tengo.",
+      "Keep the story moving. Do not recite a tense chart."
+    ]
+  }
+}

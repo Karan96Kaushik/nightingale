@@ -1,0 +1,71 @@
+{
+  "day": 10,
+  "title": "Regular present tense",
+  "isReview": false,
+  "vocabFocus": "Present-tense regular verbs: -ar / -er / -ir",
+  "grammarFocus": "Present endings: -ar, -er, -ir",
+  "listenFocus": "Listen for conjugated verbs",
+  "practiceFocus": "Conjugate 3 verbs and make sentences",
+  "grammar": {
+    "points": [
+      {
+        "title": "Five endings, three groups",
+        "rule": "The chunks from earlier days now show a pattern. Trabajo, como, and vivo use the same endings as hablar, comer, and vivir. Say only yo, tú, él or ella, nosotros, and ellos or ellas. The subject pronoun is optional. A question does not add “do”. Tengo, quiero, voy, and hago stay chunks. They do not follow this pattern.",
+        "examples": [
+          { "spanish": "hablo, hablas, habla, hablamos, hablan", "english": "-ar: o, as, a, amos, an" },
+          { "spanish": "como, comes, come, comemos, comen", "english": "-er: o, es, e, emos, en" },
+          { "spanish": "vivo, vives, vive, vivimos, viven", "english": "-ir: o, es, e, imos, en" },
+          { "spanish": "¿Dónde vives?", "english": "Where do you live?" }
+        ]
+      }
+    ],
+    "notYet": "Vosotros, and stem-changing verbs. Tengo, quiero, voy, and hago stay chunks."
+  },
+  "phrases": [
+    { "id": "d10-1", "spanish": "Yo hablo español.", "english": "I speak Spanish." },
+    { "id": "d10-2", "spanish": "Tú hablas muy bien.", "english": "You speak very well." },
+    { "id": "d10-3", "spanish": "Ella habla inglés.", "english": "She speaks English." },
+    {
+      "id": "d10-4",
+      "spanish": "Como fruta por la mañana.",
+      "english": "I eat fruit in the morning.",
+      "note": "The same como as como a la una on day 9."
+    },
+    { "id": "d10-5", "spanish": "¿Comes carne?", "english": "Do you eat meat?" },
+    {
+      "id": "d10-6",
+      "spanish": "Vivo en Londres.",
+      "english": "I live in London.",
+      "note": "This is the day 6 chunk, now part of the -ir pattern."
+    },
+    { "id": "d10-7", "spanish": "¿Dónde vives?", "english": "Where do you live?" },
+    { "id": "d10-8", "spanish": "Estudiamos por la noche.", "english": "We study at night." },
+    { "id": "d10-9", "spanish": "Ellos viven cerca.", "english": "They live nearby." },
+    { "id": "d10-10", "spanish": "Trabajo, trabajas, trabaja.", "english": "I work, you work, he/she works." },
+    { "id": "d10-11", "spanish": "Bebo agua.", "english": "I drink water." },
+    { "id": "d10-12", "spanish": "Escribimos mensajes.", "english": "We write messages." }
+  ],
+  "dialogue": {
+    "title": "What we do",
+    "lines": [
+      { "speaker": "Nico", "spanish": "¿Hablas español todos los días?", "english": "Do you speak Spanish every day?" },
+      { "speaker": "Alex", "spanish": "Sí. Estudio por la mañana y hablo por la noche.", "english": "Yes. I study in the morning and speak at night." },
+      { "speaker": "Nico", "spanish": "¿Dónde vives ahora?", "english": "Where do you live now?" },
+      { "speaker": "Alex", "spanish": "Vivo en Londres. Trabajo desde casa.", "english": "I live in London. I work from home." },
+      { "speaker": "Nico", "spanish": "Nosotros también estudiamos. Bebemos café y practicamos.", "english": "We also study. We drink coffee and practise." }
+    ]
+  },
+  "practice": {
+    "title": "Three verbs, full pattern",
+    "instruction": "Pick hablar, comer, and vivir. Say yo, tú, él, nosotros, and ellos, then one sentence for each verb. Keep tengo, quiero, voy, and hago as chunks if you need them.",
+    "starters": [
+      "Yo hablo… / Tú hablas…",
+      "Como… / ¿Comes…?",
+      "Vivo en Londres. / ¿Dónde vives?"
+    ],
+    "tips": [
+      "-ar: o, as, a, amos, an.",
+      "-er: o, es, e, emos, en. -ir: o, es, e, imos, en."
+    ]
+  }
+}

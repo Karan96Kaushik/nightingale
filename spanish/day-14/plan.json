@@ -1,0 +1,66 @@
+{
+  "day": 14,
+  "title": "Full review",
+  "isReview": true,
+  "vocabFocus": "Your weakest 30–50 words",
+  "grammarFocus": "Only what the story uses",
+  "listenFocus": "Re-watch your favourite beginner content",
+  "practiceFocus": "A 5–10 minute self-introduction and daily-life story",
+  "grammar": {
+    "points": [
+      {
+        "title": "Three time frames",
+        "rule": "Reuse only what you can already say. Present for who you are and your routine: soy, vivo, trabajo, me levanto. Estar for right now: estoy. Yesterday as the chunks from day 13: fui, hice, comí, vi, tuve. If a sentence needs anything else, describe around the missing word and keep talking.",
+        "examples": [
+          { "spanish": "Soy… Vivo… Trabajo… Me levanto…", "english": "Who you are and your routine." },
+          { "spanish": "Ahora estoy…", "english": "Where you are and how you feel." },
+          { "spanish": "Ayer fui… Hice… Comí…", "english": "What you did yesterday." }
+        ]
+      }
+    ],
+    "notYet": "Any pattern you cannot use in the 5–10 minute story."
+  },
+  "phrases": [
+    { "id": "d14-1", "spanish": "Hola, me llamo Alex. Vivo en Londres.", "english": "Hi, my name is Alex. I live in London." },
+    { "id": "d14-2", "spanish": "Trabajo como ingeniero de software.", "english": "I work as a software engineer." },
+    { "id": "d14-3", "spanish": "Hoy trabajo desde casa.", "english": "Today I work from home." },
+    { "id": "d14-4", "spanish": "Me gusta correr y estudiar español.", "english": "I like to run and study Spanish." },
+    { "id": "d14-5", "spanish": "Por la mañana me levanto y desayuno.", "english": "In the morning I get up and have breakfast." },
+    { "id": "d14-6", "spanish": "Ayer fui al trabajo y tuve reuniones.", "english": "Yesterday I went to work and had meetings." },
+    { "id": "d14-7", "spanish": "Quiero un café y algo de comer.", "english": "I want a coffee and something to eat." },
+    { "id": "d14-8", "spanish": "Mi familia es pequeña. Tengo una hermana.", "english": "My family is small. I have a sister." },
+    { "id": "d14-9", "spanish": "Vivo cerca de la estación. Voy en metro.", "english": "I live near the station. I go by metro." },
+    { "id": "d14-10", "spanish": "Ahora estoy en casa y estoy bien.", "english": "Right now I am at home and I am well." },
+    { "id": "d14-11", "spanish": "¿Puede repetir, por favor?", "english": "Can you repeat, please?" },
+    { "id": "d14-12", "spanish": "No entiendo. Más despacio, por favor.", "english": "I do not understand. More slowly, please." }
+  ],
+  "dialogue": {
+    "title": "A longer beginner story",
+    "lines": [
+      { "speaker": "Alex", "spanish": "Hola. Me llamo Alex. Soy de Londres y trabajo como ingeniero.", "english": "Hi. My name is Alex. I am from London and I work as an engineer." },
+      { "speaker": "Alex", "spanish": "Hoy es jueves. Me levanto a las siete y trabajo desde casa.", "english": "Today is Thursday. I get up at seven and work from home." },
+      { "speaker": "Alex", "spanish": "A la una como algo simple. Por la tarde hago ejercicio.", "english": "At one I eat something simple. In the afternoon I exercise." },
+      { "speaker": "Alex", "spanish": "Ayer fui a un restaurante con un amigo. Comí una ensalada.", "english": "Yesterday I went to a restaurant with a friend. I ate a salad." },
+      { "speaker": "Alex", "spanish": "Estoy un poco cansado, pero estoy bien. Me gusta estudiar español todos los días.", "english": "I am a bit tired, but I am well. I like studying Spanish every day." }
+    ]
+  },
+  "extraListen": {
+    "title": "Search beginner Spanish stories (YouTube)",
+    "url": "https://www.youtube.com/results?search_query=beginner+spanish+slow+conversation"
+  },
+  "practice": {
+    "title": "Your two-week story",
+    "instruction": "Give a 5–10 minute self-introduction and daily-life story. Cover who you are, today, family, food, and yesterday.",
+    "starters": [
+      "Hola, me llamo… Vivo en… Trabajo como…",
+      "Hoy es… Me levanto… Trabajo…",
+      "Mi familia… Mis amigos…",
+      "Ayer fui… Hice… Comí… Vi…"
+    ],
+    "tips": [
+      "This is the point of the two weeks: using Spanish, not finishing grammar.",
+      "If a word is missing, describe around it and keep talking."
+    ],
+    "speakMinutes": 8
+  }
+}

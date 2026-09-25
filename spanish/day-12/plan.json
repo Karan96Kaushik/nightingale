@@ -1,0 +1,83 @@
+{
+  "day": 12,
+  "title": "Shopping",
+  "isReview": false,
+  "vocabFocus": "Shopping: prices, clothes, sizes",
+  "grammarFocus": "Cuesta, esto, me lo llevo",
+  "listenFocus": "A Spanish shopping dialogue",
+  "practiceFocus": "Role-play buying something",
+  "grammar": {
+    "points": [
+      {
+        "title": "Shop sentences, not pronoun rules",
+        "rule": "Ask the price with cuesta. Point with esto. Me lo llevo and puedo probarme are fixed sentences. Hay means there is. The shop may say tiene, quiere, or le ayudo. Answer with busco, puedo, and pago. ¿Dónde está el probador? reuses está from day 8. Solo estoy mirando reuses estoy from day 11.",
+        "examples": [
+          { "spanish": "¿Cuánto cuesta?", "english": "How much does it cost?" },
+          { "spanish": "¿Puedo probarme esto?", "english": "Can I try this on?" },
+          { "spanish": "Me lo llevo.", "english": "I’ll take it." },
+          { "spanish": "¿Hay descuento?", "english": "Is there a discount?" }
+        ]
+      }
+    ],
+    "notYet": "Object pronouns and este, esta, and estos. Leave me lo llevo whole."
+  },
+  "phrases": [
+    { "id": "d12-1", "spanish": "¿Cuánto cuesta?", "english": "How much does it cost?" },
+    { "id": "d12-2", "spanish": "Cuesta veinte euros.", "english": "It costs twenty euros." },
+    {
+      "id": "d12-3",
+      "spanish": "¿Tiene una talla más grande?",
+      "english": "Do you have a bigger size?",
+      "note": "Tiene is what you say to shop staff. Tienes is for a friend."
+    },
+    {
+      "id": "d12-4",
+      "spanish": "¿Puedo probarme esto?",
+      "english": "Can I try this on?",
+      "note": "Say the question whole. Point with esto."
+    },
+    {
+      "id": "d12-5",
+      "spanish": "Me lo llevo.",
+      "english": "I’ll take it.",
+      "note": "One fixed sentence. Do not split lo."
+    },
+    { "id": "d12-6", "spanish": "Es demasiado caro.", "english": "It is too expensive." },
+    { "id": "d12-7", "spanish": "¿Hay descuento?", "english": "Is there a discount?" },
+    { "id": "d12-8", "spanish": "Pago con tarjeta.", "english": "I am paying by card." },
+    { "id": "d12-9", "spanish": "Busco una camisa azul.", "english": "I am looking for a blue shirt." },
+    {
+      "id": "d12-10",
+      "spanish": "¿De qué color lo quiere?",
+      "english": "What colour would you like?",
+      "note": "This is what the shop asks you."
+    },
+    { "id": "d12-11", "spanish": "Solo estoy mirando.", "english": "I am just looking." },
+    { "id": "d12-12", "spanish": "¿Dónde está el probador?", "english": "Where is the fitting room?" }
+  ],
+  "dialogue": {
+    "title": "In the shop",
+    "lines": [
+      { "speaker": "Dependienta", "spanish": "Hola, ¿le ayudo?", "english": "Hi, can I help you?" },
+      { "speaker": "Alex", "spanish": "Sí. Busco una chaqueta. ¿Cuánto cuesta esto?", "english": "Yes. I am looking for a jacket. How much does this cost?" },
+      { "speaker": "Dependienta", "spanish": "Cuesta cuarenta euros. ¿Qué talla usa?", "english": "It costs forty euros. What size do you wear?" },
+      { "speaker": "Alex", "spanish": "Mediana. ¿Puedo probarme esto?", "english": "Medium. Can I try this on?" },
+      { "speaker": "Dependienta", "spanish": "Claro. El probador está a la derecha.", "english": "Of course. The fitting room is on the right." },
+      { "speaker": "Alex", "spanish": "Me queda bien. Me lo llevo. Pago con tarjeta.", "english": "It fits well. I’ll take it. I’ll pay by card." }
+    ]
+  },
+  "practice": {
+    "title": "Buy something",
+    "instruction": "Role-play buying a shirt or a coffee. Ask the price, the size or the options, then pay.",
+    "starters": [
+      "Hola, busco…",
+      "¿Cuánto cuesta?",
+      "¿Puedo probarme esto?",
+      "Me lo llevo. Pago con tarjeta."
+    ],
+    "tips": [
+      "Five phrases are enough for a shop.",
+      "If the number is fast, ask: ¿Puede repetir, por favor?"
+    ]
+  }
+}

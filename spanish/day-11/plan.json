@@ -1,0 +1,83 @@
+{
+  "day": 11,
+  "title": "Estar — place and feeling",
+  "isReview": false,
+  "vocabFocus": "Estar: estoy, estás, está…",
+  "grammarFocus": "Ser or estar",
+  "listenFocus": "Listen for ser vs estar",
+  "practiceFocus": "Describe where you are and how you feel",
+  "grammar": {
+    "points": [
+      {
+        "title": "Who you are, or where and how you are now",
+        "rule": "Ser is still identity and origin: soy ingeniero, soy de Londres. Day 8 used está for where a place is. Today the same verb has five forms for people: estoy, estás, está, estamos, están. Use them for where someone is and how they feel right now. Estoy bien from day 1 is this pattern. Cansado or cansada matches you, the same -o or -a agreement as day 6.",
+        "examples": [
+          { "spanish": "Soy ingeniero.", "english": "I am an engineer." },
+          { "spanish": "Estoy en casa.", "english": "I am at home." },
+          { "spanish": "Estoy cansado.", "english": "I am tired." },
+          { "spanish": "Estoy cansada.", "english": "I am tired. (feminine)" }
+        ]
+      }
+    ],
+    "notYet": "The rarer ser and estar contrasts. La sopa está caliente can stay a chunk."
+  },
+  "phrases": [
+    { "id": "d11-1", "spanish": "Estoy en casa.", "english": "I am at home." },
+    { "id": "d11-2", "spanish": "¿Dónde estás?", "english": "Where are you?" },
+    {
+      "id": "d11-3",
+      "spanish": "Estoy cansado.",
+      "english": "I am tired.",
+      "note": "Say cansada if you use feminine agreement."
+    },
+    {
+      "id": "d11-4",
+      "spanish": "Estoy bien.",
+      "english": "I am well.",
+      "note": "The day 1 chunk, now part of estar."
+    },
+    { "id": "d11-5", "spanish": "Está feliz hoy.", "english": "He or she is happy today." },
+    {
+      "id": "d11-6",
+      "spanish": "El café está aquí.",
+      "english": "The café is here.",
+      "note": "The same está as the directions on day 8."
+    },
+    { "id": "d11-7", "spanish": "Estamos en Londres.", "english": "We are in London." },
+    { "id": "d11-8", "spanish": "No estoy ocupado.", "english": "I am not busy." },
+    { "id": "d11-9", "spanish": "Soy ingeniero, pero ahora estoy de vacaciones.", "english": "I am an engineer, but now I am on holiday." },
+    {
+      "id": "d11-10",
+      "spanish": "La sopa está caliente.",
+      "english": "The soup is hot right now.",
+      "note": "Learn this as one chunk."
+    },
+    { "id": "d11-11", "spanish": "¿Cómo estás hoy?", "english": "How are you today?" },
+    { "id": "d11-12", "spanish": "Estoy un poco nervioso.", "english": "I am a bit nervous." }
+  ],
+  "dialogue": {
+    "title": "Where and how",
+    "lines": [
+      { "speaker": "Inés", "spanish": "¿Dónde estás?", "english": "Where are you?" },
+      { "speaker": "Alex", "spanish": "Estoy en casa. Estoy un poco cansado.", "english": "I am at home. I am a bit tired." },
+      { "speaker": "Inés", "spanish": "¿Estás ocupado?", "english": "Are you busy?" },
+      { "speaker": "Alex", "spanish": "No. ¿Y tú? ¿Cómo estás?", "english": "No. And you? How are you?" },
+      { "speaker": "Inés", "spanish": "Estoy bien. Estoy en el parque con mis amigos.", "english": "I am well. I am in the park with my friends." },
+      { "speaker": "Alex", "spanish": "Eres muy sociable. Yo estoy tranquilo hoy.", "english": "You are very sociable. I am calm today." }
+    ]
+  },
+  "practice": {
+    "title": "Place and feeling",
+    "instruction": "Say where you are, how you feel, and contrast one ser fact with one estar moment.",
+    "starters": [
+      "Estoy en…",
+      "Hoy estoy…",
+      "Soy…, pero ahora estoy…",
+      "Mis amigos están…"
+    ],
+    "tips": [
+      "Ser is who you are. Estar is where you are and how you feel.",
+      "Cansado or cansada agrees with you."
+    ]
+  }
+}

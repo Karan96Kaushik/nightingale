@@ -1,0 +1,69 @@
+{
+  "day": 9,
+  "title": "Daily routine",
+  "isReview": false,
+  "vocabFocus": "Daily routine vocabulary",
+  "grammarFocus": "Me levanto and me gusta",
+  "listenFocus": "Someone describing their day",
+  "practiceFocus": "Describe your own daily routine",
+  "grammar": {
+    "points": [
+      {
+        "title": "Say the routine as chunks",
+        "rule": "Put the day in order with the clock from day 2: a las siete, a la una, por la mañana, por la tarde. Me plus the verb is the I-form for these routines: me levanto, me ducho, me acuesto. Me gusta takes one thing or a verb. Voy, hago, and trabajo stay the chunks you already use.",
+        "examples": [
+          { "spanish": "Me levanto. Me ducho. Me acuesto.", "english": "I get up. I shower. I go to bed." },
+          { "spanish": "Me gusta correr.", "english": "I like to run." },
+          { "spanish": "Primero desayuno. Después trabajo.", "english": "First I have breakfast. Then I work." },
+          { "spanish": "Me levanto a las siete.", "english": "I get up at seven." }
+        ]
+      }
+    ],
+    "notYet": "Te and se, me gustan, and the full reflexive table. Trabajas is a you-form you may hear; the ending pattern is day 10."
+  },
+  "phrases": [
+    { "id": "d9-1", "spanish": "Me levanto a las siete.", "english": "I get up at seven." },
+    { "id": "d9-2", "spanish": "Desayuno en casa.", "english": "I have breakfast at home." },
+    { "id": "d9-3", "spanish": "Voy al trabajo.", "english": "I go to work." },
+    { "id": "d9-4", "spanish": "Trabajo desde casa.", "english": "I work from home." },
+    {
+      "id": "d9-5",
+      "spanish": "Como a la una.",
+      "english": "I have lunch at one.",
+      "note": "A la una uses es la una from day 2. Como here means I eat."
+    },
+    { "id": "d9-6", "spanish": "Por la tarde, hago ejercicio.", "english": "In the afternoon, I exercise." },
+    { "id": "d9-7", "spanish": "Ceno con mi familia.", "english": "I have dinner with my family." },
+    { "id": "d9-8", "spanish": "Me acuesto a las once.", "english": "I go to bed at eleven." },
+    { "id": "d9-9", "spanish": "Me ducho por la mañana.", "english": "I shower in the morning." },
+    { "id": "d9-10", "spanish": "Primero… después… luego…", "english": "First… after that… then…" },
+    { "id": "d9-11", "spanish": "Normalmente llego a casa a las seis.", "english": "I usually get home at six." },
+    { "id": "d9-12", "spanish": "Me gusta correr.", "english": "I like to run." }
+  ],
+  "dialogue": {
+    "title": "A normal day",
+    "lines": [
+      { "speaker": "Lucía", "spanish": "¿Cómo es tu día?", "english": "What is your day like?" },
+      { "speaker": "Alex", "spanish": "Me levanto a las siete y desayuno un café.", "english": "I get up at seven and have a coffee for breakfast." },
+      { "speaker": "Lucía", "spanish": "¿Trabajas en una oficina?", "english": "Do you work in an office?" },
+      { "speaker": "Alex", "spanish": "A veces. Hoy trabajo desde casa.", "english": "Sometimes. Today I work from home." },
+      { "speaker": "Lucía", "spanish": "Por la tarde, ¿qué haces?", "english": "In the afternoon, what do you do?" },
+      { "speaker": "Alex", "spanish": "Hago ejercicio. Me gusta correr.", "english": "I exercise. I like to run." }
+    ]
+  },
+  "practice": {
+    "title": "Your day, start to finish",
+    "instruction": "Describe your routine from waking up to going to bed. Use primero, después, and luego, and put a time on at least three actions.",
+    "starters": [
+      "Me levanto a las…",
+      "Desayuno…",
+      "Voy al trabajo. / Trabajo desde casa.",
+      "Por la tarde hago…",
+      "Me acuesto a las…"
+    ],
+    "tips": [
+      "Say me levanto, me ducho, and me acuesto as whole chunks.",
+      "Do not aim for a perfect chart. Aim for a full spoken day."
+    ]
+  }
+}

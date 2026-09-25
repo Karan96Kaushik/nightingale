@@ -9,15 +9,28 @@ function pickSpanishVoice(): SpeechSynthesisVoice | null {
   )
 }
 
-export function speakSpanish(text: string) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return
-  window.speechSynthesis.cancel()
-  const utterance = new SpeechSynthesisUtterance(text)
-  utterance.lang = 'es-ES'
-  utterance.rate = 0.88
-  const voice = pickSpanishVoice()
-  if (voice) utterance.voice = voice
-  window.speechSynthesis.speak(utterance)
+export function speakSpanish(text: string): Promise<void> {
+  return new Promise((resolve) => {
+    if (typeof window === 'undefined' || !window.speechSynthesis) {
+      resolve()
+      return
+    }
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = 'es-ES'
+    utterance.rate = 0.88
+    const voice = pickSpanishVoice()
+    if (voice) utterance.voice = voice
+    let settled = false
+    const finish = () => {
+      if (settled) return
+      settled = true
+      resolve()
+    }
+    utterance.onend = finish
+    utterance.onerror = finish
+    window.speechSynthesis.speak(utterance)
+  })
 }
 
 export function stopSpeaking() {

@@ -1,0 +1,74 @@
+{
+  "day": 4,
+  "title": "Core verbs",
+  "isReview": false,
+  "vocabFocus": "Common verbs: tener, querer, ir, hacer",
+  "grammarFocus": "Tengo, quiero, voy, hago",
+  "listenFocus": "Listen for these four verbs",
+  "practiceFocus": "Create two sentences with each verb",
+  "grammar": {
+    "points": [
+      {
+        "title": "Only the forms in today’s phrases",
+        "rule": "You can already say who you are and what time it is. These four verbs are chunks, not a full table. Tengo is what you have, including hunger and age. Tengo que means have to. Quiero and voy are followed by a or another verb. The you-forms you will hear are tienes, quieres, and haces. Vamos and hacemos are we.",
+        "examples": [
+          { "spanish": "Tengo hambre. Tengo que trabajar.", "english": "I am hungry. I have to work." },
+          { "spanish": "Quiero café. ¿Qué quieres comer?", "english": "I want coffee. What do you want to eat?" },
+          { "spanish": "Voy al trabajo. ¿Adónde vas?", "english": "I am going to work. Where are you going?" },
+          { "spanish": "Hago ejercicio. ¿Qué haces hoy?", "english": "I exercise. What are you doing today?" }
+        ]
+      }
+    ],
+    "notYet": "The rest of each conjugation, and the past tense. Leave vas, quieres, and haces as the you-forms in these phrases."
+  },
+  "phrases": [
+    { "id": "d4-1", "spanish": "Tengo hambre.", "english": "I am hungry." },
+    {
+      "id": "d4-2",
+      "spanish": "¿Tienes tiempo?",
+      "english": "Do you have time?",
+      "note": "Tienes is the you-form of tengo."
+    },
+    { "id": "d4-3", "spanish": "Quiero café.", "english": "I want coffee." },
+    { "id": "d4-4", "spanish": "¿Qué quieres comer?", "english": "What do you want to eat?" },
+    { "id": "d4-5", "spanish": "Voy al trabajo.", "english": "I am going to work." },
+    { "id": "d4-6", "spanish": "¿Adónde vas?", "english": "Where are you going?" },
+    {
+      "id": "d4-7",
+      "spanish": "Hago ejercicio por la mañana.",
+      "english": "I exercise in the morning.",
+      "note": "Por la mañana is the day 2 phrase for in the morning."
+    },
+    { "id": "d4-8", "spanish": "¿Qué haces hoy?", "english": "What are you doing today?" },
+    { "id": "d4-9", "spanish": "No tengo dinero.", "english": "I do not have money." },
+    { "id": "d4-10", "spanish": "Quiero ir a casa.", "english": "I want to go home." },
+    { "id": "d4-11", "spanish": "Vamos al parque.", "english": "We are going to the park." },
+    { "id": "d4-12", "spanish": "Hacemos la cena juntos.", "english": "We make dinner together." },
+    { "id": "d4-13", "spanish": "Tengo que trabajar.", "english": "I have to work." }
+  ],
+  "dialogue": {
+    "title": "Evening plans",
+    "lines": [
+      { "speaker": "Noa", "spanish": "¿Qué quieres hacer esta noche?", "english": "What do you want to do tonight?" },
+      { "speaker": "Diego", "spanish": "Tengo hambre. Quiero comer.", "english": "I am hungry. I want to eat." },
+      { "speaker": "Noa", "spanish": "Vamos a un restaurante.", "english": "Let’s go to a restaurant." },
+      { "speaker": "Diego", "spanish": "No tengo mucho tiempo. Tengo que trabajar mañana.", "english": "I do not have much time. I have to work tomorrow." },
+      { "speaker": "Noa", "spanish": "Entonces hacemos algo rápido.", "english": "Then let’s do something quick." },
+      { "speaker": "Diego", "spanish": "Perfecto. Voy a casa a las nueve.", "english": "Perfect. I am going home at nine." }
+    ]
+  },
+  "practice": {
+    "title": "Two sentences each",
+    "instruction": "Make two sentences with tener, two with querer, two with ir, and two with hacer. Use today’s time of day in one of them.",
+    "starters": [
+      "Tengo… / No tengo…",
+      "Quiero… / ¿Qué quieres…?",
+      "Voy a… / Vamos a…",
+      "Hago… / ¿Qué haces…?"
+    ],
+    "tips": [
+      "Tener is used for hunger, age, and obligation (tener que).",
+      "Keep the sentences short and spoken, not written first."
+    ]
+  }
+}

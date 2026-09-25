@@ -1,0 +1,62 @@
+{
+  "day": 7,
+  "title": "Week one review",
+  "isReview": true,
+  "vocabFocus": "Revise days 1–6",
+  "grammarFocus": "Week-one patterns only",
+  "listenFocus": "Re-listen to a dialogue from this week",
+  "practiceFocus": "Speak for 5 minutes entirely in Spanish",
+  "grammar": {
+    "points": [
+      {
+        "title": "Nothing new",
+        "rule": "Reuse only what you can already say. Soy and no soy for who you are. Es la una and son las for the time. Tengo, quiero, voy, and hago for what you have, want, and do. Mi and mis, then a matching ending, for people. If a sentence needs anything else, use a chunk you know.",
+        "examples": [
+          { "spanish": "Soy… / No soy…", "english": "Identity and negation." },
+          { "spanish": "Es la una. Son las…", "english": "Telling the time." },
+          { "spanish": "Tengo… Quiero… Voy… Hago…", "english": "The four core verbs." },
+          { "spanish": "Mi hermana. Mis amigos son…", "english": "Possession and agreement." }
+        ]
+      }
+    ],
+    "notYet": "Any new tense or verb. Today is for speaking, not a new chart."
+  },
+  "phrases": [
+    { "id": "d7-1", "spanish": "Hola, me llamo… y soy de…", "english": "Hi, my name is… and I am from…" },
+    { "id": "d7-2", "spanish": "Hoy es… y son las…", "english": "Today is… and it is…" },
+    { "id": "d7-3", "spanish": "Soy ingeniero. No soy médico.", "english": "I am an engineer. I am not a doctor." },
+    { "id": "d7-4", "spanish": "Tengo hambre y quiero comer.", "english": "I am hungry and I want to eat." },
+    { "id": "d7-5", "spanish": "Voy al restaurante con mis amigos.", "english": "I am going to the restaurant with my friends." },
+    { "id": "d7-6", "spanish": "¿Qué quieres beber?", "english": "What do you want to drink?" },
+    { "id": "d7-7", "spanish": "Mi hermana es profesora.", "english": "My sister is a teacher." },
+    { "id": "d7-8", "spanish": "Somos de Londres.", "english": "We are from London." },
+    { "id": "d7-9", "spanish": "Hago ejercicio por la mañana.", "english": "I exercise in the morning." },
+    { "id": "d7-10", "spanish": "Hasta luego. El sábado por la mañana.", "english": "See you later. Saturday morning." }
+  ],
+  "dialogue": {
+    "title": "A full beginner conversation",
+    "lines": [
+      { "speaker": "Ana", "spanish": "¡Hola! ¿Cómo estás?", "english": "Hi! How are you?" },
+      { "speaker": "Alex", "spanish": "Estoy bien. Hoy es domingo. Quiero ir a un café.", "english": "I am well. Today is Sunday. I want to go to a café." },
+      { "speaker": "Ana", "spanish": "Yo también. Tengo hambre.", "english": "Me too. I am hungry." },
+      { "speaker": "Alex", "spanish": "Vamos. ¿Qué quieres comer?", "english": "Let’s go. What do you want to eat?" },
+      { "speaker": "Ana", "spanish": "Una tostada y un café con leche.", "english": "Toast and a coffee with milk." },
+      { "speaker": "Alex", "spanish": "Perfecto. Mi hermana vive cerca. Es muy simpática.", "english": "Perfect. My sister lives nearby. She is very nice." }
+    ]
+  },
+  "practice": {
+    "title": "Five minutes in Spanish",
+    "instruction": "Speak for five minutes without switching to English. Introduce yourself, then today, food, and family.",
+    "starters": [
+      "Hola, me llamo Alex. Soy de Londres…",
+      "Hoy es… Ahora son las…",
+      "Quiero… Tengo… Voy a…",
+      "Mi familia… Mis amigos…"
+    ],
+    "tips": [
+      "Do not stop when you make a mistake. Keep speaking.",
+      "If you get stuck, repeat a phrase you already know."
+    ],
+    "speakMinutes": 5
+  }
+}

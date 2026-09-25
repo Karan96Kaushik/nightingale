@@ -1,0 +1,85 @@
+{
+  "day": 5,
+  "title": "Food & drinks",
+  "isReview": false,
+  "vocabFocus": "Food and drinks",
+  "grammarFocus": "Un, una, and quiero",
+  "listenFocus": "Ordering at a restaurant",
+  "practiceFocus": "Pretend to order a meal in Spanish",
+  "grammar": {
+    "points": [
+      {
+        "title": "Enough grammar to order",
+        "rule": "Quiero from day 4 takes a thing or a verb. Un goes before a masculine noun and una before a feminine one: un café, una ensalada. Staff may say desea or recomienda. Answer with quiero. Soy vegetariano uses ser from day 3, with -o or -a like ingeniero.",
+        "examples": [
+          { "spanish": "Un café. Una paella.", "english": "A coffee. A paella." },
+          { "spanish": "Quiero comer.", "english": "I want to eat." },
+          { "spanish": "Para mí, una ensalada.", "english": "For me, a salad." },
+          { "spanish": "Soy vegetariano.", "english": "I am vegetarian." }
+        ]
+      }
+    ],
+    "notYet": "Gustar, object pronouns, and the usted verb table. Está delicioso is one fixed sentence, not a reason to study estar."
+  },
+  "phrases": [
+    { "id": "d5-1", "spanish": "Quiero comer.", "english": "I want to eat." },
+    { "id": "d5-2", "spanish": "Una mesa para dos, por favor.", "english": "A table for two, please." },
+    { "id": "d5-3", "spanish": "La carta, por favor.", "english": "The menu, please." },
+    { "id": "d5-4", "spanish": "Para mí, una paella.", "english": "For me, a paella." },
+    { "id": "d5-5", "spanish": "Quiero un café con leche.", "english": "I want a coffee with milk." },
+    {
+      "id": "d5-6",
+      "spanish": "¿Qué recomienda?",
+      "english": "What do you recommend?",
+      "note": "A fixed question for staff. Answer their next question with quiero."
+    },
+    {
+      "id": "d5-7",
+      "spanish": "Está delicioso.",
+      "english": "It is delicious.",
+      "note": "Say the whole sentence. The estar table comes later."
+    },
+    { "id": "d5-8", "spanish": "La cuenta, por favor.", "english": "The bill, please." },
+    { "id": "d5-9", "spanish": "Sin gluten, por favor.", "english": "Gluten-free, please." },
+    { "id": "d5-10", "spanish": "Agua con gas.", "english": "Sparkling water." },
+    { "id": "d5-11", "spanish": "Un vaso de vino tinto.", "english": "A glass of red wine." },
+    { "id": "d5-12", "spanish": "¿Puedo pedir el postre?", "english": "Can I order dessert?" },
+    {
+      "id": "d5-13",
+      "spanish": "Soy vegetariano.",
+      "english": "I am vegetarian.",
+      "note": "Vegetariana if you use the -a ending, like profesora."
+    }
+  ],
+  "dialogue": {
+    "title": "At the restaurant",
+    "lines": [
+      { "speaker": "Camarero", "spanish": "Buenas tardes. ¿Mesa para cuántos?", "english": "Good afternoon. A table for how many?" },
+      { "speaker": "Alex", "spanish": "Para uno, por favor.", "english": "For one, please." },
+      { "speaker": "Camarero", "spanish": "¿Qué desea beber?", "english": "What would you like to drink?" },
+      { "speaker": "Alex", "spanish": "Agua y un café, por favor.", "english": "Water and a coffee, please." },
+      { "speaker": "Camarero", "spanish": "¿Y para comer?", "english": "And to eat?" },
+      { "speaker": "Alex", "spanish": "Quiero una tortilla y una ensalada.", "english": "I want an omelette and a salad." },
+      { "speaker": "Camarero", "spanish": "Muy bien. Enseguida.", "english": "Very good. Right away." }
+    ]
+  },
+  "extraListen": {
+    "title": "Spanish restaurant dialogue (YouTube)",
+    "url": "https://www.youtube.com/results?search_query=spanish+restaurant+dialogue+beginner"
+  },
+  "practice": {
+    "title": "Order a meal",
+    "instruction": "Role-play walking into a restaurant, sitting down, ordering food and drink, then asking for the bill.",
+    "starters": [
+      "Hola, una mesa para uno, por favor.",
+      "¿Qué recomienda?",
+      "Para mí…",
+      "Quiero…",
+      "La cuenta, por favor."
+    ],
+    "tips": [
+      "Por favor and gracias do a lot of work.",
+      "If you freeze, point at the menu and say esto, por favor."
+    ]
+  }
+}

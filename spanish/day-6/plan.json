@@ -1,0 +1,73 @@
+{
+  "day": 6,
+  "title": "Family & people",
+  "isReview": false,
+  "vocabFocus": "Family and people",
+  "grammarFocus": "Mi, mis, and matching endings",
+  "listenFocus": "A simple family description",
+  "practiceFocus": "Describe your family or friends",
+  "grammar": {
+    "points": [
+      {
+        "title": "One owner word, then match the ending",
+        "rule": "Mi is for one person or thing. Mis is for more than one. Tengo from day 4 says how many people you have. Es and son from day 3 say who they are. The adjective follows the noun and matches it: -o or -os for masculine, -a for feminine. Vivo and vive stay whole chunks today.",
+        "examples": [
+          { "spanish": "Mi hermana. Mis amigos.", "english": "My sister. My friends." },
+          { "spanish": "Mis amigos son simpáticos.", "english": "My friends are nice." },
+          { "spanish": "Somos una familia pequeña.", "english": "We are a small family." },
+          { "spanish": "Mi padre es médico.", "english": "My father is a doctor." }
+        ]
+      }
+    ],
+    "notYet": "Su, nuestro, and tu. You may hear ¿dónde vive tu familia? Answer with mi and mis. The present-tense pattern for vivo and vive comes later."
+  },
+  "phrases": [
+    { "id": "d6-1", "spanish": "Esta es mi familia.", "english": "This is my family." },
+    { "id": "d6-2", "spanish": "Tengo un hermano y una hermana.", "english": "I have a brother and a sister." },
+    {
+      "id": "d6-3",
+      "spanish": "Mi madre se llama…",
+      "english": "My mother’s name is…",
+      "note": "Se llama is the same idea as me llamo from day 1."
+    },
+    { "id": "d6-4", "spanish": "Mi padre es médico.", "english": "My father is a doctor." },
+    { "id": "d6-5", "spanish": "Mis amigos son muy simpáticos.", "english": "My friends are very nice." },
+    {
+      "id": "d6-6",
+      "spanish": "Vivo con mi pareja.",
+      "english": "I live with my partner.",
+      "note": "Learn vivo as a chunk. The vivir pattern comes later."
+    },
+    { "id": "d6-7", "spanish": "No tengo hijos.", "english": "I do not have children." },
+    { "id": "d6-8", "spanish": "Mi abuela vive en la India.", "english": "My grandmother lives in India." },
+    { "id": "d6-9", "spanish": "Somos una familia pequeña.", "english": "We are a small family." },
+    { "id": "d6-10", "spanish": "Él es mi mejor amigo.", "english": "He is my best friend." },
+    { "id": "d6-11", "spanish": "Ella es muy inteligente.", "english": "She is very intelligent." },
+    { "id": "d6-12", "spanish": "¿Tienes hermanos?", "english": "Do you have siblings?" }
+  ],
+  "dialogue": {
+    "title": "Talking about family",
+    "lines": [
+      { "speaker": "Elena", "spanish": "¿Tienes hermanos?", "english": "Do you have siblings?" },
+      { "speaker": "Alex", "spanish": "Sí, tengo una hermana. ¿Y tú?", "english": "Yes, I have a sister. And you?" },
+      { "speaker": "Elena", "spanish": "Tengo dos hermanos. Somos tres.", "english": "I have two brothers. There are three of us." },
+      { "speaker": "Alex", "spanish": "¿Dónde vive tu familia?", "english": "Where does your family live?" },
+      { "speaker": "Elena", "spanish": "Mis padres viven en Sevilla. Yo vivo en Londres.", "english": "My parents live in Seville. I live in London." }
+    ]
+  },
+  "practice": {
+    "title": "Describe your people",
+    "instruction": "Talk about 3–4 people: names, where they live, what they do, and one quality. Use mi or mis, then es or son.",
+    "starters": [
+      "Esta es mi familia.",
+      "Tengo…",
+      "Mi… se llama…",
+      "Es… / Son…",
+      "Vive en…"
+    ],
+    "tips": [
+      "Use ser for jobs and personality.",
+      "If you do not want to talk about family, describe friends instead."
+    ]
+  }
+}
