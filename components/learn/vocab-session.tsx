@@ -5,12 +5,61 @@ import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
 import { vocabAudioSrc } from '@/lib/audio/dialogue-path'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
+import { cn } from '@/lib/utils'
 import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
 import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
 import { VocabTutorial } from '@/components/learn/vocab-tutorial'
 import type { ReviewRating } from '@/lib/progress/types'
+
+const REVERSE_KEY = 'nightingale_vocab_reverse'
+
+function readReverseVocab() {
+  try {
+    return localStorage.getItem(REVERSE_KEY) === '1'
+  } catch {
+    return false
+  }
+}
+
+function writeReverseVocab(reversed: boolean) {
+  try {
+    localStorage.setItem(REVERSE_KEY, reversed ? '1' : '0')
+  } catch {
+    // Storage can be blocked; the toggle still works for this visit.
+  }
+}
+
+function ReverseVocabToggle({ reversed, onToggle }: { reversed: boolean; onToggle: () => void }) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={reversed}
+      onClick={onToggle}
+      className="flex items-center justify-between gap-3 rounded-xl border bg-card px-4 py-3 text-left"
+    >
+      <span>
+        <span className="block text-sm font-medium">Reverse vocabulary</span>
+        <span className="block text-xs text-muted-foreground">
+          {reversed ? 'English first. Tap the card for Spanish.' : 'Spanish first. Tap the card for English.'}
+        </span>
+      </span>
+      <span
+        aria-hidden
+        className={cn('relative h-6 w-11 shrink-0 rounded-full transition-colors', reversed ? 'bg-primary' : 'bg-border')}
+      >
+        <span
+          className={cn(
+            'absolute top-0.5 size-5 rounded-full bg-card shadow-sm transition-transform',
+            reversed ? 'translate-x-5' : 'translate-x-0.5',
+          )}
+        />
+      </span>
+    </button>
+  )
+}
 
 export function VocabSession() {
   const { day: dayParam } = useParams()
@@ -20,6 +69,7 @@ export function VocabSession() {
   const done = Boolean(useDayProgress(dayNumber)?.sections.vocab.completed)
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const [reversed, setReversed] = useState(readReverseVocab)
 
   const phrases = day?.phrases ?? []
   const phrase = phrases[index]
@@ -52,6 +102,19 @@ export function VocabSession() {
     setIndex((value) => (value + 1) % phrases.length)
   }
 
+  const toggleReverse = () => {
+    setReversed((value) => {
+      const next = !value
+      writeReverseVocab(next)
+      return next
+    })
+    setFlipped(false)
+  }
+
+  const prompt = reversed ? phrase.english : phrase.spanish
+  const answer = reversed ? phrase.spanish : phrase.english
+  const answerLanguage = reversed ? 'Spanish' : 'English'
+
   return (
     <main className="flex flex-1 flex-col gap-5 px-4 py-6">
       <Link
@@ -76,15 +139,17 @@ export function VocabSession() {
           Card {index + 1} of {phrases.length} · {dueCount} due
         </p>
         <div>
-          <p className="font-display text-3xl leading-tight">{phrase.spanish}</p>
+          <p className="font-display text-3xl leading-tight">{prompt}</p>
           {flipped && (
             <div className="mt-4 space-y-1">
-              <p className="text-lg">{phrase.english}</p>
+              <p className="text-lg">{answer}</p>
               {phrase.note && <p className="text-sm text-muted-foreground">{phrase.note}</p>}
             </div>
           )}
         </div>
-        <p className="text-xs text-muted-foreground">{flipped ? 'Tap to hide English' : 'Tap to show English'}</p>
+        <p className="text-xs text-muted-foreground">
+          {flipped ? `Tap to hide ${answerLanguage}` : `Tap to show ${answerLanguage}`}
+        </p>
       </button>
 
       <div className="flex gap-2">
@@ -116,6 +181,8 @@ export function VocabSession() {
       <p className="text-sm text-muted-foreground">
         Aim for 10–15 phrases. Learn chunks like <em>Quiero comer</em>, not isolated words.
       </p>
+
+      <ReverseVocabToggle reversed={reversed} onToggle={toggleReverse} />
 
       <SessionActions
         done={done}
