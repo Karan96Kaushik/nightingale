@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Volume2 } from 'lucide-react'
+import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
+import { practiceAudioSrc, practiceSpeechText } from '@/lib/audio/dialogue-path'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
-import { speakSpanish } from '@/lib/speech'
 import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
 import { SessionActions } from '@/components/learn/session-actions'
@@ -17,6 +18,8 @@ export function PracticeSession() {
   const done = Boolean(useDayProgress(dayNumber)?.sections.practice.completed)
   const [speakLeft, setSpeakLeft] = useState(0)
   const [speaking, setSpeaking] = useState(false)
+
+  useEffect(() => () => stopDialogue(), [])
 
   const onTick = useCallback(
     (seconds: number) => {
@@ -72,11 +75,11 @@ export function PracticeSession() {
 
       <section className="space-y-2 rounded-xl border bg-card p-4">
         <h2 className="text-sm font-medium">Say these out loud</h2>
-        {day.practice.starters.map((line) => (
+        {day.practice.starters.map((line, index) => (
           <button
             key={line}
             type="button"
-            onClick={() => speakSpanish(line.replace('…', ''))}
+            onClick={() => void playSpanishClip(practiceAudioSrc(day.day, index), practiceSpeechText(line))}
             className="flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-3 text-left"
           >
             <span className="font-display text-lg">{line}</span>

@@ -12,5 +12,5 @@ export function getDay(day: number): DayPlan | undefined {
 }
 
 export function getAllPhrases() {
-  return PLAN.flatMap((day) => day.phrases.map((phrase) => ({ ...phrase, day: day.day })))
+  return PLAN.flatMap((day) => day.phrases.map((phrase, index) => ({ ...phrase, day: day.day, index })))
 }

@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Volume2 } from 'lucide-react'
-import { speakSpanish } from '@/lib/speech'
+import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
+import { vocabAudioSrc } from '@/lib/audio/dialogue-path'
 import { useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
 import type { ReviewRating } from '@/lib/progress/types'
@@ -10,6 +11,8 @@ export function ReviewPage() {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const phrase = dueReviews[index]
+
+  useEffect(() => () => stopDialogue(), [])
 
   const rate = (rating: ReviewRating) => {
     if (!phrase) return
@@ -52,7 +55,11 @@ export function ReviewPage() {
             {flipped && <p className="text-lg">{phrase.english}</p>}
             <p className="text-xs text-muted-foreground">{flipped ? 'Tap to hide' : 'Tap for English'}</p>
           </button>
-          <Button type="button" variant="outline" onClick={() => speakSpanish(phrase.spanish)}>
+          <Button
+            type="button"
+            variant="outline"
+            onClick={() => void playSpanishClip(vocabAudioSrc(phrase.day, phrase.index), phrase.spanish)}
+          >
             <Volume2 /> Hear it
           </Button>
           <div className="grid grid-cols-4 gap-2">

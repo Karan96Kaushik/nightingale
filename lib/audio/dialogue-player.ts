@@ -92,6 +92,13 @@ async function playClip(clip: DialogueClip, token: number) {
   if (result === 'missing') await speakSpanish(clip.text)
 }
 
+/** Play a generated MP3 when the file exists, otherwise the browser voice. */
+export function playSpanishClip(src: string, text: string) {
+  const spoken = text.trim()
+  if (!spoken) return Promise.resolve()
+  return playDialogueLine({ src, text: spoken }, () => {}, 0)
+}
+
 export async function playDialogueLine(clip: DialogueClip, onActive: (index: number | null) => void, index: number) {
   stopDialogue()
   const token = playback

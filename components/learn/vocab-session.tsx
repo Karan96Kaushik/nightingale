@@ -1,9 +1,10 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Volume2 } from 'lucide-react'
+import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
+import { vocabAudioSrc } from '@/lib/audio/dialogue-path'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
-import { speakSpanish } from '@/lib/speech'
 import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
 import { SessionActions } from '@/components/learn/session-actions'
@@ -25,6 +26,8 @@ export function VocabSession() {
     () => phrases.filter((item) => !progress.reviews[item.id] || new Date(progress.reviews[item.id].dueAt) <= new Date()).length,
     [phrases, progress.reviews],
   )
+
+  useEffect(() => () => stopDialogue(), [])
 
   const onTick = useCallback(
     (seconds: number) => {
@@ -83,7 +86,12 @@ export function VocabSession() {
       </button>
 
       <div className="flex gap-2">
-        <Button type="button" variant="outline" className="flex-1" onClick={() => speakSpanish(phrase.spanish)}>
+        <Button
+          type="button"
+          variant="outline"
+          className="flex-1"
+          onClick={() => void playSpanishClip(vocabAudioSrc(day.day, index), phrase.spanish)}
+        >
           <Volume2 /> Hear it
         </Button>
       </div>

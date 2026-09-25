@@ -1,10 +1,11 @@
-import { useCallback } from 'react'
+import { useCallback, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Volume2 } from 'lucide-react'
+import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
+import { grammarAudioSrc } from '@/lib/audio/dialogue-path'
 import { getDay } from '@/lib/curriculum/plan'
 import { SECTIONS } from '@/lib/curriculum/types'
 import { paths } from '@/lib/routes'
-import { speakSpanish } from '@/lib/speech'
 import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
@@ -15,6 +16,8 @@ export function GrammarSession() {
   const day = getDay(dayNumber)
   const { completeSection, recordSeconds } = useProgress()
   const done = Boolean(useDayProgress(dayNumber)?.sections.grammar.completed)
+
+  useEffect(() => () => stopDialogue(), [])
 
   const onTick = useCallback(
     (seconds: number) => {
@@ -46,18 +49,18 @@ export function GrammarSession() {
       </div>
       <SessionTimer minutes={SECTIONS.find((section) => section.id === 'grammar')?.minutes ?? 5} onTick={onTick} />
 
-      {day.grammar.points.map((point) => (
+      {day.grammar.points.map((point, pointIndex) => (
         <section key={point.title} className="space-y-3 rounded-xl border bg-card p-4">
           <div>
             <h2 className="font-display text-lg">{point.title}</h2>
             <p className="mt-1 text-sm text-muted-foreground">{point.rule}</p>
           </div>
           <div className="space-y-2">
-            {point.examples.map((example) => (
+            {point.examples.map((example, exampleIndex) => (
               <button
-                key={example.spanish}
+                key={`${pointIndex}-${exampleIndex}`}
                 type="button"
-                onClick={() => speakSpanish(example.spanish)}
+                onClick={() => void playSpanishClip(grammarAudioSrc(day.day, pointIndex, exampleIndex), example.spanish)}
                 className="flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-3 text-left"
               >
                 <span>

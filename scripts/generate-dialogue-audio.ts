@@ -1,17 +1,22 @@
 /**
- * Write one MP3 per dialogue line with Amazon Polly's generative engine.
+ * Write one MP3 per spoken line with Amazon Polly's generative engine.
+ *
+ * Covers vocabulary phrases, grammar examples, dialogue lines, and speaking
+ * starters. The app plays the file when it exists and falls back to the
+ * browser voice when it does not.
  *
  * Uses the mis-api-full profile from ~/.aws/credentials. Set AWS_PROFILE to
  * use another profile. Polly runs in us-east-1 unless POLLY_REGION is set.
  * The profile has no region, and a shell AWS_REGION is not used, because
  * Spanish generative voices are not in every region.
  *
- * Lucia and Sergio (es-ES) are the course voices. Pedro (es-US) is only used
- * when a second man shares a scene with Alex. Spanish generative voices are
- * not offered in eu-west-2, ca-central-1, or eu-central-2.
+ * Lucia and Sergio (es-ES) are the dialogue voices. Pedro (es-US) is only used
+ * when a second man shares a scene with Alex. Vocabulary, grammar, and speaking
+ * use Sergio. Spanish generative voices are not offered in eu-west-2,
+ * ca-central-1, or eu-central-2.
  *
- * Dialogue lines come from each plan.json under spanish/. Those files override
- * the matching day in lib/curriculum/builtin-days.ts. Adding another plan.json
+ * Lines come from each plan.json under spanish/. Those files override the
+ * matching day in lib/curriculum/builtin-days.ts. Adding another plan.json
  * there includes it here on the next run.
  *
  *   npm run audio:dialogues
@@ -31,7 +36,13 @@ import {
   type VoiceId,
 } from '@aws-sdk/client-polly'
 import { fromIni } from '@aws-sdk/credential-provider-ini'
-import { dialogueAudioSrc } from '../lib/audio/dialogue-path.ts'
+import {
+  dialogueAudioSrc,
+  grammarAudioSrc,
+  practiceAudioSrc,
+  practiceSpeechText,
+  vocabAudioSrc,
+} from '../lib/audio/dialogue-path.ts'
 import { assemblePlan } from '../lib/curriculum/assemble.ts'
 import { BUILTIN_DAYS } from '../lib/curriculum/builtin-days.ts'
 import type { DayPlan } from '../lib/curriculum/types.ts'
@@ -71,7 +82,10 @@ function awsProfile() {
   return process.env.AWS_PROFILE || AWS_PROFILE_NAME
 }
 
+type AudioSection = 'vocab' | 'grammar' | 'dialogue' | 'practice'
+
 type ManifestLine = {
+  section?: AudioSection
   index: number
   speaker: string
   spanish: string
@@ -96,6 +110,7 @@ type Manifest = {
 type Job = {
   day: number
   title: string
+  section: AudioSection
   index: number
   speaker: string
   spanish: string
@@ -174,8 +189,35 @@ async function loadPlan(): Promise<DayPlan[]> {
   if (sources.length === 0) {
     throw new Error(`No plan.json files under ${spanishDir}`)
   }
-  console.log(`dialogues from ${sources.map((entry) => entry.source).join(', ')}`)
+  console.log(`plans from ${sources.map((entry) => entry.source).join(', ')}`)
   return assemblePlan(sources, BUILTIN_DAYS)
+}
+
+function clipJob(
+  day: DayPlan,
+  section: AudioSection,
+  index: number,
+  speaker: string,
+  text: string,
+  voice: PollyVoice,
+  relativeFile: string,
+): Job {
+  const spanish = text.trim()
+  const where = `Day ${day.day} ${section} ${speaker}`
+  if (!spanish) throw new Error(`${where} is empty`)
+  if (spanish.length > 3000) throw new Error(`${where} is over Polly's 3000 character limit`)
+  return {
+    day: day.day,
+    title: day.title,
+    section,
+    index,
+    speaker,
+    spanish,
+    voice,
+    relativeFile,
+    absoluteFile: join(root, 'public', relativeFile.slice(1)),
+    textHash: textHash(voice, spanish),
+  }
 }
 
 function buildJobs(plan: DayPlan[], dayFilter: Set<number>): Job[] {
@@ -183,32 +225,38 @@ function buildJobs(plan: DayPlan[], dayFilter: Set<number>): Job[] {
 
   for (const day of plan) {
     if (dayFilter.size > 0 && !dayFilter.has(day.day)) continue
+
+    day.phrases.forEach((phrase, index) => {
+      jobs.push(clipJob(day, 'vocab', index, phrase.id, phrase.spanish, SERGIO, vocabAudioSrc(day.day, index)))
+    })
+
+    day.grammar.points.forEach((point, pointIndex) => {
+      point.examples.forEach((example, exampleIndex) => {
+        jobs.push(
+          clipJob(
+            day,
+            'grammar',
+            exampleIndex,
+            `${pointIndex}.${exampleIndex}`,
+            example.spanish,
+            SERGIO,
+            grammarAudioSrc(day.day, pointIndex, exampleIndex),
+          ),
+        )
+      })
+    })
+
     const seen = new Map<string, VoiceId>()
-
     day.dialogue.lines.forEach((line, index) => {
-      const spanish = line.spanish.trim()
-      if (!spanish) throw new Error(`Day ${day.day} line ${index} is empty`)
-      if (spanish.length > 3000) throw new Error(`Day ${day.day} line ${index} is over Polly's 3000 character limit`)
-
       const voice = voiceFor(line.speaker)
       const previous = seen.get(line.speaker)
       if (previous && previous !== voice.voiceId) {
         throw new Error(`Day ${day.day}: ${line.speaker} is mapped to more than one voice`)
       }
       seen.set(line.speaker, voice.voiceId)
-
-      const relativeFile = dialogueAudioSrc(day.day, index, line.speaker)
-      jobs.push({
-        day: day.day,
-        title: day.dialogue.title,
-        index,
-        speaker: line.speaker,
-        spanish,
-        voice,
-        relativeFile,
-        absoluteFile: join(root, 'public', relativeFile.slice(1)),
-        textHash: textHash(voice, spanish),
-      })
+      jobs.push(
+        clipJob(day, 'dialogue', index, line.speaker, line.spanish, voice, dialogueAudioSrc(day.day, index, line.speaker)),
+      )
     })
 
     const speakers = [...seen.entries()]
@@ -216,9 +264,15 @@ function buildJobs(plan: DayPlan[], dayFilter: Set<number>): Job[] {
       const clash = speakers.map(([speaker, voiceId]) => `${speaker}=${voiceId}`).join(', ')
       throw new Error(`Day ${day.day} gives two speakers the same voice (${clash})`)
     }
+
+    day.practice.starters.forEach((line, index) => {
+      jobs.push(
+        clipJob(day, 'practice', index, String(index), practiceSpeechText(line), SERGIO, practiceAudioSrc(day.day, index)),
+      )
+    })
   }
 
-  if (jobs.length === 0) throw new Error('No dialogue lines matched. Check --day.')
+  if (jobs.length === 0) throw new Error('No lines matched. Check --day.')
   return jobs
 }
 
@@ -344,6 +398,7 @@ function manifestFrom(jobs: Job[], selectedRegion: string, existing: Manifest | 
     const entry = days[key] ?? { title: job.title, lines: [] }
     entry.title = job.title
     entry.lines.push({
+      section: job.section,
       index: job.index,
       speaker: job.speaker,
       spanish: job.spanish,
@@ -355,8 +410,14 @@ function manifestFrom(jobs: Job[], selectedRegion: string, existing: Manifest | 
     days[key] = entry
   }
 
+  const sectionOrder: Record<AudioSection, number> = { vocab: 0, grammar: 1, dialogue: 2, practice: 3 }
   for (const entry of Object.values(days)) {
-    entry.lines.sort((a, b) => a.index - b.index)
+    entry.lines.sort(
+      (a, b) =>
+        sectionOrder[a.section ?? 'dialogue'] - sectionOrder[b.section ?? 'dialogue'] ||
+        a.index - b.index ||
+        a.file.localeCompare(b.file),
+    )
   }
 
   return {
@@ -387,7 +448,7 @@ async function main() {
   if (client) await assertVoicesAvailable(client, jobs)
 
   for (const job of jobs) {
-    const label = `day ${job.day} ${job.speaker} (${job.voice.voiceId})`
+    const label = `day ${job.day} ${job.section} ${job.speaker} (${job.voice.voiceId})`
     const previous = previousLine(existing, job)
     const unchanged = !force && previous?.textHash === job.textHash && (await fileExists(job.absoluteFile))
     if (unchanged) {
