@@ -1,0 +1,62 @@
+{
+  "day": 21,
+  "title": "Week three review",
+  "isReview": true,
+  "vocabFocus": "Revise days 15–20",
+  "grammarFocus": "Only what you can already say",
+  "listenFocus": "Re-listen to a dialogue from this week",
+  "practiceFocus": "Speak for 5–10 minutes entirely in Spanish",
+  "grammar": {
+    "points": [
+      {
+        "title": "Nothing new",
+        "rule": "Reuse only what you can already say. Full tener, querer, ir, and hacer for any person. Puedo, empiezo, pido, and duermo for the stem-changers. Lo, la, los, and las for things already mentioned. Me gusta, me gustan, me duele, and me duelen. Mi, tu, su, and nuestro, plus este, ese, and aquel. Más que, tan como, and el or la más for comparing. If a sentence needs anything else, use a chunk you know.",
+        "examples": [
+          { "spanish": "Tiene que… Tienen que…", "english": "Obligation, any person." },
+          { "spanish": "Puedo… Empiezo… Pido… Duermo…", "english": "The stem-changers." },
+          { "spanish": "Lo tengo. La veo.", "english": "Object pronouns." },
+          { "spanish": "Me gusta… Me gustan… Me duele… Me duelen…", "english": "Likes and aches." },
+          { "spanish": "Mi… Tu… Su… Nuestro…", "english": "Possession." },
+          { "spanish": "Es más… que… Es tan… como…", "english": "Comparing." }
+        ]
+      }
+    ],
+    "notYet": "Any new tense or pattern. Today is for speaking, not a new chart."
+  },
+  "phrases": [
+    { "id": "d21-1", "spanish": "Mi amiga tiene que trabajar, pero quiere venir.", "english": "My friend has to work, but she wants to come." },
+    { "id": "d21-2", "spanish": "Cuando hace frío, no puedo dormir bien.", "english": "When it is cold, I can’t sleep well." },
+    { "id": "d21-3", "spanish": "¿Tienes mi número? Sí, lo tengo.", "english": "Do you have my number? Yes, I have it." },
+    { "id": "d21-4", "spanish": "Me gustan los fines de semana tranquilos.", "english": "I like quiet weekends." },
+    { "id": "d21-5", "spanish": "Me duele la cabeza hoy.", "english": "My head hurts today." },
+    { "id": "d21-6", "spanish": "Esta es mi casa. Esa es la de mis padres.", "english": "This is my house. That one is my parents’." },
+    { "id": "d21-7", "spanish": "Mi trabajo es más difícil que el tuyo… bueno, que el otro.", "english": "My job is harder than the other one." },
+    { "id": "d21-8", "spanish": "Es el mejor café de la ciudad.", "english": "It is the best coffee in the city." }
+  ],
+  "dialogue": {
+    "title": "Three weeks in",
+    "lines": [
+      { "speaker": "Alex", "spanish": "Este mes tengo que trabajar mucho, pero también quiero descansar.", "english": "This month I have to work a lot, but I also want to rest." },
+      { "speaker": "Sofía", "spanish": "¿Qué tal el nuevo trabajo?", "english": "How is the new job?" },
+      { "speaker": "Alex", "spanish": "Me gusta, pero a veces me duele la espalda de estar sentado.", "english": "I like it, but sometimes my back hurts from sitting." },
+      { "speaker": "Sofía", "spanish": "¿Puedes tomar descansos?", "english": "Can you take breaks?" },
+      { "speaker": "Alex", "spanish": "Sí, y mi jefe es más flexible que el anterior. Empiezo más tarde ahora.", "english": "Yes, and my boss is more flexible than the previous one. I start later now." }
+    ]
+  },
+  "practice": {
+    "title": "Ten minutes, weeks one to three",
+    "instruction": "Speak for five to ten minutes without switching to English. Cover a friend’s plans, the weather and one thing it affects, one item you have or don’t have, two likes and one ache, and one comparison.",
+    "starters": [
+      "Mi amigo/a tiene…",
+      "Hoy hace… y puedo / no puedo…",
+      "¿Lo tengo? Sí / No…",
+      "Me gusta… Me gustan… Me duele… Me duelen…",
+      "…es más… que…"
+    ],
+    "tips": [
+      "Keep going even if a form slips.",
+      "Reuse a chunk from weeks one or two if you get stuck."
+    ],
+    "speakMinutes": 8
+  }
+}

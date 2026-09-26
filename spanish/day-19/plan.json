@@ -1,0 +1,92 @@
+{
+  "day": 19,
+  "title": "Possession and pointing",
+  "isReview": false,
+  "vocabFocus": "tu, su, nuestro; este, ese, aquel",
+  "grammarFocus": "Possessives and demonstratives",
+  "listenFocus": "Two people comparing their belongings",
+  "practiceFocus": "Describe your things versus someone else’s, and point to three objects",
+  "grammar": {
+    "points": [
+      {
+        "title": "More owners, and three distances",
+        "rule": "Day 6 only used mi and mis. Tu and tus mean your. Su and sus mean his, her, or their. Nuestro matches gender and number: nuestro, nuestra, nuestros, nuestras. Mi, tu, and su only match number. Este and esta are near you, ese and esa are near the listener, and aquel and aquella are far from both.",
+        "examples": [
+          { "spanish": "¿Es tu coche?", "english": "Is that your car?" },
+          { "spanish": "Nuestra familia es pequeña.", "english": "Our family is small. Nuestra matches familia." },
+          { "spanish": "Este libro es interesante.", "english": "This book is near me." },
+          { "spanish": "Esa camisa es bonita. Aquella casa es de mis vecinos.", "english": "Esa is near the listener. Aquella is far from both." }
+        ]
+      }
+    ],
+    "notYet": "The long possessive forms used after the noun, like es mío."
+  },
+  "phrases": [
+    { "id": "d19-1", "spanish": "¿Es tu coche?", "english": "Is that your car?" },
+    { "id": "d19-2", "spanish": "Su casa es muy grande.", "english": "His, her, or their house is very big." },
+    {
+      "id": "d19-3",
+      "spanish": "Nuestro equipo gana siempre.",
+      "english": "Our team always wins.",
+      "note": "Nuestro matches equipo, masculine."
+    },
+    {
+      "id": "d19-4",
+      "spanish": "Nuestra familia es pequeña.",
+      "english": "Our family is small.",
+      "note": "Reuses the day 6 fact, now with nuestra."
+    },
+    { "id": "d19-5", "spanish": "¿Dónde están tus llaves?", "english": "Where are your keys?" },
+    { "id": "d19-6", "spanish": "Sus hijos viven en Chile.", "english": "Their children live in Chile." },
+    {
+      "id": "d19-7",
+      "spanish": "Este libro es interesante.",
+      "english": "This book is interesting.",
+      "note": "Este is near you."
+    },
+    {
+      "id": "d19-8",
+      "spanish": "Esa camisa es bonita.",
+      "english": "That shirt is nice.",
+      "note": "Near the listener."
+    },
+    {
+      "id": "d19-9",
+      "spanish": "Aquellos edificios son antiguos.",
+      "english": "Those buildings over there are old.",
+      "note": "Far from both."
+    },
+    {
+      "id": "d19-10",
+      "spanish": "¿Te gusta esta canción?",
+      "english": "Do you like this song?",
+      "note": "Combines day 18’s gustar."
+    },
+    { "id": "d19-11", "spanish": "Prefiero esta a esa.", "english": "I prefer this one to that one." },
+    { "id": "d19-12", "spanish": "Nuestros amigos llegan mañana.", "english": "Our friends arrive tomorrow." }
+  ],
+  "dialogue": {
+    "title": "Comparing houses",
+    "lines": [
+      { "speaker": "Elena", "spanish": "Esta es nuestra casa. Es pequeña, pero nos gusta.", "english": "This is our house. It is small, but we like it." },
+      { "speaker": "Alex", "spanish": "Es muy bonita. ¿Y esa casa de allí, la grande?", "english": "It is very nice. And that house over there, the big one?" },
+      { "speaker": "Elena", "spanish": "Aquella casa es de mis vecinos. Su jardín es enorme.", "english": "That house belongs to my neighbours. Their garden is huge." },
+      { "speaker": "Alex", "spanish": "¿Tu jardín es este?", "english": "Is this your garden?" },
+      { "speaker": "Elena", "spanish": "Sí, este es nuestro jardín. Es pequeño, pero suficiente.", "english": "Yes, this is our garden. It is small, but enough." }
+    ]
+  },
+  "practice": {
+    "title": "Yours, mine, and pointing",
+    "instruction": "Describe two of your things using mi or mis, then two things that belong to someone else using su, sus, or nuestro. Then point to three objects: one near you, one near the listener, one far away, using este, ese, and aquel.",
+    "starters": [
+      "Mi… es…",
+      "Su… es…",
+      "Nuestro/a… es…",
+      "Este/a… / Ese/a… / Aquel/aquella…"
+    ],
+    "tips": [
+      "Match nuestro to the noun’s gender and number, like an -o or -a adjective.",
+      "Mi, tu, and su only match number."
+    ]
+  }
+}

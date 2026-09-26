@@ -1,0 +1,66 @@
+{
+  "day": 24,
+  "title": "Childhood",
+  "isReview": false,
+  "vocabFocus": "Games, school, habits",
+  "grammarFocus": "The imperfect",
+  "listenFocus": "Someone describing what they were like as a child",
+  "practiceFocus": "Describe three things you used to do as a child",
+  "grammar": {
+    "points": [
+      {
+        "title": "What used to happen, not what happened once",
+        "rule": "The preterite from days 13, 22, and 23 tells a finished event. The imperfect describes a habit, a background state, or something repeated, with no clear end. -ar verbs use -aba, -abas, -aba, -ábamos, -aban. -er and -ir verbs share -ía, -ías, -ía, -íamos, -ían. Ser is irregular: era, eras, era, éramos, eran. Cuando era niño or cuando era niña usually starts these stories.",
+        "examples": [
+          { "spanish": "jugaba, jugabas, jugaba, jugábamos, jugaban", "english": "jugar, -ar imperfect" },
+          { "spanish": "vivía, vivías, vivía, vivíamos, vivían", "english": "vivir, -er and -ir imperfect" },
+          { "spanish": "era, eras, era, éramos, eran", "english": "ser, irregular" },
+          { "spanish": "Cuando era niño, jugaba en el parque.", "english": "When I was a child, I used to play in the park." }
+        ]
+      }
+    ],
+    "notYet": "Ir and ver in the imperfect (iba, veía). Keep the story to jugar, vivir, ser, and verbs you already know from days 9 and 10."
+  },
+  "phrases": [
+    { "id": "d24-1", "spanish": "Cuando era niño, jugaba en el parque.", "english": "When I was a child, I used to play in the park." },
+    { "id": "d24-2", "spanish": "Vivíamos en un pueblo pequeño.", "english": "We used to live in a small town." },
+    { "id": "d24-3", "spanish": "Mis padres trabajaban mucho.", "english": "My parents used to work a lot." },
+    { "id": "d24-4", "spanish": "Ella era muy tímida de pequeña.", "english": "She was very shy as a child." },
+    { "id": "d24-5", "spanish": "Estudiábamos por la tarde.", "english": "We used to study in the afternoon." },
+    { "id": "d24-6", "spanish": "Mi hermano y yo jugábamos todos los días.", "english": "My brother and I used to play every day." },
+    { "id": "d24-7", "spanish": "Comía mucho helado.", "english": "I used to eat a lot of ice cream." },
+    { "id": "d24-8", "spanish": "Mi abuela cocinaba todos los domingos.", "english": "My grandmother used to cook every Sunday." },
+    {
+      "id": "d24-9",
+      "spanish": "No tenía teléfono.",
+      "english": "I didn’t have a phone back then.",
+      "note": "Tenía is the imperfect of tengo. Learn it with this sentence."
+    },
+    { "id": "d24-10", "spanish": "Era muy feliz en esa época.", "english": "I was very happy in that time." }
+  ],
+  "dialogue": {
+    "title": "Remembering childhood",
+    "lines": [
+      { "speaker": "Lucía", "spanish": "¿Cómo eras de niña?", "english": "What were you like as a child?" },
+      { "speaker": "Alex", "spanish": "Era muy tímido. Jugaba solo casi siempre.", "english": "I was very shy. I used to play alone almost always." },
+      { "speaker": "Lucía", "spanish": "¿Dónde vivías?", "english": "Where did you use to live?" },
+      { "speaker": "Alex", "spanish": "Vivíamos en un pueblo cerca de la montaña. Mi padre trabajaba allí.", "english": "We used to live in a town near the mountains. My father worked there." },
+      { "speaker": "Lucía", "spanish": "¿Y qué hacíais los fines de semana?", "english": "And what did you all do on weekends?" },
+      { "speaker": "Alex", "spanish": "Íbamos al río y comíamos al aire libre. Era muy tranquilo.", "english": "We used to go to the river and eat outdoors. It was very peaceful." }
+    ]
+  },
+  "practice": {
+    "title": "Three childhood habits",
+    "instruction": "Describe three things you used to do as a child, or what you were like, using the imperfect. Start with cuando era niño or cuando era niña.",
+    "starters": [
+      "Cuando era niño/a…",
+      "Jugaba a…",
+      "Vivíamos en…",
+      "Era muy…"
+    ],
+    "tips": [
+      "The imperfect describes a stretch of time, not a single moment.",
+      "That is the difference from the preterite."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "day": 18,
+  "title": "Gustar, and things that hurt",
+  "isReview": false,
+  "vocabFocus": "me gusta / gustan, doler; body parts",
+  "grammarFocus": "Indirect object pronouns",
+  "listenFocus": "Someone describing likes and a minor ailment",
+  "practiceFocus": "Describe three likes or dislikes and one ache",
+  "grammar": {
+    "points": [
+      {
+        "title": "Gustar works backwards",
+        "rule": "Day 9 only used me gusta with one thing or one verb. The thing you like is the subject, so a plural thing needs gustan, not gusta. The person who likes it comes first: me, te, le, nos, les. Doler, encantar, and interesar follow the same pattern.",
+        "examples": [
+          { "spanish": "Me gusta el café. Me gustan los libros.", "english": "One thing uses gusta. More than one uses gustan." },
+          { "spanish": "Te gusta. Le gusta. Nos gusta. Les gusta.", "english": "The person who likes it comes first." },
+          { "spanish": "Me duele la cabeza.", "english": "My head hurts." },
+          { "spanish": "Le duelen los pies.", "english": "His or her feet hurt. Plural, so duelen." }
+        ]
+      }
+    ],
+    "notYet": "Gustaría, and combining gustar with the pronouns from day 17."
+  },
+  "phrases": [
+    {
+      "id": "d18-1",
+      "spanish": "Me gustan los libros de historia.",
+      "english": "I like history books.",
+      "note": "Plural thing, so gustan."
+    },
+    { "id": "d18-2", "spanish": "Le gusta el fútbol.", "english": "He or she likes football." },
+    { "id": "d18-3", "spanish": "Nos gustan las playas tranquilas.", "english": "We like quiet beaches." },
+    { "id": "d18-4", "spanish": "¿Te gustan los animales?", "english": "Do you like animals?" },
+    {
+      "id": "d18-5",
+      "spanish": "Les encanta viajar.",
+      "english": "They love travelling.",
+      "note": "Encantar, same pattern as gustar."
+    },
+    {
+      "id": "d18-6",
+      "spanish": "Me interesa el arte moderno.",
+      "english": "I am interested in modern art.",
+      "note": "Interesar, same pattern as gustar."
+    },
+    {
+      "id": "d18-7",
+      "spanish": "Me duele la cabeza.",
+      "english": "My head hurts.",
+      "note": "Doler, same pattern. Body parts: la cabeza, el estómago, la garganta, la espalda, el pie, el brazo, la mano."
+    },
+    {
+      "id": "d18-8",
+      "spanish": "Le duelen los pies.",
+      "english": "His or her feet hurt.",
+      "note": "Plural body part, so duelen."
+    },
+    { "id": "d18-9", "spanish": "¿Te duele el estómago?", "english": "Does your stomach hurt?" },
+    { "id": "d18-10", "spanish": "Nos duele la espalda después de correr.", "english": "Our backs hurt after running." },
+    { "id": "d18-11", "spanish": "No me gusta nada el ruido.", "english": "I don’t like noise at all." },
+    {
+      "id": "d18-12",
+      "spanish": "Tengo que ir al médico.",
+      "english": "I have to go to the doctor.",
+      "note": "Ties into day 29."
+    }
+  ],
+  "dialogue": {
+    "title": "How are you feeling",
+    "lines": [
+      { "speaker": "Diego", "spanish": "¿Qué tal? Te veo cansado.", "english": "How are you? You look tired." },
+      { "speaker": "Alex", "spanish": "Me duele un poco la cabeza. Y me duele la espalda.", "english": "My head hurts a bit. And my back hurts." },
+      { "speaker": "Diego", "spanish": "¿Te gusta el té de manzanilla? Ayuda con el dolor.", "english": "Do you like chamomile tea? It helps with the pain." },
+      { "speaker": "Alex", "spanish": "Sí, me gusta mucho. ¿Tienes?", "english": "Yes, I like it a lot. Do you have any?" },
+      { "speaker": "Diego", "spanish": "Sí. A mí también me duelen los pies. Caminé mucho hoy.", "english": "Yes. My feet hurt too. I walked a lot today." }
+    ]
+  },
+  "practice": {
+    "title": "Likes and one ache",
+    "instruction": "Say three things you like or don’t like. Mix one singular thing and one plural thing, using me gusta and me gustan. Then say one thing that hurts, using me duele or me duelen.",
+    "starters": [
+      "Me gusta… / No me gusta…",
+      "Me gustan… / No me gustan…",
+      "Me duele… / Me duelen…"
+    ],
+    "tips": [
+      "Check the noun’s number before you choose gusta or gustan.",
+      "The pattern follows the thing, not the person."
+    ]
+  }
+}

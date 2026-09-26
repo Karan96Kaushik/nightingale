@@ -1,0 +1,62 @@
+{
+  "day": 22,
+  "title": "A trip — regular past",
+  "isReview": false,
+  "vocabFocus": "viajar, visitar, llegar, salir",
+  "grammarFocus": "Full regular preterite",
+  "listenFocus": "Someone recounting a trip",
+  "practiceFocus": "Tell a short trip story using four verbs and persons",
+  "grammar": {
+    "points": [
+      {
+        "title": "The full chart, from the day 13 chunks",
+        "rule": "Day 13 only gave the yo form of a handful of verbs: comí, trabajé, cené. Now every person of a regular verb follows one of two patterns. -ar verbs use -é, -aste, -ó, -amos, -aron. -er and -ir verbs share -í, -iste, -ió, -imos, -ieron. Visitar and llegar follow viajar. Comer follows the same pattern as salir.",
+        "examples": [
+          { "spanish": "viajé, viajaste, viajó, viajamos, viajaron", "english": "-ar: é, aste, ó, amos, aron" },
+          { "spanish": "salí, saliste, salió, salimos, salieron", "english": "-ir: í, iste, ió, imos, ieron" },
+          { "spanish": "comí, comiste, comió, comimos, comieron", "english": "comer, the same -er pattern as salir" },
+          { "spanish": "Viajé a España. Llegamos tarde.", "english": "I travelled. We arrived." }
+        ]
+      }
+    ],
+    "notYet": "Verbs that change spelling in the yo form (llegué, not llegé), and the irregular verbs from day 23."
+  },
+  "phrases": [
+    { "id": "d22-1", "spanish": "Viajé a España el año pasado.", "english": "I travelled to Spain last year." },
+    { "id": "d22-2", "spanish": "¿Visitaste el museo?", "english": "Did you visit the museum?" },
+    { "id": "d22-3", "spanish": "Llegamos tarde al aeropuerto.", "english": "We arrived late at the airport." },
+    { "id": "d22-4", "spanish": "Mis padres viajaron a Perú.", "english": "My parents travelled to Peru." },
+    { "id": "d22-5", "spanish": "Salieron del hotel a las ocho.", "english": "They left the hotel at eight." },
+    { "id": "d22-6", "spanish": "¿A qué hora llegaste?", "english": "What time did you arrive?" },
+    { "id": "d22-7", "spanish": "Comimos en un restaurante local.", "english": "We ate at a local restaurant." },
+    { "id": "d22-8", "spanish": "Visitamos tres ciudades en una semana.", "english": "We visited three cities in one week." },
+    { "id": "d22-9", "spanish": "Salí de casa muy temprano.", "english": "I left home very early." },
+    { "id": "d22-10", "spanish": "Ella llegó antes que nosotros.", "english": "She arrived before us." }
+  ],
+  "dialogue": {
+    "title": "Telling a friend about the trip",
+    "lines": [
+      { "speaker": "Marta", "spanish": "¿Cómo fue tu viaje?", "english": "How was your trip?" },
+      { "speaker": "Alex", "spanish": "Viajé a Portugal con mi familia. Visitamos Lisboa y Oporto.", "english": "I travelled to Portugal with my family. We visited Lisbon and Porto." },
+      { "speaker": "Marta", "spanish": "¿Llegasteis… perdón, llegaron bien?", "english": "Did you all arrive OK?" },
+      { "speaker": "Alex", "spanish": "Sí. Llegamos tarde el primer día, pero después todo fue bien.", "english": "Yes. We arrived late the first day, but after that everything was fine." },
+      { "speaker": "Marta", "spanish": "¿Comisteis bien?", "english": "Did you eat well?" },
+      { "speaker": "Alex", "spanish": "Comimos mucho pescado. Salimos a caminar todas las tardes.", "english": "We ate a lot of fish. We went out walking every afternoon." }
+    ]
+  },
+  "practice": {
+    "title": "A short trip story",
+    "instruction": "Tell the story of a real or imagined trip in four or five sentences. Use viajé or viajamos, visité or visitamos, llegué or llegamos, and salí or salimos. Mix yo and nosotros, and add one él/ella or ellos sentence about someone else on the trip.",
+    "starters": [
+      "Viajé a…",
+      "Visitamos…",
+      "Llegamos…",
+      "Salimos…",
+      "Mi amigo/a llegó… / Mis amigos llegaron…"
+    ],
+    "tips": [
+      "Say the ending out loud before the whole sentence: -é or -amos, -í or -imos.",
+      "The ending carries the person."
+    ]
+  }
+}

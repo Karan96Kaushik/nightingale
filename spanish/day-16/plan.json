@@ -1,0 +1,77 @@
+{
+  "day": 16,
+  "title": "Stem-changing verbs",
+  "isReview": false,
+  "vocabFocus": "poder, empezar, pedir, dormir; weather",
+  "grammarFocus": "e→ie, o→ue, e→i",
+  "listenFocus": "A forecast and a weekend conversation",
+  "practiceFocus": "Describe today’s weather and one plan it affects",
+  "grammar": {
+    "points": [
+      {
+        "title": "The middle vowel changes, the endings don’t",
+        "rule": "These verbs use the same endings as day 10, but the stressed vowel in the middle shifts. Poder and dormir change o to ue. Empezar and querer change e to ie. Pedir changes e to i. Nosotros keeps the original vowel, because that syllable is not stressed.",
+        "examples": [
+          { "spanish": "puedo, puedes, puede, podemos, pueden", "english": "poder: o→ue" },
+          { "spanish": "empiezo, empiezas, empieza, empezamos, empiezan", "english": "empezar: e→ie" },
+          { "spanish": "pido, pides, pide, pedimos, piden", "english": "pedir: e→i" },
+          { "spanish": "duermo, duermes, duerme, dormimos, duermen", "english": "dormir: o→ue, like poder" }
+        ]
+      }
+    ],
+    "notYet": "Every stem-changing verb that exists. Learn these four and add more the same way when you meet them."
+  },
+  "phrases": [
+    {
+      "id": "d16-1",
+      "spanish": "Hace calor hoy.",
+      "english": "It is hot today.",
+      "note": "Weather: hace calor, hace frío, hace sol, hace viento, llueve, nieva, está nublado."
+    },
+    { "id": "d16-2", "spanish": "Llueve mucho en abril.", "english": "It rains a lot in April." },
+    { "id": "d16-3", "spanish": "Cuando llueve, no puedo salir.", "english": "When it rains, I can’t go out." },
+    { "id": "d16-4", "spanish": "¿Puedes venir mañana?", "english": "Can you come tomorrow?" },
+    {
+      "id": "d16-5",
+      "spanish": "Empiezo a trabajar a las nueve.",
+      "english": "I start work at nine.",
+      "note": "Combines with the day 2 clock."
+    },
+    { "id": "d16-6", "spanish": "La clase empieza pronto.", "english": "The class starts soon." },
+    { "id": "d16-7", "spanish": "Pido ayuda si la necesito.", "english": "I ask for help if I need it." },
+    {
+      "id": "d16-8",
+      "spanish": "¿Qué pides normalmente?",
+      "english": "What do you usually order?",
+      "note": "Reuses the day 5 restaurant scene."
+    },
+    { "id": "d16-9", "spanish": "Duermo ocho horas.", "english": "I sleep eight hours." },
+    { "id": "d16-10", "spanish": "No duerme bien cuando hace calor.", "english": "He or she doesn’t sleep well when it’s hot." },
+    { "id": "d16-11", "spanish": "Podemos ir el sábado si no llueve.", "english": "We can go Saturday if it doesn’t rain." },
+    { "id": "d16-12", "spanish": "Nieva en las montañas.", "english": "It snows in the mountains." }
+  ],
+  "dialogue": {
+    "title": "Weekend weather",
+    "lines": [
+      { "speaker": "Sara", "spanish": "¿Qué tiempo hace hoy?", "english": "What’s the weather like today?" },
+      { "speaker": "Alex", "spanish": "Hace sol, pero dicen que llueve mañana.", "english": "It’s sunny, but they say it will rain tomorrow." },
+      { "speaker": "Sara", "spanish": "Entonces, ¿podemos ir a la playa hoy?", "english": "So, can we go to the beach today?" },
+      { "speaker": "Alex", "spanish": "Sí. Yo empiezo a trabajar a las tres, pero antes puedo ir.", "english": "Yes. I start work at three, but I can go before that." },
+      { "speaker": "Sara", "spanish": "Perfecto. Si llueve mañana, pedimos comida y dormimos hasta tarde.", "english": "Perfect. If it rains tomorrow, we will order food and sleep in." }
+    ]
+  },
+  "practice": {
+    "title": "Weather and a plan",
+    "instruction": "Say what the weather is like today. Then say one plan that depends on it, using at least two stem-changing verbs: puedo, empiezo, pido, duermo.",
+    "starters": [
+      "Hoy hace…",
+      "Cuando llueve / hace sol…",
+      "Puedo… / No puedo…",
+      "Empiezo a…"
+    ],
+    "tips": [
+      "Say the whole verb out loud, not just the infinitive.",
+      "Puedo, not poder. Empiezo, not empezar."
+    ]
+  }
+}

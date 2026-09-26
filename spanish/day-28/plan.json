@@ -1,0 +1,60 @@
+{
+  "day": 28,
+  "title": "Week four review",
+  "isReview": true,
+  "vocabFocus": "Revise days 22–27",
+  "grammarFocus": "Only what you can already say",
+  "listenFocus": "Re-listen to a story from this week",
+  "practiceFocus": "Speak for 5–10 minutes entirely in Spanish",
+  "grammar": {
+    "points": [
+      {
+        "title": "Nothing new",
+        "rule": "Reuse only what you can already say. Regular preterite for a trip: viajé, viajamos, salió, salieron. The four irregular preterites in every person: fui, hice, tuve, estuve. The imperfect for background and habit: jugaba, vivíamos, era. Both together: estaba… cuando…. Commands: corta, no cocines, hable. The future: viajaré, tendré, haré.",
+        "examples": [
+          { "spanish": "Viajé a… Visitamos… Llegaron…", "english": "The regular past." },
+          { "spanish": "Fui… Hice… Tuve… Estuve…", "english": "The irregular past." },
+          { "spanish": "Jugaba… Vivíamos… Era…", "english": "The imperfect." },
+          { "spanish": "Estaba… cuando…", "english": "Both pasts together." },
+          { "spanish": "Corta… No cocines… Hable…", "english": "Instructions." },
+          { "spanish": "Viajaré… Tendré… Haré…", "english": "The future." }
+        ]
+      }
+    ],
+    "notYet": "Any new tense or pattern. Today is for speaking, not a new chart."
+  },
+  "phrases": [
+    { "id": "d28-1", "spanish": "El año pasado viajé a Portugal con mi familia.", "english": "Last year I travelled to Portugal with my family." },
+    { "id": "d28-2", "spanish": "Fuimos a la playa e hizo mucho sol.", "english": "We went to the beach and it was very sunny." },
+    { "id": "d28-3", "spanish": "Cuando era niño, vivía cerca del mar.", "english": "When I was a child, I used to live near the sea." },
+    { "id": "d28-4", "spanish": "Estaba durmiendo cuando llegaron mis amigos.", "english": "I was asleep when my friends arrived." },
+    { "id": "d28-5", "spanish": "Corta la fruta y añade un poco de azúcar.", "english": "Cut the fruit and add a bit of sugar." },
+    { "id": "d28-6", "spanish": "El próximo año viajaré más y trabajaré menos.", "english": "Next year I will travel more and work less." }
+  ],
+  "dialogue": {
+    "title": "A month in review",
+    "lines": [
+      { "speaker": "Alex", "spanish": "Este mes viajé a la costa. Hizo un tiempo increíble.", "english": "This month I travelled to the coast. The weather was amazing." },
+      { "speaker": "Marta", "spanish": "¡Qué bien! ¿Fuiste solo?", "english": "Great. Did you go alone?" },
+      { "speaker": "Alex", "spanish": "No, fui con mi hermano. Cuando éramos niños, íbamos allí cada verano.", "english": "No, I went with my brother. When we were kids, we used to go there every summer." },
+      { "speaker": "Marta", "spanish": "¿Y el próximo mes?", "english": "And next month?" },
+      { "speaker": "Alex", "spanish": "Tendré más trabajo, pero también viajaré a ver a mis padres.", "english": "I will have more work, but I will also travel to see my parents." }
+    ]
+  },
+  "practice": {
+    "title": "Ten minutes, a month of change",
+    "instruction": "Speak for five to ten minutes. Cover a past trip or event, one childhood memory, a short anecdote combining both pasts, one instruction or piece of advice, and one plan for next year.",
+    "starters": [
+      "El mes pasado…",
+      "Cuando era niño/a…",
+      "Estaba… cuando…",
+      "Ten cuidado con… / No…",
+      "El próximo año…"
+    ],
+    "tips": [
+      "Move between tenses without stopping to name them.",
+      "If you are not sure which past to use, ask whether this is the event or the background."
+    ],
+    "speakMinutes": 8
+  }
+}

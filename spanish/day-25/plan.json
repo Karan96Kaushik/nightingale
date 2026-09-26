@@ -1,0 +1,66 @@
+{
+  "day": 25,
+  "title": "Telling a story",
+  "isReview": false,
+  "vocabFocus": "Background and event together",
+  "grammarFocus": "Preterite with imperfect",
+  "listenFocus": "A short anecdote using both pasts",
+  "practiceFocus": "Tell an anecdote combining both",
+  "grammar": {
+    "points": [
+      {
+        "title": "Background paints the scene",
+        "rule": "Use the imperfect for what was going on: the weather, the time, how you felt, what you were doing. Use the preterite for the single thing that then happened. This is the same split as days 22 and 23 and day 24, now in one sentence. These sentence shapes are enough for now. Reuse them like the chunks in earlier weeks.",
+        "examples": [
+          { "spanish": "Estaba durmiendo cuando sonó el teléfono.", "english": "I was sleeping when the phone rang." },
+          { "spanish": "Hacía mucho frío cuando llegamos.", "english": "It was very cold when we arrived." },
+          { "spanish": "Estaba en el parque cuando empezó a llover.", "english": "I was in the park when it started to rain." },
+          { "spanish": "Éramos jóvenes cuando nos conocimos.", "english": "We were young when we met." }
+        ]
+      }
+    ],
+    "notYet": "The full range of past-tense combinations. These four sentence shapes are enough for now."
+  },
+  "phrases": [
+    {
+      "id": "d25-1",
+      "spanish": "Estaba trabajando cuando llamaste.",
+      "english": "I was working when you called.",
+      "note": "Estar plus -ando or -iendo, from estoy on day 11."
+    },
+    { "id": "d25-2", "spanish": "Hacía calor cuando salimos de casa.", "english": "It was hot when we left home." },
+    { "id": "d25-3", "spanish": "Éramos niños cuando esto pasó.", "english": "We were children when this happened." },
+    { "id": "d25-4", "spanish": "Vivía en Madrid cuando empecé a trabajar aquí.", "english": "I was living in Madrid when I started working here." },
+    { "id": "d25-5", "spanish": "Estábamos comiendo cuando se fue la luz.", "english": "We were eating when the power went out." },
+    { "id": "d25-6", "spanish": "Tenía diez años cuando viajé por primera vez.", "english": "I was ten when I travelled for the first time." },
+    { "id": "d25-7", "spanish": "El cielo estaba nublado cuando llegamos al hotel.", "english": "The sky was cloudy when we arrived at the hotel." },
+    { "id": "d25-8", "spanish": "Dormía cuando mis padres volvieron.", "english": "I was asleep when my parents came back." },
+    { "id": "d25-9", "spanish": "Hacíamos la cena cuando nos llamaron.", "english": "We were making dinner when they called us." },
+    { "id": "d25-10", "spanish": "Estaba cansado, así que me acosté temprano.", "english": "I was tired, so I went to bed early." }
+  ],
+  "dialogue": {
+    "title": "An anecdote",
+    "lines": [
+      { "speaker": "Pablo", "spanish": "¿Cómo conociste a tu pareja?", "english": "How did you meet your partner?" },
+      { "speaker": "Alex", "spanish": "Estaba en una cafetería cuando ella entró. Llovía mucho.", "english": "I was in a café when she came in. It was raining a lot." },
+      { "speaker": "Pablo", "spanish": "¡Qué historia! ¿Y qué pasó?", "english": "What a story. And what happened?" },
+      { "speaker": "Alex", "spanish": "No tenía paraguas, así que le ofrecí el mío. Hablamos toda la tarde.", "english": "She didn’t have an umbrella, so I offered her mine. We talked all afternoon." },
+      { "speaker": "Pablo", "spanish": "¿Cuántos años teníais?", "english": "How old were you both?" },
+      { "speaker": "Alex", "spanish": "Yo tenía veinticinco años. Ella era un poco más joven.", "english": "I was twenty-five. She was a bit younger." }
+    ]
+  },
+  "practice": {
+    "title": "Your own anecdote",
+    "instruction": "Tell a short true or invented anecdote. Set the scene with the imperfect: weather, time, what you were doing. Then say what happened with the preterite.",
+    "starters": [
+      "Estaba… cuando…",
+      "Hacía… cuando…",
+      "Tenía … años cuando…",
+      "Era / éramos… cuando…"
+    ],
+    "tips": [
+      "Picture what was already true, and what suddenly happened.",
+      "That split is the whole rule."
+    ]
+  }
+}

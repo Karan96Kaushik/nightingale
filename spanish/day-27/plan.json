@@ -1,0 +1,110 @@
+{
+  "day": 27,
+  "title": "Plans and predictions",
+  "isReview": false,
+  "vocabFocus": "Next year, the future",
+  "grammarFocus": "Regular and irregular future",
+  "listenFocus": "Two friends talking about next year",
+  "practiceFocus": "Describe three predictions or plans for next year",
+  "grammar": {
+    "points": [
+      {
+        "title": "Endings on the whole infinitive",
+        "rule": "Day 4 already covered the near future with ir plus a plus an infinitive: voy a viajar. This future adds -é, -ás, -á, -emos, -án straight onto the infinitive. A short list shortens the infinitive first and keeps the same endings: hacer → haré, tener → tendré, poder → podré, querer → querré, decir → diré, salir → saldré, venir → vendré.",
+        "examples": [
+          { "spanish": "viajaré, viajarás, viajará, viajaremos, viajarán", "english": "Regular: endings on the infinitive." },
+          { "spanish": "haré, harás, hará, haremos, harán", "english": "hacer, irregular stem har-" },
+          { "spanish": "tendré, tendrás, tendrá, tendremos, tendrán", "english": "tener, irregular stem tendr-" },
+          { "spanish": "podré, querré, diré, saldré, vendré", "english": "Other irregular stems. The endings never change." }
+        ]
+      }
+    ],
+    "notYet": "The conditional, such as viajaría. It uses the same irregular stems, with a different set of endings, and is not in these thirty days."
+  },
+  "phrases": [
+    {
+      "id": "d27-1",
+      "spanish": "Viajaré a Japón el próximo año.",
+      "english": "I will travel to Japan next year.",
+      "note": "Regular."
+    },
+    {
+      "id": "d27-2",
+      "spanish": "¿Qué harás este verano?",
+      "english": "What will you do this summer?",
+      "note": "Irregular stem, har-."
+    },
+    {
+      "id": "d27-3",
+      "spanish": "Tendremos una casa más grande algún día.",
+      "english": "We will have a bigger house someday.",
+      "note": "Irregular stem, tendr-."
+    },
+    {
+      "id": "d27-4",
+      "spanish": "Lloverá mañana por la tarde.",
+      "english": "It will rain tomorrow afternoon.",
+      "note": "Weather, regular."
+    },
+    {
+      "id": "d27-5",
+      "spanish": "Mis padres vendrán a visitarnos.",
+      "english": "My parents will come to visit us.",
+      "note": "Irregular stem, vendr-."
+    },
+    {
+      "id": "d27-6",
+      "spanish": "No podré ir a la fiesta.",
+      "english": "I won’t be able to go to the party.",
+      "note": "Irregular stem, podr-."
+    },
+    {
+      "id": "d27-7",
+      "spanish": "Estudiaremos español todos los días.",
+      "english": "We will study Spanish every day.",
+      "note": "Regular."
+    },
+    {
+      "id": "d27-8",
+      "spanish": "Ella dirá la verdad.",
+      "english": "She will tell the truth.",
+      "note": "Irregular stem, dir-."
+    },
+    {
+      "id": "d27-9",
+      "spanish": "Empezaré un nuevo trabajo en enero.",
+      "english": "I will start a new job in January.",
+      "note": "Regular."
+    },
+    {
+      "id": "d27-10",
+      "spanish": "¿Dónde vivirás el próximo año?",
+      "english": "Where will you live next year?",
+      "note": "Regular."
+    }
+  ],
+  "dialogue": {
+    "title": "Next year",
+    "lines": [
+      { "speaker": "Nico", "spanish": "¿Qué harás el próximo año?", "english": "What will you do next year?" },
+      { "speaker": "Alex", "spanish": "Viajaré a Sudamérica y viviré unos meses en Argentina.", "english": "I will travel to South America and live a few months in Argentina." },
+      { "speaker": "Nico", "spanish": "¡Qué envidia! ¿Y tu trabajo?", "english": "I am jealous. And your job?" },
+      { "speaker": "Alex", "spanish": "Podré trabajar desde allí. Tendré más tiempo libre también.", "english": "I will be able to work from there. I will also have more free time." },
+      { "speaker": "Nico", "spanish": "Nosotros vendremos a visitarte si podemos.", "english": "We will come visit you if we can." },
+      { "speaker": "Alex", "spanish": "¡Perfecto! Os enseñaré la ciudad.", "english": "Perfect. I will show you all around the city." }
+    ]
+  },
+  "practice": {
+    "title": "Three predictions",
+    "instruction": "Say three things that will happen, or that you will do, next year. Mix regular verbs with at least one irregular stem: haré, tendré, podré, or similar.",
+    "starters": [
+      "El próximo año…",
+      "Viajaré… / Tendré… / Haré…",
+      "No podré…"
+    ],
+    "tips": [
+      "Learn haré, tendré, podré, and vendré as their own small chunks first.",
+      "The irregular stem is the only unpredictable part. The endings never change."
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "day": 15,
+  "title": "Core verbs, full pattern",
+  "isReview": false,
+  "vocabFocus": "tener, querer, ir, hacer — every person",
+  "grammarFocus": "Full conjugation, tener que",
+  "listenFocus": "A dialogue with a group of friends",
+  "practiceFocus": "Describe a friend’s plans and a group’s plans",
+  "grammar": {
+    "points": [
+      {
+        "title": "Five people, one pattern each",
+        "rule": "Days 1–14 only needed yo, tú, and sometimes nosotros for these four verbs. Now add él/ella and ellos/ellas, so you can talk about someone else and about a group. Tener que still means have to. Hay que is the same idea without a person attached, a rule for everyone.",
+        "examples": [
+          { "spanish": "tengo, tienes, tiene, tenemos, tienen", "english": "tener" },
+          { "spanish": "quiero, quieres, quiere, queremos, quieren", "english": "querer" },
+          { "spanish": "voy, vas, va, vamos, van", "english": "ir" },
+          { "spanish": "hago, haces, hace, hacemos, hacen", "english": "hacer" },
+          { "spanish": "Hay que llegar temprano.", "english": "You have to arrive early. No person attached." }
+        ]
+      }
+    ],
+    "notYet": "Vosotros (tenéis, queréis, vais, hacéis). You will hear it in Spain; you still do not need to say it."
+  },
+  "phrases": [
+    {
+      "id": "d15-1",
+      "spanish": "Ella tiene dos hijos.",
+      "english": "She has two children.",
+      "note": "New person: él/ella."
+    },
+    {
+      "id": "d15-2",
+      "spanish": "Mis amigos tienen mucho trabajo.",
+      "english": "My friends have a lot of work.",
+      "note": "New person: ellos/ellas."
+    },
+    { "id": "d15-3", "spanish": "Él quiere viajar este año.", "english": "He wants to travel this year." },
+    { "id": "d15-4", "spanish": "Ellos quieren descansar.", "english": "They want to rest." },
+    { "id": "d15-5", "spanish": "Va al gimnasio todos los días.", "english": "He or she goes to the gym every day." },
+    { "id": "d15-6", "spanish": "Vamos a la playa el sábado.", "english": "We are going to the beach on Saturday." },
+    { "id": "d15-7", "spanish": "Hace la compra los domingos.", "english": "He or she does the shopping on Sundays." },
+    { "id": "d15-8", "spanish": "Hacen mucho ruido.", "english": "They make a lot of noise." },
+    {
+      "id": "d15-9",
+      "spanish": "Tengo que estudiar esta noche.",
+      "english": "I have to study tonight.",
+      "note": "Tener que, from day 4, now with any person: tienes que, tiene que."
+    },
+    {
+      "id": "d15-10",
+      "spanish": "Hay que llegar temprano.",
+      "english": "You have to arrive early.",
+      "note": "Hay que has no person. It is a rule for everyone."
+    },
+    { "id": "d15-11", "spanish": "¿Qué tiene que hacer hoy?", "english": "What does he or she have to do today?" },
+    { "id": "d15-12", "spanish": "Tienen que salir a las ocho.", "english": "They have to leave at eight." }
+  ],
+  "dialogue": {
+    "title": "Weekend plans",
+    "lines": [
+      { "speaker": "Marta", "spanish": "¿Qué hace tu hermana este fin de semana?", "english": "What is your sister doing this weekend?" },
+      { "speaker": "Alex", "spanish": "Tiene que trabajar el sábado, pero el domingo quiere descansar.", "english": "She has to work Saturday, but Sunday she wants to rest." },
+      { "speaker": "Marta", "spanish": "Mis amigos y yo vamos a la montaña. ¿Quieres venir?", "english": "My friends and I are going to the mountains. Do you want to come?" },
+      { "speaker": "Alex", "spanish": "Sí. ¿Qué tenemos que llevar?", "english": "Yes. What do we have to bring?" },
+      { "speaker": "Marta", "spanish": "Hay que llevar agua y comida. Ellos hacen la comida.", "english": "You have to bring water and food. They are making the food." },
+      { "speaker": "Alex", "spanish": "Perfecto. Voy a preparar café para todos.", "english": "Perfect. I will make coffee for everyone." }
+    ]
+  },
+  "practice": {
+    "title": "Someone else, and a group",
+    "instruction": "Describe what one friend has, wants, is going to do, and does, using tiene, quiere, va, hace. Then describe the same four things for a group, using tienen, quieren, van, hacen.",
+    "starters": [
+      "Mi amigo/a tiene…",
+      "Quiere…",
+      "Va a…",
+      "Hace…",
+      "Mis amigos tienen… quieren… van… hacen…"
+    ],
+    "tips": [
+      "Say every person out loud before you write anything down.",
+      "The pattern only sticks if you hear yourself use it."
+    ]
+  }
+}

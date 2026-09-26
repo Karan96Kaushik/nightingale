@@ -1,0 +1,85 @@
+{
+  "day": 17,
+  "title": "Direct object pronouns",
+  "isReview": false,
+  "vocabFocus": "lo, la, los, las",
+  "grammarFocus": "Replacing the noun",
+  "listenFocus": "Short question-and-answer exchanges",
+  "practiceFocus": "Answer five questions without repeating the noun",
+  "grammar": {
+    "points": [
+      {
+        "title": "Say it once, then replace it",
+        "rule": "Me lo llevo from day 12 was one fixed chunk. Now build it from parts. Lo replaces a masculine singular thing, la a feminine singular thing, los and las the plurals. The pronoun goes before a conjugated verb, or attaches to the end of an infinitive. Lo voy a comprar and Voy a comprarlo both mean you are going to buy it.",
+        "examples": [
+          { "spanish": "¿Quieres el café? Sí, lo quiero.", "english": "Do you want the coffee? Yes, I want it." },
+          { "spanish": "¿Tienes la llave? No, no la tengo.", "english": "Do you have the key? No, I don’t have it." },
+          { "spanish": "¿Ves los mensajes? Sí, los veo.", "english": "Do you see the messages? Yes, I see them." },
+          { "spanish": "¿Compras las manzanas? Sí, las compro.", "english": "Are you buying the apples? Yes, I am buying them." }
+        ]
+      }
+    ],
+    "notYet": "Indirect object pronouns come on day 18. Combining the two pronouns together waits."
+  },
+  "phrases": [
+    {
+      "id": "d17-1",
+      "spanish": "¿Quieres el postre? Sí, lo quiero.",
+      "english": "Do you want dessert? Yes, I want it.",
+      "note": "Reuses day 5 vocabulary."
+    },
+    { "id": "d17-2", "spanish": "¿Tienes mi número? No, no lo tengo.", "english": "Do you have my number? No, I don’t have it." },
+    {
+      "id": "d17-3",
+      "spanish": "La compro mañana.",
+      "english": "I will buy it tomorrow.",
+      "note": "La is a feminine thing already mentioned."
+    },
+    { "id": "d17-4", "spanish": "¿Ves la película? La veo ahora.", "english": "Are you watching the film? I am watching it now." },
+    {
+      "id": "d17-5",
+      "spanish": "No los entiendo.",
+      "english": "I don’t understand them.",
+      "note": "Los is masculine plural."
+    },
+    {
+      "id": "d17-6",
+      "spanish": "¿Puedes ayudarme? Sí, puedo ayudarte.",
+      "english": "Can you help me? Yes, I can help you.",
+      "note": "Me and te attach the same way."
+    },
+    { "id": "d17-7", "spanish": "Las necesito para el viernes.", "english": "I need them by Friday." },
+    { "id": "d17-8", "spanish": "¿Dónde está mi chaqueta? No la veo.", "english": "Where is my jacket? I don’t see it." },
+    {
+      "id": "d17-9",
+      "spanish": "Voy a probármelo.",
+      "english": "I am going to try it on.",
+      "note": "Builds on day 12’s probarme."
+    },
+    { "id": "d17-10", "spanish": "Lo hago ahora mismo.", "english": "I am doing it right now." }
+  ],
+  "dialogue": {
+    "title": "Checking a list",
+    "lines": [
+      { "speaker": "Nuria", "spanish": "¿Tienes las entradas?", "english": "Do you have the tickets?" },
+      { "speaker": "Alex", "spanish": "Sí, las tengo aquí.", "english": "Yes, I have them here." },
+      { "speaker": "Nuria", "spanish": "¿Y el mapa? ¿Lo llevas?", "english": "And the map? Are you bringing it?" },
+      { "speaker": "Alex", "spanish": "No lo tengo. ¿Lo puedes traer tú?", "english": "I don’t have it. Can you bring it?" },
+      { "speaker": "Nuria", "spanish": "Sí, lo traigo yo. ¿Compraste el agua?", "english": "Yes, I will bring it. Did you buy the water?" },
+      { "speaker": "Alex", "spanish": "Todavía no. La compro de camino.", "english": "Not yet. I will buy it on the way." }
+    ]
+  },
+  "practice": {
+    "title": "Answer without the noun",
+    "instruction": "Ask yourself five yes/no questions about things around you, and answer each one using lo, la, los, or las instead of repeating the noun.",
+    "starters": [
+      "¿Tienes…? Sí, lo/la tengo.",
+      "¿Ves…? No, no lo/la veo.",
+      "¿Quieres…? Lo/la quiero."
+    ],
+    "tips": [
+      "Say the noun’s gender out loud first.",
+      "Café is masculine, so lo. Llave is feminine, so la."
+    ]
+  }
+}

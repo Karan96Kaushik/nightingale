@@ -1,0 +1,79 @@
+{
+  "day": 20,
+  "title": "Comparing things",
+  "isReview": false,
+  "vocabFocus": "People, places, food",
+  "grammarFocus": "Más que, tan como, superlatives",
+  "listenFocus": "Two people comparing restaurants",
+  "practiceFocus": "Compare two things you know using three structures",
+  "grammar": {
+    "points": [
+      {
+        "title": "More, less, equal, and the most",
+        "rule": "Más…que and menos…que compare two unequal things. Tan…como compares two equal things. Bueno becomes mejor and malo becomes peor; they do not use más. For a superlative, add el, la, los, or las before más or menos. Keep the adjective agreeing with the noun.",
+        "examples": [
+          { "spanish": "Mi hermano es más alto que yo.", "english": "My brother is taller than me." },
+          { "spanish": "Este café es menos caro que ese.", "english": "This coffee is less expensive than that one." },
+          { "spanish": "Este plato es tan bueno como el otro.", "english": "This dish is as good as the other one." },
+          { "spanish": "Es el restaurante más caro de la ciudad.", "english": "It is the most expensive restaurant in the city." }
+        ]
+      }
+    ],
+    "notYet": "Tanto, tanta, tantos, and tantas como for comparing amounts of a noun."
+  },
+  "phrases": [
+    { "id": "d20-1", "spanish": "Mi ciudad es más tranquila que Madrid.", "english": "My city is quieter than Madrid." },
+    {
+      "id": "d20-2",
+      "spanish": "Este barrio es menos ruidoso que el centro.",
+      "english": "This neighbourhood is less noisy than the centre.",
+      "note": "Reuses centro from day 8."
+    },
+    {
+      "id": "d20-3",
+      "spanish": "Ella es tan simpática como su hermana.",
+      "english": "She is as nice as her sister.",
+      "note": "Reuses simpático and simpática from day 6."
+    },
+    { "id": "d20-4", "spanish": "Esta comida está tan rica como la de mi madre.", "english": "This food is as good as my mother’s." },
+    { "id": "d20-5", "spanish": "Es el plato más caro del menú.", "english": "It is the most expensive dish on the menu." },
+    { "id": "d20-6", "spanish": "Es la playa más bonita que conozco.", "english": "It is the most beautiful beach I know." },
+    {
+      "id": "d20-7",
+      "spanish": "Mi trabajo es mejor que el anterior.",
+      "english": "My job is better than my previous one.",
+      "note": "Mejor is irregular. It does not use más."
+    },
+    {
+      "id": "d20-8",
+      "spanish": "El tráfico hoy es peor que ayer.",
+      "english": "The traffic today is worse than yesterday.",
+      "note": "Peor is irregular."
+    },
+    { "id": "d20-9", "spanish": "Mi hermano mayor vive en Barcelona.", "english": "My older brother lives in Barcelona." },
+    { "id": "d20-10", "spanish": "Ella es la menor de la familia.", "english": "She is the youngest in the family." }
+  ],
+  "dialogue": {
+    "title": "Two restaurants",
+    "lines": [
+      { "speaker": "Ana", "spanish": "¿Qué restaurante prefieres, este o ese?", "english": "Which restaurant do you prefer, this one or that one?" },
+      { "speaker": "Alex", "spanish": "Este es más barato, pero ese tiene mejor comida.", "english": "This one is cheaper, but that one has better food." },
+      { "speaker": "Ana", "spanish": "¿Es tan bueno como el italiano cerca de casa?", "english": "Is it as good as the Italian place near home?" },
+      { "speaker": "Alex", "spanish": "Creo que sí. Y es menos ruidoso que el italiano.", "english": "I think so. And it is less noisy than the Italian one." },
+      { "speaker": "Ana", "spanish": "Entonces vamos a este. Es la mejor opción.", "english": "Then let’s go to this one. It is the best option." }
+    ]
+  },
+  "practice": {
+    "title": "Compare two things",
+    "instruction": "Pick two people, two cities, or two restaurants you know. Compare them using más…que, tan…como, and one superlative with el or la más.",
+    "starters": [
+      "…es más… que…",
+      "…es tan… como…",
+      "Es el/la más… de…"
+    ],
+    "tips": [
+      "Keep the adjective agreeing with the noun.",
+      "That is the same agreement as the job endings on day 3 and the family adjectives on day 6."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "day": 23,
+  "title": "A trip — irregular past",
+  "isReview": false,
+  "vocabFocus": "ir/ser, hacer, tener, estar in the past",
+  "grammarFocus": "Full irregular preterite",
+  "listenFocus": "Friends comparing what they each did",
+  "practiceFocus": "Retell a group outing, contrasting yo with ellos",
+  "grammar": {
+    "points": [
+      {
+        "title": "Day 13’s chunks, now with every person",
+        "rule": "Fui, hice, tuve, and estuve were single fixed chunks in week two. These four verbs are irregular in every person, and they do not use the endings from day 22. Ir and ser share the same preterite forms. Context tells them apart.",
+        "examples": [
+          { "spanish": "fui, fuiste, fue, fuimos, fueron", "english": "ir and ser" },
+          { "spanish": "hice, hiciste, hizo, hicimos, hicieron", "english": "hacer" },
+          { "spanish": "tuve, tuviste, tuvo, tuvimos, tuvieron", "english": "tener" },
+          { "spanish": "estuve, estuviste, estuvo, estuvimos, estuvieron", "english": "estar" }
+        ]
+      }
+    ],
+    "notYet": "Dar, ver, and decir in the preterite. Vi, from day 13, stays a chunk for now."
+  },
+  "phrases": [
+    { "id": "d23-1", "spanish": "Fui a la playa con mis amigos.", "english": "I went to the beach with my friends." },
+    {
+      "id": "d23-2",
+      "spanish": "¿Fuiste tú quien llamó?",
+      "english": "Was it you who called?",
+      "note": "Ser, not ir, but the same word."
+    },
+    {
+      "id": "d23-3",
+      "spanish": "Hizo mucho calor ese día.",
+      "english": "It was very hot that day.",
+      "note": "Hacer for weather."
+    },
+    { "id": "d23-4", "spanish": "Hicimos una excursión a la montaña.", "english": "We went on a hike in the mountains." },
+    { "id": "d23-5", "spanish": "Tuvo un problema con el vuelo.", "english": "He or she had a problem with the flight." },
+    {
+      "id": "d23-6",
+      "spanish": "Tuvimos que esperar dos horas.",
+      "english": "We had to wait two hours.",
+      "note": "Tuvimos que is the past of tener que."
+    },
+    { "id": "d23-7", "spanish": "Estuvieron en el hotel toda la tarde.", "english": "They were at the hotel all afternoon." },
+    { "id": "d23-8", "spanish": "Estuve enfermo el segundo día.", "english": "I was sick on the second day." },
+    { "id": "d23-9", "spanish": "Fueron a Barcelona en tren.", "english": "They went to Barcelona by train." },
+    { "id": "d23-10", "spanish": "¿Qué hiciste el último día?", "english": "What did you do on the last day?" }
+  ],
+  "dialogue": {
+    "title": "Comparing the trip",
+    "lines": [
+      { "speaker": "Omar", "spanish": "¿Qué hicieron ustedes el sábado?", "english": "What did you all do on Saturday?" },
+      { "speaker": "Alex", "spanish": "Fuimos a la playa. Hizo mucho sol.", "english": "We went to the beach. It was very sunny." },
+      { "speaker": "Omar", "spanish": "Nosotros tuvimos un problema. Estuvimos en el aeropuerto cuatro horas.", "english": "We had a problem. We were at the airport for four hours." },
+      { "speaker": "Alex", "spanish": "¡Qué mal! ¿Al final fueron al hotel?", "english": "That is awful. Did you make it to the hotel in the end?" },
+      { "speaker": "Omar", "spanish": "Sí, llegamos tarde, pero estuvo bien. Hicimos una cena tranquila.", "english": "Yes, we arrived late, but it turned out fine. We had a quiet dinner." }
+    ]
+  },
+  "practice": {
+    "title": "You, and the group",
+    "instruction": "Retell a group outing. Say three things you did with fui, hice, tuve, or estuve. Then say three things the group did with fueron, hicieron, tuvieron, or estuvieron.",
+    "starters": [
+      "Yo fui… Hice… Tuve… Estuve…",
+      "Mis amigos fueron… Hicieron… Tuvieron… Estuvieron…"
+    ],
+    "tips": [
+      "These four verbs do not follow day 22’s pattern at all.",
+      "That is why they stayed chunks for two weeks before their full chart appeared."
+    ]
+  }
+}

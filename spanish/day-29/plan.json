@@ -1,0 +1,84 @@
+{
+  "day": 29,
+  "title": "Pharmacy and doctor",
+  "isReview": false,
+  "vocabFocus": "Symptoms, help, emergencies",
+  "grammarFocus": "Deber, poder, tener que, doler",
+  "listenFocus": "A dialogue at the pharmacy",
+  "practiceFocus": "Role-play describing symptoms and asking for help",
+  "grammar": {
+    "points": [
+      {
+        "title": "Should, can, must, and what hurts",
+        "rule": "Deber plus an infinitive is a gentle should. Poder plus an infinitive, from day 16, is can. Tener que plus an infinitive, from days 4 and 15, is a stronger must. Doler, from day 18, says what hurts. Combine them to describe a problem and ask for what you need.",
+        "examples": [
+          { "spanish": "Debo descansar.", "english": "I should rest." },
+          { "spanish": "Puedo esperar.", "english": "I can wait." },
+          { "spanish": "Tengo que ir al médico.", "english": "I have to go to the doctor." },
+          { "spanish": "Me duele mucho.", "english": "It hurts a lot." }
+        ]
+      }
+    ],
+    "notYet": "The full range of emergency vocabulary. These phrases cover a minor illness and a request for help."
+  },
+  "phrases": [
+    { "id": "d29-1", "spanish": "Me siento mal.", "english": "I feel unwell." },
+    {
+      "id": "d29-2",
+      "spanish": "Me duele la garganta.",
+      "english": "My throat hurts.",
+      "note": "Reuses day 18’s doler."
+    },
+    { "id": "d29-3", "spanish": "Tengo fiebre.", "english": "I have a fever." },
+    {
+      "id": "d29-4",
+      "spanish": "¿Puede ayudarme?",
+      "english": "Can you help me?",
+      "note": "Formal. Reuses day 26’s usted forms."
+    },
+    { "id": "d29-5", "spanish": "Necesito un médico.", "english": "I need a doctor." },
+    {
+      "id": "d29-6",
+      "spanish": "¿Tiene algo para el dolor de cabeza?",
+      "english": "Do you have something for a headache?",
+      "note": "At the pharmacy."
+    },
+    { "id": "d29-7", "spanish": "Debo descansar unos días.", "english": "I should rest for a few days." },
+    { "id": "d29-8", "spanish": "No puedo respirar bien.", "english": "I can’t breathe well." },
+    {
+      "id": "d29-9",
+      "spanish": "Llame a una ambulancia, por favor.",
+      "english": "Call an ambulance, please.",
+      "note": "Formal command, urgent. Say it whole."
+    },
+    { "id": "d29-10", "spanish": "¿Dónde está la farmacia más cercana?", "english": "Where is the nearest pharmacy?" },
+    { "id": "d29-11", "spanish": "Tengo que tomar esta medicina dos veces al día.", "english": "I have to take this medicine twice a day." },
+    { "id": "d29-12", "spanish": "Es una emergencia.", "english": "It is an emergency." }
+  ],
+  "dialogue": {
+    "title": "At the pharmacy",
+    "lines": [
+      { "speaker": "Farmacéutica", "spanish": "Buenos días, ¿qué necesita?", "english": "Good morning, what do you need?" },
+      { "speaker": "Alex", "spanish": "Me duele la garganta y tengo fiebre.", "english": "My throat hurts and I have a fever." },
+      { "speaker": "Farmacéutica", "spanish": "¿Desde cuándo se siente así?", "english": "Since when have you been feeling this way?" },
+      { "speaker": "Alex", "spanish": "Desde ayer. También me duele la cabeza.", "english": "Since yesterday. My head hurts too." },
+      { "speaker": "Farmacéutica", "spanish": "Tome esto dos veces al día y debe descansar. Si no mejora, tiene que ir al médico.", "english": "Take this twice a day and you should rest. If it does not improve, you have to go to the doctor." },
+      { "speaker": "Alex", "spanish": "Muchas gracias. ¿Puedo pagar con tarjeta?", "english": "Thank you very much. Can I pay by card?" }
+    ]
+  },
+  "practice": {
+    "title": "Describe your symptoms",
+    "instruction": "Role-play a pharmacy or doctor’s visit. Say how you feel, name one or two symptoms with doler, and use deber, poder, or tener que at least once each.",
+    "starters": [
+      "Me siento…",
+      "Me duele… / Me duelen…",
+      "Tengo…",
+      "Debo… / Puedo… / Tengo que…",
+      "¿Puede ayudarme?"
+    ],
+    "tips": [
+      "If it is a real emergency, keep one phrase whole.",
+      "Llame a una ambulancia. Say it exactly as it is."
+    ]
+  }
+}

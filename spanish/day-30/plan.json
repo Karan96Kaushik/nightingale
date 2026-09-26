@@ -1,0 +1,63 @@
+{
+  "day": 30,
+  "title": "Full review",
+  "isReview": true,
+  "vocabFocus": "A longer story across four weeks",
+  "grammarFocus": "Every time frame together",
+  "listenFocus": "Re-listen to a longer beginner story",
+  "practiceFocus": "A 10–15 minute story: present, past, and future",
+  "grammar": {
+    "points": [
+      {
+        "title": "Every time frame together",
+        "rule": "Present for who you are and your routine, from weeks one and two. Preterite and imperfect for a trip, a childhood memory, and an anecdote that uses both. Future for a plan. Object pronouns, possessives, and demonstratives so you do not repeat every noun. If a sentence needs anything else, describe around the missing word and keep talking.",
+        "examples": [
+          { "spanish": "Soy… Vivo… Trabajo… Tengo que… Puedo…", "english": "Present: who you are, routine, ability, obligation." },
+          { "spanish": "Viajé… Fui… Hice… Estaba… cuando…", "english": "Past: events, and background with an event." },
+          { "spanish": "Cuando era niño… Cuando era niña…", "english": "Past: habits and childhood." },
+          { "spanish": "El próximo año… Viajaré… Tendré…", "english": "Future: plans." }
+        ]
+      }
+    ],
+    "notYet": "Any pattern you cannot use in the 10–15 minute story."
+  },
+  "phrases": [
+    { "id": "d30-1", "spanish": "Hola, me llamo Alex. Vivo en Londres y trabajo como ingeniero.", "english": "Hi, my name is Alex. I live in London and work as an engineer." },
+    { "id": "d30-2", "spanish": "Mis amigos tienen que trabajar hoy, pero yo puedo descansar.", "english": "My friends have to work today, but I can rest." },
+    { "id": "d30-3", "spanish": "El año pasado viajé a Portugal. Hizo mucho sol y comimos muy bien.", "english": "Last year I travelled to Portugal. It was very sunny and we ate very well." },
+    { "id": "d30-4", "spanish": "Cuando era niño, vivía cerca de la playa y jugaba todos los días.", "english": "When I was a child, I lived near the beach and used to play every day." },
+    { "id": "d30-5", "spanish": "Estaba en un café cuando conocí a mi mejor amigo.", "english": "I was in a café when I met my best friend." },
+    { "id": "d30-6", "spanish": "Me gustan los viajes y me duele un poco la espalda de tanto trabajar.", "english": "I like travelling and my back hurts a bit from working so much." },
+    { "id": "d30-7", "spanish": "El próximo año viajaré más y tendré más tiempo para mi familia.", "english": "Next year I will travel more and have more time for my family." },
+    { "id": "d30-8", "spanish": "Ten cuidado y descansa cuando lo necesites.", "english": "Take care and rest when you need to." }
+  ],
+  "dialogue": {
+    "title": "A longer story",
+    "lines": [
+      { "speaker": "Alex", "spanish": "Hola. Me llamo Alex. Soy de Londres y trabajo como ingeniero. Vivo cerca de la estación.", "english": "Hi. My name is Alex. I am from London and I work as an engineer. I live near the station." },
+      { "speaker": "Alex", "spanish": "Este año tengo mucho trabajo, pero también puedo viajar de vez en cuando.", "english": "This year I have a lot of work, but I can also travel now and then." },
+      { "speaker": "Alex", "spanish": "El verano pasado viajé a Portugal con mi familia. Hizo mucho sol y visitamos tres ciudades.", "english": "Last summer I travelled to Portugal with my family. It was very sunny and we visited three cities." },
+      { "speaker": "Alex", "spanish": "Cuando era niño, mi familia y yo íbamos a la costa cada verano. Era muy feliz allí.", "english": "When I was a child, my family and I used to go to the coast every summer. I was very happy there." },
+      { "speaker": "Alex", "spanish": "Estaba en el aeropuerto cuando conocí a un amigo con quien todavía hablo.", "english": "I was at the airport when I met a friend I still talk to." },
+      { "speaker": "Alex", "spanish": "El próximo año viajaré a Sudamérica. Tendré más tiempo libre y podré descansar más.", "english": "Next year I will travel to South America. I will have more free time and I will be able to rest more." },
+      { "speaker": "Alex", "spanish": "Si algo me duele o necesito ayuda, sé pedirla ahora. Eso es lo más importante.", "english": "If something hurts or I need help, I know how to ask for it now. That is the most important thing." }
+    ]
+  },
+  "practice": {
+    "title": "Your four-week story",
+    "instruction": "Give a 10–15 minute self-introduction and life story. Cover who you are, your routine and one obligation or ability, a past trip, a childhood memory, an anecdote combining both pasts, and a plan for next year.",
+    "starters": [
+      "Hola, me llamo… Vivo en… Trabajo como…",
+      "Tengo que… Puedo…",
+      "El año pasado viajé…",
+      "Cuando era niño/a…",
+      "Estaba… cuando…",
+      "El próximo año…"
+    ],
+    "tips": [
+      "This is the point of the whole month: using Spanish across every time frame.",
+      "If a word is missing, describe around it and keep talking."
+    ],
+    "speakMinutes": 12
+  }
+}

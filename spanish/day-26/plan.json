@@ -1,0 +1,123 @@
+{
+  "day": 26,
+  "title": "Giving instructions",
+  "isReview": false,
+  "vocabFocus": "Recipes, advice, directions",
+  "grammarFocus": "Tú and usted commands",
+  "listenFocus": "A recipe read aloud",
+  "practiceFocus": "Give five instructions, mixing tú and usted",
+  "grammar": {
+    "points": [
+      {
+        "title": "Informal borrows a form you know",
+        "rule": "For an informal tú affirmative command, use the él/ella present form: habla, come, escribe. A handful are irregular: di, ve, ten, pon, sal, sé, ven. A negative tú command, and any usted command, uses a different set of endings. Learn the common ones here as fixed phrases, the same way es and está stayed chunks before their charts.",
+        "examples": [
+          { "spanish": "Corta las verduras.", "english": "Tú, affirmative. Cut the vegetables." },
+          { "spanish": "No cocines demasiado.", "english": "Tú, negative. Don’t overcook it." },
+          { "spanish": "Hable más despacio, por favor.", "english": "Usted, affirmative. Speak more slowly, please." },
+          { "spanish": "No se preocupe.", "english": "Usted, negative. Don’t worry." }
+        ]
+      }
+    ],
+    "notYet": "The full command chart for every verb type. Learn these shapes next to the phrases, and build the pattern later."
+  },
+  "phrases": [
+    {
+      "id": "d26-1",
+      "spanish": "Corta las verduras en trozos pequeños.",
+      "english": "Cut the vegetables into small pieces.",
+      "note": "Tú, a recipe step."
+    },
+    {
+      "id": "d26-2",
+      "spanish": "Añade sal y pimienta.",
+      "english": "Add salt and pepper.",
+      "note": "Tú, a recipe step."
+    },
+    {
+      "id": "d26-3",
+      "spanish": "Espera diez minutos.",
+      "english": "Wait ten minutes.",
+      "note": "Tú, a recipe step."
+    },
+    {
+      "id": "d26-4",
+      "spanish": "No lo cocines demasiado.",
+      "english": "Don’t cook it too long.",
+      "note": "Tú, negative."
+    },
+    {
+      "id": "d26-5",
+      "spanish": "Siga todo recto y gire a la izquierda.",
+      "english": "Go straight and turn left.",
+      "note": "Usted, reused from day 8."
+    },
+    {
+      "id": "d26-6",
+      "spanish": "Hable más despacio, por favor.",
+      "english": "Speak more slowly, please.",
+      "note": "Usted, reused from day 14."
+    },
+    {
+      "id": "d26-7",
+      "spanish": "No se preocupe, tenemos tiempo.",
+      "english": "Don’t worry, we have time.",
+      "note": "Usted, negative."
+    },
+    {
+      "id": "d26-8",
+      "spanish": "Descansa un poco.",
+      "english": "Rest a little.",
+      "note": "Tú, advice."
+    },
+    {
+      "id": "d26-9",
+      "spanish": "Bebe mucha agua.",
+      "english": "Drink a lot of water.",
+      "note": "Tú, advice."
+    },
+    {
+      "id": "d26-10",
+      "spanish": "Ten cuidado.",
+      "english": "Be careful.",
+      "note": "Tú, irregular, from tener."
+    },
+    {
+      "id": "d26-11",
+      "spanish": "Ven aquí un momento.",
+      "english": "Come here a moment.",
+      "note": "Tú, irregular, from venir."
+    },
+    {
+      "id": "d26-12",
+      "spanish": "Pruebe esto, está delicioso.",
+      "english": "Try this, it is delicious.",
+      "note": "Usted, a recipe or an offer."
+    }
+  ],
+  "dialogue": {
+    "title": "A recipe over the phone",
+    "lines": [
+      { "speaker": "Abuela", "spanish": "Primero, corta la cebolla.", "english": "First, cut the onion." },
+      { "speaker": "Alex", "spanish": "Vale. ¿Y después?", "english": "OK. And then?" },
+      { "speaker": "Abuela", "spanish": "Añade aceite y espera cinco minutos. No lo cocines a fuego muy alto.", "english": "Add oil and wait five minutes. Don’t cook it on too high a heat." },
+      { "speaker": "Alex", "spanish": "¿Y ahora la carne?", "english": "And now the meat?" },
+      { "speaker": "Abuela", "spanish": "Sí. Ten cuidado, está caliente. Añade sal al final.", "english": "Yes. Be careful, it is hot. Add salt at the end." },
+      { "speaker": "Alex", "spanish": "Gracias, abuela. Voy a probarlo.", "english": "Thanks, grandma. I am going to try it." }
+    ]
+  },
+  "practice": {
+    "title": "Five instructions",
+    "instruction": "Give five instructions: three informal tú commands, such as steps in a simple recipe or advice to a friend, and two formal usted commands, such as directions or an offer to a stranger.",
+    "starters": [
+      "Corta… / Añade… / Espera…",
+      "No…",
+      "Siga… / Gire…",
+      "Hable… / No se preocupe…"
+    ],
+    "tips": [
+      "Say who you are speaking to before you choose the form.",
+      "A friend gets tú. A stranger, or someone you address formally, gets usted."
+    ]
+  }
+}
