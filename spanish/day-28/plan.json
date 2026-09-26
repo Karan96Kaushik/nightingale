@@ -18,8 +18,31 @@
           { "spanish": "Estaba… cuando…", "english": "Both pasts together." },
           { "spanish": "Corta… No cocines… Hable…", "english": "Instructions." },
           { "spanish": "Viajaré… Tendré… Haré…", "english": "The future." }
+        ],
+        "tables": [
+          {
+            "title": "Week four at a glance",
+            "columns": ["To talk about", "Use", "Example"],
+            "rows": [
+              ["a trip", "regular preterite", "El año pasado viajé a Portugal."],
+              ["what happened", "irregular preterite", "Fuimos a la playa e hizo mucho sol."],
+              ["childhood", "imperfect", "Cuando era niño, vivía cerca del mar."],
+              ["a scene and an event", "both pasts", "Estaba durmiendo cuando llegaron mis amigos."],
+              ["instructions", "commands", "Corta la fruta y añade azúcar."],
+              ["plans", "future", "El próximo año viajaré más."]
+            ]
+          }
+        ],
+        "tips": [
+          "Y becomes e before a word starting with an i sound: fuimos a la playa e hizo sol.",
+          "Pick the time frame first. The tense follows from it."
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Last year I travelled to Portugal with my family.", "answer": "El año pasado viajé a Portugal con mi familia." },
+      { "prompt": "When I was a child, I lived near the sea.", "answer": "Cuando era niño, vivía cerca del mar." },
+      { "prompt": "Next year I will travel more and work less.", "answer": "El próximo año viajaré más y trabajaré menos." }
     ],
     "notYet": "Any new tense or pattern. Today is for speaking, not a new chart."
   },

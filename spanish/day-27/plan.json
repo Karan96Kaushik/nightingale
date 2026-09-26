@@ -11,13 +11,54 @@
       {
         "title": "Endings on the whole infinitive",
         "rule": "Day 4 already covered the near future with ir plus a plus an infinitive: voy a viajar. This future adds -é, -ás, -á, -emos, -án straight onto the infinitive. A short list shortens the infinitive first and keeps the same endings: hacer → haré, tener → tendré, poder → podré, querer → querré, decir → diré, salir → saldré, venir → vendré.",
+        "pattern": "whole infinitive + é, ás, á, emos, án",
         "examples": [
           { "spanish": "viajaré, viajarás, viajará, viajaremos, viajarán", "english": "Regular: endings on the infinitive." },
           { "spanish": "haré, harás, hará, haremos, harán", "english": "hacer, irregular stem har-" },
           { "spanish": "tendré, tendrás, tendrá, tendremos, tendrán", "english": "tener, irregular stem tendr-" },
           { "spanish": "podré, querré, diré, saldré, vendré", "english": "Other irregular stems. The endings never change." }
+        ],
+        "tables": [
+          {
+            "title": "Future, regular",
+            "columns": ["Person", "viajar", "vivir"],
+            "rows": [
+              ["yo", "viajaré", "viviré"],
+              ["tú", "viajarás", "vivirás"],
+              ["él / ella", "viajará", "vivirá"],
+              ["nosotros", "viajaremos", "viviremos"],
+              ["ellos / ellas", "viajarán", "vivirán"]
+            ]
+          },
+          {
+            "title": "Irregular stems",
+            "columns": ["Verb", "Stem", "I will"],
+            "rows": [
+              ["hacer", "har-", "haré"],
+              ["tener", "tendr-", "tendré"],
+              ["poder", "podr-", "podré"],
+              ["querer", "querr-", "querré"],
+              ["decir", "dir-", "diré"],
+              ["salir", "saldr-", "saldré"],
+              ["venir", "vendr-", "vendré"]
+            ]
+          }
+        ],
+        "tips": [
+          "Every form except nosotros has a written accent.",
+          "Voy a viajar is the everyday near future. Viajaré sounds more certain or further off.",
+          "Future time words: mañana, el próximo año, algún día, en enero."
+        ],
+        "mistakes": [
+          { "avoid": "Teneré", "say": "Tendré", "why": "Tener uses the short stem tendr-." },
+          { "avoid": "Viajare", "say": "Viajaré", "why": "The yo form needs the accent." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "I will travel to Japan next year.", "answer": "Viajaré a Japón el próximo año." },
+      { "prompt": "What will you do this summer?", "answer": "¿Qué harás este verano?" },
+      { "prompt": "I won’t be able to go to the party.", "answer": "No podré ir a la fiesta." }
     ],
     "notYet": "The conditional, such as viajaría. It uses the same irregular stems, with a different set of endings, and is not in these thirty days."
   },

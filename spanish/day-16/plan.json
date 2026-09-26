@@ -11,13 +11,51 @@
       {
         "title": "The middle vowel changes, the endings don’t",
         "rule": "These verbs use the same endings as day 10, but the stressed vowel in the middle shifts. Poder and dormir change o to ue. Empezar and querer change e to ie. Pedir changes e to i. Nosotros keeps the original vowel, because that syllable is not stressed.",
+        "pattern": "The stressed vowel changes: o→ue, e→ie, e→i. Nosotros keeps the original.",
         "examples": [
           { "spanish": "puedo, puedes, puede, podemos, pueden", "english": "poder: o→ue" },
           { "spanish": "empiezo, empiezas, empieza, empezamos, empiezan", "english": "empezar: e→ie" },
           { "spanish": "pido, pides, pide, pedimos, piden", "english": "pedir: e→i" },
           { "spanish": "duermo, duermes, duerme, dormimos, duermen", "english": "dormir: o→ue, like poder" }
+        ],
+        "tables": [
+          {
+            "title": "Stem-changing verbs, present",
+            "columns": ["Person", "poder", "empezar", "pedir", "dormir"],
+            "rows": [
+              ["yo", "puedo", "empiezo", "pido", "duermo"],
+              ["tú", "puedes", "empiezas", "pides", "duermes"],
+              ["él / ella", "puede", "empieza", "pide", "duerme"],
+              ["nosotros", "podemos", "empezamos", "pedimos", "dormimos"],
+              ["ellos / ellas", "pueden", "empiezan", "piden", "duermen"]
+            ]
+          },
+          {
+            "title": "Weather",
+            "columns": ["English", "Spanish"],
+            "rows": [
+              ["It is hot.", "Hace calor."],
+              ["It is cold.", "Hace frío."],
+              ["It rains.", "Llueve."],
+              ["It snows.", "Nieva."]
+            ]
+          }
+        ],
+        "tips": [
+          "Llover and nevar are stem-changers too: llueve, nieva. They only use the it-form.",
+          "Weather uses hace, not es or está: hace calor, hace frío.",
+          "Poder plus an infinitive is can: ¿puedes venir mañana?"
+        ],
+        "mistakes": [
+          { "avoid": "Nosotros puedemos", "say": "Nosotros podemos", "why": "Nosotros keeps the original vowel." },
+          { "avoid": "Es calor hoy.", "say": "Hace calor hoy.", "why": "Weather uses hacer." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Can you come tomorrow?", "answer": "¿Puedes venir mañana?" },
+      { "prompt": "I start work at nine.", "answer": "Empiezo a trabajar a las nueve." },
+      { "prompt": "We sleep eight hours.", "answer": "Dormimos ocho horas." }
     ],
     "notYet": "Every stem-changing verb that exists. Learn these four and add more the same way when you meet them."
   },

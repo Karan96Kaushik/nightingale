@@ -11,13 +11,51 @@
       {
         "title": "More, less, equal, and the most",
         "rule": "Más…que and menos…que compare two unequal things. Tan…como compares two equal things. Bueno becomes mejor and malo becomes peor; they do not use más. For a superlative, add el, la, los, or las before más or menos. Keep the adjective agreeing with the noun.",
+        "pattern": "más / menos + adjective + que · tan + adjective + como",
         "examples": [
           { "spanish": "Mi hermano es más alto que yo.", "english": "My brother is taller than me." },
           { "spanish": "Este café es menos caro que ese.", "english": "This coffee is less expensive than that one." },
           { "spanish": "Este plato es tan bueno como el otro.", "english": "This dish is as good as the other one." },
           { "spanish": "Es el restaurante más caro de la ciudad.", "english": "It is the most expensive restaurant in the city." }
+        ],
+        "tables": [
+          {
+            "title": "Comparing",
+            "columns": ["Meaning", "Pattern", "Example"],
+            "rows": [
+              ["more than", "más … que", "más tranquila que Madrid"],
+              ["less than", "menos … que", "menos ruidoso que el centro"],
+              ["as … as", "tan … como", "tan simpática como su hermana"],
+              ["the most", "el / la más …", "el plato más caro del menú"]
+            ]
+          },
+          {
+            "title": "Irregular comparatives",
+            "columns": ["Adjective", "Comparative"],
+            "rows": [
+              ["bueno", "mejor"],
+              ["malo", "peor"],
+              ["grande, for age", "mayor"],
+              ["pequeño, for age", "menor"]
+            ]
+          }
+        ],
+        "tips": [
+          "The adjective still matches the noun: mi ciudad es más tranquila.",
+          "For the most in a group, use de: el más caro del menú, la menor de la familia.",
+          "Mayor and menor are older and younger for people."
+        ],
+        "mistakes": [
+          { "avoid": "Más bueno que", "say": "Mejor que", "why": "Bueno and malo have their own forms: mejor, peor." },
+          { "avoid": "Tan simpática que", "say": "Tan simpática como", "why": "Equal comparisons use como, not que." },
+          { "avoid": "El más caro en el menú", "say": "El más caro del menú", "why": "The group after a superlative takes de." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "My city is quieter than Madrid.", "answer": "Mi ciudad es más tranquila que Madrid." },
+      { "prompt": "This dish is as good as the other one.", "answer": "Este plato es tan bueno como el otro." },
+      { "prompt": "Traffic today is worse than yesterday.", "answer": "El tráfico hoy es peor que ayer." }
     ],
     "notYet": "Tanto, tanta, tantos, and tantas como for comparing amounts of a noun."
   },

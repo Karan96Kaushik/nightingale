@@ -3822,6 +3822,251 @@
           "textHash": "d805ea223243b891"
         }
       ]
+    },
+    "25": {
+      "title": "Telling a story",
+      "lines": [
+        {
+          "section": "vocab",
+          "index": 0,
+          "speaker": "d25-1",
+          "spanish": "Estaba trabajando cuando llamaste.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-00.mp3",
+          "textHash": "bc82201cc6c7a194"
+        },
+        {
+          "section": "vocab",
+          "index": 1,
+          "speaker": "d25-2",
+          "spanish": "Hacía calor cuando salimos de casa.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-01.mp3",
+          "textHash": "92785b77152fff01"
+        },
+        {
+          "section": "vocab",
+          "index": 2,
+          "speaker": "d25-3",
+          "spanish": "Éramos niños cuando esto pasó.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-02.mp3",
+          "textHash": "754d2fd7211dd034"
+        },
+        {
+          "section": "vocab",
+          "index": 3,
+          "speaker": "d25-4",
+          "spanish": "Vivía en Madrid cuando empecé a trabajar aquí.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-03.mp3",
+          "textHash": "abb0b0a94f4ae703"
+        },
+        {
+          "section": "vocab",
+          "index": 4,
+          "speaker": "d25-5",
+          "spanish": "Estábamos comiendo cuando se fue la luz.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-04.mp3",
+          "textHash": "0f9acbdee0add6b7"
+        },
+        {
+          "section": "vocab",
+          "index": 5,
+          "speaker": "d25-6",
+          "spanish": "Tenía diez años cuando viajé por primera vez.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-05.mp3",
+          "textHash": "046259cfe95952c6"
+        },
+        {
+          "section": "vocab",
+          "index": 6,
+          "speaker": "d25-7",
+          "spanish": "El cielo estaba nublado cuando llegamos al hotel.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-06.mp3",
+          "textHash": "dda0188d65d4970a"
+        },
+        {
+          "section": "vocab",
+          "index": 7,
+          "speaker": "d25-8",
+          "spanish": "Dormía cuando mis padres volvieron.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-07.mp3",
+          "textHash": "4cd227d9b97ccbe8"
+        },
+        {
+          "section": "vocab",
+          "index": 8,
+          "speaker": "d25-9",
+          "spanish": "Hacíamos la cena cuando nos llamaron.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-08.mp3",
+          "textHash": "4ef2bab16758e030"
+        },
+        {
+          "section": "vocab",
+          "index": 9,
+          "speaker": "d25-10",
+          "spanish": "Estaba cansado, así que me acosté temprano.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/vocab-09.mp3",
+          "textHash": "e6cb8f3f2f54ef88"
+        },
+        {
+          "section": "grammar",
+          "index": 0,
+          "speaker": "0.0",
+          "spanish": "Estaba durmiendo cuando sonó el teléfono.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/grammar-00-00.mp3",
+          "textHash": "ea3297aa1a268687"
+        },
+        {
+          "section": "grammar",
+          "index": 1,
+          "speaker": "0.1",
+          "spanish": "Hacía mucho frío cuando llegamos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/grammar-00-01.mp3",
+          "textHash": "9621fd1ff902d256"
+        },
+        {
+          "section": "grammar",
+          "index": 2,
+          "speaker": "0.2",
+          "spanish": "Estaba en el parque cuando empezó a llover.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/grammar-00-02.mp3",
+          "textHash": "11626868040d055f"
+        },
+        {
+          "section": "grammar",
+          "index": 3,
+          "speaker": "0.3",
+          "spanish": "Éramos jóvenes cuando nos conocimos.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/grammar-00-03.mp3",
+          "textHash": "2ff0bb939d771d17"
+        },
+        {
+          "section": "dialogue",
+          "index": 0,
+          "speaker": "Raul",
+          "spanish": "¿Cómo conociste a tu pareja?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-25/00-raul.mp3",
+          "textHash": "f90b88cab7eafde9"
+        },
+        {
+          "section": "dialogue",
+          "index": 1,
+          "speaker": "Alex",
+          "spanish": "Estaba en una cafetería cuando ella entró. Llovía mucho.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/01-alex.mp3",
+          "textHash": "e8dbdd0e4b97424d"
+        },
+        {
+          "section": "dialogue",
+          "index": 2,
+          "speaker": "Raul",
+          "spanish": "¡Qué historia! ¿Y qué pasó?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-25/02-raul.mp3",
+          "textHash": "32aa3481f7bd9bca"
+        },
+        {
+          "section": "dialogue",
+          "index": 3,
+          "speaker": "Alex",
+          "spanish": "No tenía paraguas, así que le ofrecí el mío. Hablamos toda la tarde.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/03-alex.mp3",
+          "textHash": "90d4ed6859373984"
+        },
+        {
+          "section": "dialogue",
+          "index": 4,
+          "speaker": "Raul",
+          "spanish": "¿Cuántos años teníais?",
+          "voiceId": "Pedro",
+          "languageCode": "es-US",
+          "file": "/audio/day-25/04-raul.mp3",
+          "textHash": "0544e1e1c59825e8"
+        },
+        {
+          "section": "dialogue",
+          "index": 5,
+          "speaker": "Alex",
+          "spanish": "Yo tenía veinticinco años. Ella era un poco más joven.",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/05-alex.mp3",
+          "textHash": "406255e8c23673c6"
+        },
+        {
+          "section": "practice",
+          "index": 0,
+          "speaker": "0",
+          "spanish": "Estaba cuando",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/practice-00.mp3",
+          "textHash": "f717672b9455d0ed"
+        },
+        {
+          "section": "practice",
+          "index": 1,
+          "speaker": "1",
+          "spanish": "Hacía cuando",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/practice-01.mp3",
+          "textHash": "c624aec201fff17d"
+        },
+        {
+          "section": "practice",
+          "index": 2,
+          "speaker": "2",
+          "spanish": "Tenía años cuando",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/practice-02.mp3",
+          "textHash": "5dadf5bb47e9ec0c"
+        },
+        {
+          "section": "practice",
+          "index": 3,
+          "speaker": "3",
+          "spanish": "Era. éramos cuando",
+          "voiceId": "Sergio",
+          "languageCode": "es-ES",
+          "file": "/audio/day-25/practice-03.mp3",
+          "textHash": "1c1a0e64aa7eef1e"
+        }
+      ]
     }
   }
 }

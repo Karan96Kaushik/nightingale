@@ -11,13 +11,50 @@
       {
         "title": "One o’clock is singular",
         "rule": "Es means “it is” for the day and for one o’clock: es la una. Every other hour is son las. Y media is half past, and menos cuarto is a quarter to. On the clock, say de la tarde. For a plan, say por la tarde. Days and months are not capitalised. Day 3 uses this same es for people.",
+        "pattern": "Es la una · Son las + hour (+ y media / menos cuarto)",
         "examples": [
           { "spanish": "Hoy es lunes.", "english": "Today is Monday." },
           { "spanish": "Es la una.", "english": "It is one o’clock." },
           { "spanish": "Son las tres y media.", "english": "It is half past three." },
           { "spanish": "Son las siete de la tarde.", "english": "It is seven in the evening." }
+        ],
+        "tables": [
+          {
+            "title": "Telling the time",
+            "columns": ["Time", "Spanish"],
+            "rows": [
+              ["1:00", "Es la una."],
+              ["3:00", "Son las tres."],
+              ["3:30", "Son las tres y media."],
+              ["9:45", "Son las diez menos cuarto."],
+              ["7:00 p.m.", "Son las siete de la tarde."]
+            ]
+          },
+          {
+            "title": "Part of the day",
+            "columns": ["", "On the clock", "For a plan"],
+            "rows": [
+              ["morning", "de la mañana", "por la mañana"],
+              ["afternoon, evening", "de la tarde", "por la tarde"],
+              ["night", "de la noche", "por la noche"]
+            ]
+          }
+        ],
+        "tips": [
+          "La stands for la hora, which is feminine, so it is always la una and las tres.",
+          "Menos cuarto counts down from the next hour: 9:45 is las diez menos cuarto.",
+          "A date is el + number + de + month: el doce de septiembre."
+        ],
+        "mistakes": [
+          { "avoid": "Son la una.", "say": "Es la una.", "why": "One o’clock is singular, so the verb is es." },
+          { "avoid": "Hoy es Lunes.", "say": "Hoy es lunes.", "why": "Days and months take no capital letter in Spanish." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "It is two o’clock.", "answer": "Son las dos." },
+      { "prompt": "It is half past one.", "answer": "Es la una y media." },
+      { "prompt": "Tomorrow is Tuesday.", "answer": "Mañana es martes." }
     ],
     "notYet": "Estar (estoy, está, estamos). Minutes other than y media and menos cuarto. People with es come on day 3."
   },

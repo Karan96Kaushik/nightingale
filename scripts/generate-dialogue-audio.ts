@@ -69,10 +69,15 @@ const SPEAKER_VOICES: Record<string, PollyVoice> = {
   Alex: SERGIO,
   Luis: SERGIO,
   Pablo: SERGIO,
-  Diego: SERGIO,
+  Diego: PEDRO,
   Camarero: PEDRO,
   Nico: PEDRO,
   Omar: PEDRO,
+  Raul: PEDRO,
+  Sara: LUCIA,
+  Nuria: LUCIA,
+  Abuela: LUCIA,
+  Farmacéutica: LUCIA,
 }
 
 const AWS_PROFILE_NAME = 'mis-api-full'

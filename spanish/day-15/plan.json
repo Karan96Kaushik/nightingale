@@ -11,14 +11,42 @@
       {
         "title": "Five people, one pattern each",
         "rule": "Days 1–14 only needed yo, tú, and sometimes nosotros for these four verbs. Now add él/ella and ellos/ellas, so you can talk about someone else and about a group. Tener que still means have to. Hay que is the same idea without a person attached, a rule for everyone.",
+        "pattern": "tener que + infinitive (a person) · hay que + infinitive (everyone)",
         "examples": [
           { "spanish": "tengo, tienes, tiene, tenemos, tienen", "english": "tener" },
           { "spanish": "quiero, quieres, quiere, queremos, quieren", "english": "querer" },
           { "spanish": "voy, vas, va, vamos, van", "english": "ir" },
           { "spanish": "hago, haces, hace, hacemos, hacen", "english": "hacer" },
           { "spanish": "Hay que llegar temprano.", "english": "You have to arrive early. No person attached." }
+        ],
+        "tables": [
+          {
+            "title": "Four core verbs, present",
+            "columns": ["Person", "tener", "querer", "ir", "hacer"],
+            "rows": [
+              ["yo", "tengo", "quiero", "voy", "hago"],
+              ["tú", "tienes", "quieres", "vas", "haces"],
+              ["él / ella", "tiene", "quiere", "va", "hace"],
+              ["nosotros", "tenemos", "queremos", "vamos", "hacemos"],
+              ["ellos / ellas", "tienen", "quieren", "van", "hacen"]
+            ]
+          }
+        ],
+        "tips": [
+          "Tener and querer change e to ie, except in nosotros. Day 16 shows this is a pattern.",
+          "Ir has no stem to hold on to. Learn it as five short words.",
+          "Hacer covers both do and make: hace la compra, hacen mucho ruido."
+        ],
+        "mistakes": [
+          { "avoid": "Ella tene dos hijos.", "say": "Ella tiene dos hijos.", "why": "Tener changes to tien- for él and ella." },
+          { "avoid": "Hay que yo estudio.", "say": "Tengo que estudiar.", "why": "Hay que has no person. For I have to, use tengo que plus the infinitive." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "He wants to travel this year.", "answer": "Él quiere viajar este año." },
+      { "prompt": "They have to leave at eight.", "answer": "Tienen que salir a las ocho." },
+      { "prompt": "She goes to the gym every day.", "answer": "Va al gimnasio todos los días." }
     ],
     "notYet": "Vosotros (tenéis, queréis, vais, hacéis). You will hear it in Spain; you still do not need to say it."
   },

@@ -18,8 +18,31 @@
           { "spanish": "Me gusta… Me gustan… Me duele… Me duelen…", "english": "Likes and aches." },
           { "spanish": "Mi… Tu… Su… Nuestro…", "english": "Possession." },
           { "spanish": "Es más… que… Es tan… como…", "english": "Comparing." }
+        ],
+        "tables": [
+          {
+            "title": "Week three at a glance",
+            "columns": ["Pattern", "Example"],
+            "rows": [
+              ["tener que, any person", "Mi amiga tiene que trabajar."],
+              ["stem-changers", "Cuando hace frío, no puedo dormir."],
+              ["lo, la, los, las", "¿Tienes mi número? Sí, lo tengo."],
+              ["gusta, gustan", "Me gustan los fines de semana tranquilos."],
+              ["possessives, demonstratives", "Esta es mi casa. Esa es la de mis padres."],
+              ["comparing", "Es el mejor café de la ciudad."]
+            ]
+          }
+        ],
+        "tips": [
+          "Mix two patterns in one sentence: mi amiga tiene que trabajar, pero quiere venir.",
+          "When a noun comes back, swap it for lo, la, los, or las."
         ]
       }
+    ],
+    "check": [
+      { "prompt": "When it is cold, I can’t sleep well.", "answer": "Cuando hace frío, no puedo dormir bien." },
+      { "prompt": "My head hurts today.", "answer": "Me duele la cabeza hoy." },
+      { "prompt": "It is the best coffee in the city.", "answer": "Es el mejor café de la ciudad." }
     ],
     "notYet": "Any new tense or pattern. Today is for speaking, not a new chart."
   },

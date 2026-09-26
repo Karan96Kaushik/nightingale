@@ -11,13 +11,38 @@
       {
         "title": "Enough grammar to order",
         "rule": "Quiero from day 4 takes a thing or a verb. Un goes before a masculine noun and una before a feminine one: un café, una ensalada. Staff may say desea or recomienda. Answer with quiero. Soy vegetariano uses ser from day 3, with -o or -a like ingeniero.",
+        "pattern": "un + masculine noun · una + feminine noun",
         "examples": [
           { "spanish": "Un café. Una paella.", "english": "A coffee. A paella." },
           { "spanish": "Quiero comer.", "english": "I want to eat." },
           { "spanish": "Para mí, una ensalada.", "english": "For me, a salad." },
           { "spanish": "Soy vegetariano.", "english": "I am vegetarian." }
+        ],
+        "tables": [
+          {
+            "title": "A, an",
+            "columns": ["", "Masculine", "Feminine"],
+            "rows": [
+              ["a thing", "un café", "una ensalada"],
+              ["a portion", "un vaso de vino", "una mesa para dos"]
+            ]
+          }
+        ],
+        "tips": [
+          "Most nouns ending in -o are masculine and most ending in -a are feminine. Café is masculine.",
+          "Para mí, … is the polite way to give your order.",
+          "La carta and la cuenta use la, the word for the. Say them as fixed requests for now."
+        ],
+        "mistakes": [
+          { "avoid": "Un paella, por favor.", "say": "Una paella, por favor.", "why": "Paella is feminine, so it takes una." },
+          { "avoid": "Quiero a café.", "say": "Quiero un café.", "why": "Quiero takes the thing directly, with un or una." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "A coffee with milk, please.", "answer": "Un café con leche, por favor." },
+      { "prompt": "For me, a salad.", "answer": "Para mí, una ensalada." },
+      { "prompt": "I want to eat.", "answer": "Quiero comer." }
     ],
     "notYet": "Gustar, object pronouns, and the usted verb table. Está delicioso is one fixed sentence, not a reason to study estar."
   },

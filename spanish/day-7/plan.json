@@ -16,8 +16,34 @@
           { "spanish": "Es la una. Son las…", "english": "Telling the time." },
           { "spanish": "Tengo… Quiero… Voy… Hago…", "english": "The four core verbs." },
           { "spanish": "Mi hermana. Mis amigos son…", "english": "Possession and agreement." }
+        ],
+        "tables": [
+          {
+            "title": "Week one at a glance",
+            "columns": ["To say", "Use", "Example"],
+            "rows": [
+              ["who you are", "soy", "Soy ingeniero."],
+              ["the time", "es la / son las", "Son las tres."],
+              ["what you have", "tengo", "Tengo hambre."],
+              ["what you want", "quiero", "Quiero comer."],
+              ["where you go", "voy", "Voy al restaurante."],
+              ["your people", "mi / mis", "Mi hermana es profesora."]
+            ]
+          }
+        ],
+        "tips": [
+          "If you get stuck, go back to a chunk: soy, tengo, quiero, voy.",
+          "Link two short sentences with y: tengo hambre y quiero comer."
+        ],
+        "mistakes": [
+          { "avoid": "Soy hambre.", "say": "Tengo hambre.", "why": "Still the most common slip. Hunger and age take tener." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Say your name and where you are from.", "answer": "Me llamo Alex y soy de Londres." },
+      { "prompt": "It is half past three and I am hungry.", "answer": "Son las tres y media y tengo hambre." },
+      { "prompt": "My sister is a teacher.", "answer": "Mi hermana es profesora." }
     ],
     "notYet": "Any new tense or verb. Today is for speaking, not a new chart."
   },

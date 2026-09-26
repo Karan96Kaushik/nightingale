@@ -16,8 +16,32 @@
           { "spanish": "Viajé… Fui… Hice… Estaba… cuando…", "english": "Past: events, and background with an event." },
           { "spanish": "Cuando era niño… Cuando era niña…", "english": "Past: habits and childhood." },
           { "spanish": "El próximo año… Viajaré… Tendré…", "english": "Future: plans." }
+        ],
+        "tables": [
+          {
+            "title": "Every time frame",
+            "columns": ["Time frame", "Tense", "Example"],
+            "rows": [
+              ["now, routine", "present", "Vivo en Londres y trabajo como ingeniero."],
+              ["a finished event", "preterite", "El año pasado viajé a Portugal."],
+              ["habit, background", "imperfect", "Cuando era niño, vivía cerca de la playa."],
+              ["a scene and an event", "both pasts", "Estaba en un café cuando conocí a mi mejor amigo."],
+              ["plans", "future", "El próximo año viajaré más."],
+              ["advice", "commands", "Ten cuidado y descansa."]
+            ]
+          }
+        ],
+        "tips": [
+          "Move through time in order: who you are, the past, then the future.",
+          "Connect ideas with y, pero, cuando, and así que.",
+          "If you forget a word, describe it and keep talking."
         ]
       }
+    ],
+    "check": [
+      { "prompt": "My friends have to work today, but I can rest.", "answer": "Mis amigos tienen que trabajar hoy, pero yo puedo descansar." },
+      { "prompt": "When I was a child, I played every day.", "answer": "Cuando era niño, jugaba todos los días." },
+      { "prompt": "Next year I will have more time for my family.", "answer": "El próximo año tendré más tiempo para mi familia." }
     ],
     "notYet": "Any pattern you cannot use in the 10–15 minute story."
   },

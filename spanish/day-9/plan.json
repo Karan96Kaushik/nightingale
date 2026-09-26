@@ -11,13 +11,42 @@
       {
         "title": "Say the routine as chunks",
         "rule": "Put the day in order with the clock from day 2: a las siete, a la una, por la mañana, por la tarde. Me plus the verb is the I-form for these routines: me levanto, me ducho, me acuesto. Me gusta takes one thing or a verb. Voy, hago, and trabajo stay the chunks you already use.",
+        "pattern": "Me + routine verb · Me gusta + thing or verb",
         "examples": [
           { "spanish": "Me levanto. Me ducho. Me acuesto.", "english": "I get up. I shower. I go to bed." },
           { "spanish": "Me gusta correr.", "english": "I like to run." },
           { "spanish": "Primero desayuno. Después trabajo.", "english": "First I have breakfast. Then I work." },
           { "spanish": "Me levanto a las siete.", "english": "I get up at seven." }
+        ],
+        "tables": [
+          {
+            "title": "Your routine, in order",
+            "columns": ["English", "Spanish"],
+            "rows": [
+              ["I get up at seven.", "Me levanto a las siete."],
+              ["I shower.", "Me ducho."],
+              ["I have breakfast at home.", "Desayuno en casa."],
+              ["I have lunch at one.", "Como a la una."],
+              ["I have dinner with my family.", "Ceno con mi familia."],
+              ["I go to bed at eleven.", "Me acuesto a las once."]
+            ]
+          }
+        ],
+        "tips": [
+          "A las plus the hour says when: a las siete. One o’clock is a la una.",
+          "Primero, después, and luego put the steps in order.",
+          "Me gusta plus an infinitive says what you like doing: me gusta correr."
+        ],
+        "mistakes": [
+          { "avoid": "Levanto a las siete.", "say": "Me levanto a las siete.", "why": "These routine verbs need me for I." },
+          { "avoid": "Yo gusto correr.", "say": "Me gusta correr.", "why": "Gustar works backwards: running pleases me. Day 18 explains why." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "I get up at eight.", "answer": "Me levanto a las ocho." },
+      { "prompt": "First I have breakfast, then I work.", "answer": "Primero desayuno, después trabajo." },
+      { "prompt": "I like to run.", "answer": "Me gusta correr." }
     ],
     "notYet": "Te and se, me gustan, and the full reflexive table. Trabajas is a you-form you may hear; the ending pattern is day 10."
   },

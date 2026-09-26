@@ -11,13 +11,38 @@
       {
         "title": "One owner word, then match the ending",
         "rule": "Mi is for one person or thing. Mis is for more than one. Tengo from day 4 says how many people you have. Es and son from day 3 say who they are. The adjective follows the noun and matches it: -o or -os for masculine, -a for feminine. Vivo and vive stay whole chunks today.",
+        "pattern": "mi / mis + noun + matching adjective",
         "examples": [
           { "spanish": "Mi hermana. Mis amigos.", "english": "My sister. My friends." },
           { "spanish": "Mis amigos son simpáticos.", "english": "My friends are nice." },
           { "spanish": "Somos una familia pequeña.", "english": "We are a small family." },
           { "spanish": "Mi padre es médico.", "english": "My father is a doctor." }
+        ],
+        "tables": [
+          {
+            "title": "Match the ending",
+            "columns": ["", "One", "More than one"],
+            "rows": [
+              ["masculine", "mi amigo simpático", "mis amigos simpáticos"],
+              ["feminine", "mi hermana simpática", "mis hermanas simpáticas"]
+            ]
+          }
+        ],
+        "tips": [
+          "Mi and mis never change for gender: mi padre, mi madre.",
+          "The adjective goes after the noun: una familia pequeña.",
+          "Adjectives ending in -e only add -s: inteligente, inteligentes."
+        ],
+        "mistakes": [
+          { "avoid": "Mi amigos", "say": "Mis amigos", "why": "More than one friend needs mis." },
+          { "avoid": "Una familia pequeño", "say": "Una familia pequeña", "why": "Familia is feminine, so the adjective ends in -a." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "My sisters are very nice.", "answer": "Mis hermanas son muy simpáticas." },
+      { "prompt": "My father is a doctor.", "answer": "Mi padre es médico." },
+      { "prompt": "We are a small family.", "answer": "Somos una familia pequeña." }
     ],
     "notYet": "Su, nuestro, and tu. You may hear ¿dónde vive tu familia? Answer with mi and mis. The present-tense pattern for vivo and vive comes later."
   },

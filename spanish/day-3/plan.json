@@ -11,13 +11,41 @@
       {
         "title": "Five forms, no article before a job",
         "rule": "Day 1 was soy and me llamo. Hoy es from day 2 is the same es. Ser is for who someone is, where they are from, and a lasting quality. Say soy, eres, es, somos, son. Do not put un or una before a job. Put no before the verb to negate. Use -o for a man and -a for a woman on these jobs: ingeniero, ingeniera, profesor, profesora.",
+        "pattern": "Ser + job · ser de + place · ser + quality",
         "examples": [
           { "spanish": "Soy ingeniero.", "english": "I am an engineer." },
           { "spanish": "¿Eres de Londres?", "english": "Are you from London?" },
           { "spanish": "Ella es profesora.", "english": "She is a teacher." },
           { "spanish": "No soy médico.", "english": "I am not a doctor." }
+        ],
+        "tables": [
+          {
+            "title": "Ser, present",
+            "columns": ["Person", "Ser", "English"],
+            "rows": [
+              ["yo", "soy", "I am"],
+              ["tú", "eres", "you are"],
+              ["él / ella", "es", "he / she is"],
+              ["nosotros", "somos", "we are"],
+              ["ellos / ellas", "son", "they are"]
+            ]
+          }
+        ],
+        "tips": [
+          "Negate by putting no right before the verb: no soy, no es.",
+          "Jobs change ending for a woman: ingeniero, ingeniera. Profesor adds -a: profesora.",
+          "Plural jobs add -s or -es: ingenieros, profesores."
+        ],
+        "mistakes": [
+          { "avoid": "Soy un ingeniero.", "say": "Soy ingeniero.", "why": "No un or una before a job after ser." },
+          { "avoid": "Soy no médico.", "say": "No soy médico.", "why": "No goes before the verb, not after it." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "She is from Spain.", "answer": "Ella es de España." },
+      { "prompt": "We are friends.", "answer": "Somos amigos." },
+      { "prompt": "I am not a teacher. (said by a man)", "answer": "No soy profesor." }
     ],
     "notYet": "Vosotros (sois) and estar. You will hear sois in Spain; you do not need to say it. Gender beyond these job endings waits until a later phrase needs it."
   },

@@ -11,13 +11,52 @@
       {
         "title": "Informal borrows a form you know",
         "rule": "For an informal tú affirmative command, use the él/ella present form: habla, come, escribe. A handful are irregular: di, ve, ten, pon, sal, sé, ven. A negative tú command, and any usted command, uses a different set of endings. Learn the common ones here as fixed phrases, the same way es and está stayed chunks before their charts.",
+        "pattern": "tú: él/ella form (corta) · no + switched vowel (no cortes) · usted: switched vowel (hable)",
         "examples": [
           { "spanish": "Corta las verduras.", "english": "Tú, affirmative. Cut the vegetables." },
           { "spanish": "No cocines demasiado.", "english": "Tú, negative. Don’t overcook it." },
           { "spanish": "Hable más despacio, por favor.", "english": "Usted, affirmative. Speak more slowly, please." },
           { "spanish": "No se preocupe.", "english": "Usted, negative. Don’t worry." }
+        ],
+        "tables": [
+          {
+            "title": "Four kinds of command",
+            "columns": ["", "Do it", "Don’t"],
+            "rows": [
+              ["tú", "Corta. Bebe. Descansa.", "No cortes. No cocines."],
+              ["usted", "Hable. Siga. Pruebe.", "No se preocupe."]
+            ]
+          },
+          {
+            "title": "Irregular tú commands",
+            "columns": ["Verb", "Command"],
+            "rows": [
+              ["tener", "ten"],
+              ["venir", "ven"],
+              ["poner", "pon"],
+              ["salir", "sal"],
+              ["decir", "di"],
+              ["ir", "ve"],
+              ["ser", "sé"],
+              ["hacer", "haz"]
+            ]
+          }
+        ],
+        "tips": [
+          "Pronouns attach to the end of a positive command and go before a negative one: pruébalo, no lo cocines.",
+          "Por favor softens any command.",
+          "Use tú in a recipe or with a friend. Use usted with a stranger or a doctor."
+        ],
+        "mistakes": [
+          { "avoid": "No corta.", "say": "No cortes.", "why": "A negative tú command switches the vowel: -ar verbs take -es." },
+          { "avoid": "No cocínalo.", "say": "No lo cocines.", "why": "In a negative command the pronoun goes before the verb." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Add salt and pepper. (tú)", "answer": "Añade sal y pimienta." },
+      { "prompt": "Speak more slowly, please. (usted)", "answer": "Hable más despacio, por favor." },
+      { "prompt": "Come here a moment. (tú)", "answer": "Ven aquí un momento." }
     ],
     "notYet": "The full command chart for every verb type. Learn these shapes next to the phrases, and build the pattern later."
   },

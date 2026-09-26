@@ -11,13 +11,41 @@
       {
         "title": "Five endings, three groups",
         "rule": "The chunks from earlier days now show a pattern. Trabajo, como, and vivo use the same endings as hablar, comer, and vivir. Say only yo, tú, él or ella, nosotros, and ellos or ellas. The subject pronoun is optional. A question does not add “do”. Tengo, quiero, voy, and hago stay chunks. They do not follow this pattern.",
+        "pattern": "stem + ending: habl- + o = hablo",
         "examples": [
           { "spanish": "hablo, hablas, habla, hablamos, hablan", "english": "-ar: o, as, a, amos, an" },
           { "spanish": "como, comes, come, comemos, comen", "english": "-er: o, es, e, emos, en" },
           { "spanish": "vivo, vives, vive, vivimos, viven", "english": "-ir: o, es, e, imos, en" },
           { "spanish": "¿Dónde vives?", "english": "Where do you live?" }
+        ],
+        "tables": [
+          {
+            "title": "Regular present endings",
+            "columns": ["Person", "hablar", "comer", "vivir"],
+            "rows": [
+              ["yo", "hablo", "como", "vivo"],
+              ["tú", "hablas", "comes", "vives"],
+              ["él / ella", "habla", "come", "vive"],
+              ["nosotros", "hablamos", "comemos", "vivimos"],
+              ["ellos / ellas", "hablan", "comen", "viven"]
+            ]
+          }
+        ],
+        "tips": [
+          "Take off -ar, -er, or -ir to find the stem, then add the ending.",
+          "-er and -ir share every ending except nosotros: comemos, vivimos.",
+          "Hablo means I speak, I am speaking, and I do speak. There is no separate do."
+        ],
+        "mistakes": [
+          { "avoid": "Tú comas", "say": "Tú comes", "why": "-er verbs use e endings: comes, come, comen." },
+          { "avoid": "Nosotros vivemos", "say": "Nosotros vivimos", "why": "-ir verbs use -imos for we. Only -er verbs use -emos." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "She speaks English.", "answer": "Ella habla inglés." },
+      { "prompt": "Do you eat meat?", "answer": "¿Comes carne?" },
+      { "prompt": "We live in London.", "answer": "Vivimos en Londres." }
     ],
     "notYet": "Vosotros, and stem-changing verbs. Tengo, quiero, voy, and hago stay chunks."
   },

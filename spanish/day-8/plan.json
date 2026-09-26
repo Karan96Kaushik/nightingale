@@ -11,13 +11,49 @@
       {
         "title": "Where something is",
         "rule": "Ser says who you are. Está says where a place is. Voy from day 4 plus en names the transport: voy en metro. Voy andando is on foot. Siga and gire are fixed direction phrases. Say them whole. Do not build an imperative chart.",
+        "pattern": "Está + a la derecha / a la izquierda / cerca de / lejos",
         "examples": [
           { "spanish": "Está a la derecha.", "english": "It is on the right." },
           { "spanish": "Está cerca de aquí.", "english": "It is near here." },
           { "spanish": "Voy en metro.", "english": "I go by metro." },
           { "spanish": "Voy andando.", "english": "I go on foot." }
+        ],
+        "tables": [
+          {
+            "title": "Where it is",
+            "columns": ["English", "Spanish"],
+            "rows": [
+              ["on the right", "Está a la derecha."],
+              ["on the left", "Está a la izquierda."],
+              ["near here", "Está cerca de aquí."],
+              ["far", "Está lejos."],
+              ["next to the café", "Está al lado del café."]
+            ]
+          },
+          {
+            "title": "How you get there",
+            "columns": ["English", "Spanish"],
+            "rows": [
+              ["by metro", "Voy en metro."],
+              ["on foot", "Voy andando."]
+            ]
+          }
+        ],
+        "tips": [
+          "Location always uses está, never es: ¿dónde está la estación?",
+          "De and el merge into del, just as a and el become al: al lado del café.",
+          "Siga todo recto and gire a la derecha are polite set phrases. Say them whole."
+        ],
+        "mistakes": [
+          { "avoid": "¿Dónde es la estación?", "say": "¿Dónde está la estación?", "why": "Where something is uses estar." },
+          { "avoid": "Voy por metro.", "say": "Voy en metro.", "why": "Transport takes en. Walking is voy andando." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Where is the park?", "answer": "¿Dónde está el parque?" },
+      { "prompt": "It is on the left.", "answer": "Está a la izquierda." },
+      { "prompt": "I go by metro.", "answer": "Voy en metro." }
     ],
     "notYet": "The full estar table. Feelings come on day 11. Do not study the imperative."
   },

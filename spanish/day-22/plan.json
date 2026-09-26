@@ -11,13 +11,41 @@
       {
         "title": "The full chart, from the day 13 chunks",
         "rule": "Day 13 only gave the yo form of a handful of verbs: comí, trabajé, cené. Now every person of a regular verb follows one of two patterns. -ar verbs use -é, -aste, -ó, -amos, -aron. -er and -ir verbs share -í, -iste, -ió, -imos, -ieron. Visitar and llegar follow viajar. Comer follows the same pattern as salir.",
+        "pattern": "-ar: é, aste, ó, amos, aron · -er / -ir: í, iste, ió, imos, ieron",
         "examples": [
           { "spanish": "viajé, viajaste, viajó, viajamos, viajaron", "english": "-ar: é, aste, ó, amos, aron" },
           { "spanish": "salí, saliste, salió, salimos, salieron", "english": "-ir: í, iste, ió, imos, ieron" },
           { "spanish": "comí, comiste, comió, comimos, comieron", "english": "comer, the same -er pattern as salir" },
           { "spanish": "Viajé a España. Llegamos tarde.", "english": "I travelled. We arrived." }
+        ],
+        "tables": [
+          {
+            "title": "Regular preterite",
+            "columns": ["Person", "viajar", "comer", "salir"],
+            "rows": [
+              ["yo", "viajé", "comí", "salí"],
+              ["tú", "viajaste", "comiste", "saliste"],
+              ["él / ella", "viajó", "comió", "salió"],
+              ["nosotros", "viajamos", "comimos", "salimos"],
+              ["ellos / ellas", "viajaron", "comieron", "salieron"]
+            ]
+          }
+        ],
+        "tips": [
+          "The accent separates viajo (I travel) from viajó (he or she travelled).",
+          "Viajamos and salimos look the same as the present. Ayer or el año pasado tells you it is the past.",
+          "Past time words: ayer, el año pasado, la semana pasada, el lunes."
+        ],
+        "mistakes": [
+          { "avoid": "Viaje a España.", "say": "Viajé a España.", "why": "Without the accent it is not the past." },
+          { "avoid": "Mis padres viajó a Perú.", "say": "Mis padres viajaron a Perú.", "why": "Two people, so the ellos form." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "I travelled to Spain last year.", "answer": "Viajé a España el año pasado." },
+      { "prompt": "Did you visit the museum?", "answer": "¿Visitaste el museo?" },
+      { "prompt": "We ate at a local restaurant.", "answer": "Comimos en un restaurante local." }
     ],
     "notYet": "Verbs that change spelling in the yo form (llegué, not llegé), and the irregular verbs from day 23."
   },

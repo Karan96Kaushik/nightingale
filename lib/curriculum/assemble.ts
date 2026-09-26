@@ -1,4 +1,13 @@
-import type { DayPlan, DialogueLine, GrammarPoint, Phrase, PracticePrompt } from './types'
+import type {
+  DayPlan,
+  DialogueLine,
+  GrammarCheck,
+  GrammarMistake,
+  GrammarPoint,
+  GrammarTable,
+  Phrase,
+  PracticePrompt,
+} from './types'
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
@@ -17,9 +26,33 @@ function isDialogueLine(value: unknown): value is DialogueLine {
   return isRecord(value) && isString(value.speaker) && isString(value.spanish) && isString(value.english)
 }
 
+function isStringArray(value: unknown): value is string[] {
+  return Array.isArray(value) && value.every(isString)
+}
+
+function isGrammarTable(value: unknown): value is GrammarTable {
+  if (!isRecord(value) || !isStringArray(value.columns) || !Array.isArray(value.rows)) return false
+  if (value.title !== undefined && !isString(value.title)) return false
+  return value.rows.every(isStringArray)
+}
+
+function isGrammarMistake(value: unknown): value is GrammarMistake {
+  return isRecord(value) && isString(value.avoid) && isString(value.say) && isString(value.why)
+}
+
+function isGrammarCheck(value: unknown): value is GrammarCheck {
+  return isRecord(value) && isString(value.prompt) && isString(value.answer)
+}
+
 function isGrammarPoint(value: unknown): value is GrammarPoint {
   if (!isRecord(value) || !isString(value.title) || !isString(value.rule) || !Array.isArray(value.examples)) return false
-  return value.examples.every((example) => isRecord(example) && isString(example.spanish) && isString(example.english))
+  if (!value.examples.every((example) => isRecord(example) && isString(example.spanish) && isString(example.english))) {
+    return false
+  }
+  if (value.pattern !== undefined && !isString(value.pattern)) return false
+  if (value.tables !== undefined && !(Array.isArray(value.tables) && value.tables.every(isGrammarTable))) return false
+  if (value.tips !== undefined && !isStringArray(value.tips)) return false
+  return value.mistakes === undefined || (Array.isArray(value.mistakes) && value.mistakes.every(isGrammarMistake))
 }
 
 function isPractice(value: unknown): value is PracticePrompt {
@@ -38,6 +71,9 @@ export function isDayPlan(value: unknown): value is DayPlan {
   }
   if (!isRecord(value.grammar) || !isString(value.grammar.notYet) || !Array.isArray(value.grammar.points)) return false
   if (!value.grammar.points.every(isGrammarPoint)) return false
+  if (value.grammar.check !== undefined) {
+    if (!Array.isArray(value.grammar.check) || !value.grammar.check.every(isGrammarCheck)) return false
+  }
   if (!Array.isArray(value.phrases) || !value.phrases.every(isPhrase)) return false
   if (!isRecord(value.dialogue) || !isString(value.dialogue.title) || !Array.isArray(value.dialogue.lines)) return false
   if (!value.dialogue.lines.every(isDialogueLine)) return false

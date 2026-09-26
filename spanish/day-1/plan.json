@@ -11,13 +11,39 @@
       {
         "title": "Two ways to say who you are",
         "rule": "Soy means “I am” for origin and job. Me llamo means “my name is”. A question starts with the question word; the rest stays in the same order.",
+        "pattern": "Me llamo + name · Soy de + place",
         "examples": [
           { "spanish": "Soy de Londres.", "english": "I am from London." },
           { "spanish": "Me llamo Alex.", "english": "My name is Alex." },
           { "spanish": "¿Cómo te llamas?", "english": "What is your name?" },
           { "spanish": "¿De dónde eres?", "english": "Where are you from?" }
+        ],
+        "tables": [
+          {
+            "title": "Ask and answer",
+            "columns": ["Question", "Answer"],
+            "rows": [
+              ["¿Cómo te llamas?", "Me llamo Alex."],
+              ["¿De dónde eres?", "Soy de Londres."],
+              ["¿Cómo estás?", "Estoy bien, gracias."]
+            ]
+          }
+        ],
+        "tips": [
+          "Spanish questions open with ¿ and close with ?. The upside-down mark warns you a question is coming.",
+          "Question words carry an accent: cómo, dónde, qué.",
+          "Trabajo como ingeniero is another way to give your job. Soy ingeniero comes on day 3."
+        ],
+        "mistakes": [
+          { "avoid": "Yo soy de Londres.", "say": "Soy de Londres.", "why": "Soy already means I am. Add yo only for contrast: yo soy de Londres, ¿y tú?" },
+          { "avoid": "¿Dónde eres de?", "say": "¿De dónde eres?", "why": "De moves to the front with the question word. A Spanish question never ends on de." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Say: My name is Sara.", "answer": "Me llamo Sara." },
+      { "prompt": "Ask someone where they are from.", "answer": "¿De dónde eres?" },
+      { "prompt": "Say: I am from Madrid.", "answer": "Soy de Madrid." }
     ],
     "notYet": "The other forms of ser come on day 3, after es is used for the day and the time. Gender and vosotros wait until a phrase needs them."
   },

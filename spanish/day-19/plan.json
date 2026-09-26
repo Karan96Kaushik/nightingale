@@ -16,8 +16,44 @@
           { "spanish": "Nuestra familia es pequeña.", "english": "Our family is small. Nuestra matches familia." },
           { "spanish": "Este libro es interesante.", "english": "This book is near me." },
           { "spanish": "Esa camisa es bonita. Aquella casa es de mis vecinos.", "english": "Esa is near the listener. Aquella is far from both." }
+        ],
+        "tables": [
+          {
+            "title": "Possessives",
+            "columns": ["Owner", "One thing", "More than one"],
+            "rows": [
+              ["my", "mi", "mis"],
+              ["your", "tu", "tus"],
+              ["his, her, their", "su", "sus"],
+              ["our", "nuestro / nuestra", "nuestros / nuestras"]
+            ]
+          },
+          {
+            "title": "This, that, that over there",
+            "columns": ["Distance", "Masculine", "Feminine", "Plural"],
+            "rows": [
+              ["near me", "este", "esta", "estos / estas"],
+              ["near you", "ese", "esa", "esos / esas"],
+              ["far from both", "aquel", "aquella", "aquellos / aquellas"]
+            ]
+          }
+        ],
+        "tips": [
+          "The possessive matches the thing owned, not the owner: nuestra familia, sus hijos.",
+          "Tu without an accent is your. Tú with an accent is you.",
+          "Su can mean his, her, their, or your with usted. Context decides.",
+          "Drop the noun to say this one or that one: prefiero esta a esa."
+        ],
+        "mistakes": [
+          { "avoid": "Nuestro familia", "say": "Nuestra familia", "why": "Nuestro matches the feminine noun familia." },
+          { "avoid": "Sus casa", "say": "Su casa", "why": "One house, so su, even if several people own it." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Where are your keys?", "answer": "¿Dónde están tus llaves?" },
+      { "prompt": "Our friends arrive tomorrow.", "answer": "Nuestros amigos llegan mañana." },
+      { "prompt": "Those buildings over there are old.", "answer": "Aquellos edificios son antiguos." }
     ],
     "notYet": "The long possessive forms used after the noun, like es mío."
   },

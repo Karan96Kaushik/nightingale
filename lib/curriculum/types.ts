@@ -26,14 +26,36 @@ export type GrammarExample = {
   english: string
 }
 
+export type GrammarTable = {
+  title?: string
+  columns: string[]
+  rows: string[][]
+}
+
+export type GrammarMistake = {
+  avoid: string
+  say: string
+  why: string
+}
+
 export type GrammarPoint = {
   title: string
   rule: string
+  pattern?: string
   examples: GrammarExample[]
+  tables?: GrammarTable[]
+  tips?: string[]
+  mistakes?: GrammarMistake[]
+}
+
+export type GrammarCheck = {
+  prompt: string
+  answer: string
 }
 
 export type DayGrammar = {
   points: GrammarPoint[]
+  check?: GrammarCheck[]
   notYet: string
 }
 

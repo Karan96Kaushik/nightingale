@@ -16,8 +16,37 @@
           { "spanish": "hice, hiciste, hizo, hicimos, hicieron", "english": "hacer" },
           { "spanish": "tuve, tuviste, tuvo, tuvimos, tuvieron", "english": "tener" },
           { "spanish": "estuve, estuviste, estuvo, estuvimos, estuvieron", "english": "estar" }
+        ],
+        "tables": [
+          {
+            "title": "Irregular preterite",
+            "columns": ["Person", "ir / ser", "hacer", "tener", "estar"],
+            "rows": [
+              ["yo", "fui", "hice", "tuve", "estuve"],
+              ["tú", "fuiste", "hiciste", "tuviste", "estuviste"],
+              ["él / ella", "fue", "hizo", "tuvo", "estuvo"],
+              ["nosotros", "fuimos", "hicimos", "tuvimos", "estuvimos"],
+              ["ellos / ellas", "fueron", "hicieron", "tuvieron", "estuvieron"]
+            ]
+          }
+        ],
+        "tips": [
+          "These forms take no written accents: fui, fue, hizo, tuvo.",
+          "Hizo is spelled with z to keep the sound of hice.",
+          "Hacer also gives past weather: hizo mucho calor.",
+          "Tener que works in the past too: tuvimos que esperar."
+        ],
+        "mistakes": [
+          { "avoid": "Él hació", "say": "Él hizo", "why": "Hacer is irregular in every person." },
+          { "avoid": "Fuí a la playa.", "say": "Fui a la playa.", "why": "Fui and fue take no accent." },
+          { "avoid": "Tení un problema.", "say": "Tuve un problema.", "why": "Tener uses the stem tuv- in the past." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "I went to the beach with my friends.", "answer": "Fui a la playa con mis amigos." },
+      { "prompt": "We had to wait two hours.", "answer": "Tuvimos que esperar dos horas." },
+      { "prompt": "What did you do on the last day?", "answer": "¿Qué hiciste el último día?" }
     ],
     "notYet": "Dar, ver, and decir in the preterite. Vi, from day 13, stays a chunk for now."
   },

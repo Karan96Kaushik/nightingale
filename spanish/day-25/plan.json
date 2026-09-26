@@ -11,13 +11,40 @@
       {
         "title": "Background paints the scene",
         "rule": "Use the imperfect for what was going on: the weather, the time, how you felt, what you were doing. Use the preterite for the single thing that then happened. This is the same split as days 22 and 23 and day 24, now in one sentence. These sentence shapes are enough for now. Reuse them like the chunks in earlier weeks.",
+        "pattern": "imperfect (the scene) + cuando + preterite (what happened)",
         "examples": [
           { "spanish": "Estaba durmiendo cuando sonó el teléfono.", "english": "I was sleeping when the phone rang." },
           { "spanish": "Hacía mucho frío cuando llegamos.", "english": "It was very cold when we arrived." },
           { "spanish": "Estaba en el parque cuando empezó a llover.", "english": "I was in the park when it started to rain." },
           { "spanish": "Éramos jóvenes cuando nos conocimos.", "english": "We were young when we met." }
+        ],
+        "tables": [
+          {
+            "title": "Background and event",
+            "columns": ["Scene · imperfect", "Event · preterite"],
+            "rows": [
+              ["Estaba trabajando", "cuando llamaste."],
+              ["Hacía calor", "cuando salimos de casa."],
+              ["Tenía diez años", "cuando viajé por primera vez."],
+              ["Estábamos comiendo", "cuando se fue la luz."]
+            ]
+          }
+        ],
+        "tips": [
+          "Estaba plus an -ando or -iendo form is was doing: estaba trabajando, estábamos comiendo.",
+          "Ask: is this the scene, or the thing that happened in it?",
+          "Así que means so: estaba cansado, así que me acosté temprano."
+        ],
+        "mistakes": [
+          { "avoid": "Estuve durmiendo cuando sonó el teléfono.", "say": "Estaba durmiendo cuando sonó el teléfono.", "why": "The ongoing background uses the imperfect estaba." },
+          { "avoid": "Hacía calor cuando salíamos de casa.", "say": "Hacía calor cuando salimos de casa.", "why": "Leaving the house happened once, so the preterite." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "I was working when you called.", "answer": "Estaba trabajando cuando llamaste." },
+      { "prompt": "It was hot when we left the house.", "answer": "Hacía calor cuando salimos de casa." },
+      { "prompt": "I was tired, so I went to bed early.", "answer": "Estaba cansado, así que me acosté temprano." }
     ],
     "notYet": "The full range of past-tense combinations. These four sentence shapes are enough for now."
   },
@@ -41,11 +68,11 @@
   "dialogue": {
     "title": "An anecdote",
     "lines": [
-      { "speaker": "Pablo", "spanish": "¿Cómo conociste a tu pareja?", "english": "How did you meet your partner?" },
+      { "speaker": "Raul", "spanish": "¿Cómo conociste a tu pareja?", "english": "How did you meet your partner?" },
       { "speaker": "Alex", "spanish": "Estaba en una cafetería cuando ella entró. Llovía mucho.", "english": "I was in a café when she came in. It was raining a lot." },
-      { "speaker": "Pablo", "spanish": "¡Qué historia! ¿Y qué pasó?", "english": "What a story. And what happened?" },
+      { "speaker": "Raul", "spanish": "¡Qué historia! ¿Y qué pasó?", "english": "What a story. And what happened?" },
       { "speaker": "Alex", "spanish": "No tenía paraguas, así que le ofrecí el mío. Hablamos toda la tarde.", "english": "She didn’t have an umbrella, so I offered her mine. We talked all afternoon." },
-      { "speaker": "Pablo", "spanish": "¿Cuántos años teníais?", "english": "How old were you both?" },
+      { "speaker": "Raul", "spanish": "¿Cuántos años teníais?", "english": "How old were you both?" },
       { "speaker": "Alex", "spanish": "Yo tenía veinticinco años. Ella era un poco más joven.", "english": "I was twenty-five. She was a bit younger." }
     ]
   },

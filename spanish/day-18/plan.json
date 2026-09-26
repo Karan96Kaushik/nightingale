@@ -11,13 +11,43 @@
       {
         "title": "Gustar works backwards",
         "rule": "Day 9 only used me gusta with one thing or one verb. The thing you like is the subject, so a plural thing needs gustan, not gusta. The person who likes it comes first: me, te, le, nos, les. Doler, encantar, and interesar follow the same pattern.",
+        "pattern": "me / te / le / nos / les + gusta (one thing, a verb) or gustan (more than one)",
         "examples": [
           { "spanish": "Me gusta el café. Me gustan los libros.", "english": "One thing uses gusta. More than one uses gustan." },
           { "spanish": "Te gusta. Le gusta. Nos gusta. Les gusta.", "english": "The person who likes it comes first." },
           { "spanish": "Me duele la cabeza.", "english": "My head hurts." },
           { "spanish": "Le duelen los pies.", "english": "His or her feet hurt. Plural, so duelen." }
+        ],
+        "tables": [
+          {
+            "title": "Who likes it",
+            "columns": ["Person", "Pronoun", "Example"],
+            "rows": [
+              ["I", "me", "Me gusta el café."],
+              ["you", "te", "¿Te gustan los animales?"],
+              ["he / she", "le", "Le gusta el fútbol."],
+              ["we", "nos", "Nos gustan las playas tranquilas."],
+              ["they", "les", "Les encanta viajar."]
+            ]
+          }
+        ],
+        "tips": [
+          "Keep el, la, los, or las before the thing: me gusta el café.",
+          "Encantar is a stronger gustar: me encanta. Do not add mucho.",
+          "Doler works the same way: me duele la cabeza, me duelen los pies.",
+          "No me gusta nada means I don’t like it at all."
+        ],
+        "mistakes": [
+          { "avoid": "Me gusta los libros.", "say": "Me gustan los libros.", "why": "Books are plural, so gustan." },
+          { "avoid": "Yo gusto el café.", "say": "Me gusta el café.", "why": "The coffee is the subject. You are the one it pleases." },
+          { "avoid": "Me duele mi cabeza.", "say": "Me duele la cabeza.", "why": "Me already says whose head it is, so use la." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Do you like animals?", "answer": "¿Te gustan los animales?" },
+      { "prompt": "She likes football.", "answer": "Le gusta el fútbol." },
+      { "prompt": "My feet hurt.", "answer": "Me duelen los pies." }
     ],
     "notYet": "Gustaría, and combining gustar with the pronouns from day 17."
   },

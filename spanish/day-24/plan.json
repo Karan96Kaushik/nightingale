@@ -11,13 +11,50 @@
       {
         "title": "What used to happen, not what happened once",
         "rule": "The preterite from days 13, 22, and 23 tells a finished event. The imperfect describes a habit, a background state, or something repeated, with no clear end. -ar verbs use -aba, -abas, -aba, -ábamos, -aban. -er and -ir verbs share -ía, -ías, -ía, -íamos, -ían. Ser is irregular: era, eras, era, éramos, eran. Cuando era niño or cuando era niña usually starts these stories.",
+        "pattern": "-ar: -aba · -er / -ir: -ía",
         "examples": [
           { "spanish": "jugaba, jugabas, jugaba, jugábamos, jugaban", "english": "jugar, -ar imperfect" },
           { "spanish": "vivía, vivías, vivía, vivíamos, vivían", "english": "vivir, -er and -ir imperfect" },
           { "spanish": "era, eras, era, éramos, eran", "english": "ser, irregular" },
           { "spanish": "Cuando era niño, jugaba en el parque.", "english": "When I was a child, I used to play in the park." }
+        ],
+        "tables": [
+          {
+            "title": "The imperfect",
+            "columns": ["Person", "jugar", "vivir", "ser"],
+            "rows": [
+              ["yo", "jugaba", "vivía", "era"],
+              ["tú", "jugabas", "vivías", "eras"],
+              ["él / ella", "jugaba", "vivía", "era"],
+              ["nosotros", "jugábamos", "vivíamos", "éramos"],
+              ["ellos / ellas", "jugaban", "vivían", "eran"]
+            ]
+          },
+          {
+            "title": "Which past?",
+            "columns": ["", "Imperfect", "Preterite"],
+            "rows": [
+              ["meaning", "used to, was -ing", "did, once"],
+              ["eating", "Comía mucho helado.", "Comí en un restaurante."],
+              ["being", "Era muy feliz.", "Fue un día largo."]
+            ]
+          }
+        ],
+        "tips": [
+          "Yo and él or ella share the same form: jugaba. Add a name or a pronoun if it is unclear.",
+          "Signal words: cuando era niño, todos los días, siempre, normalmente.",
+          "Every -ía form carries an accent on the í."
+        ],
+        "mistakes": [
+          { "avoid": "Cuando fui niño, jugué en el parque.", "say": "Cuando era niño, jugaba en el parque.", "why": "Childhood and habits are background, so the imperfect." },
+          { "avoid": "Nosotros jugabamos", "say": "Nosotros jugábamos", "why": "The nosotros form carries an accent." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "We used to live in a small town.", "answer": "Vivíamos en un pueblo pequeño." },
+      { "prompt": "My grandmother cooked every Sunday.", "answer": "Mi abuela cocinaba todos los domingos." },
+      { "prompt": "I didn’t have a phone.", "answer": "No tenía teléfono." }
     ],
     "notYet": "Ir and ver in the imperfect (iba, veía). Keep the story to jugar, vivir, ser, and verbs you already know from days 9 and 10."
   },

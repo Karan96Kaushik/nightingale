@@ -11,13 +11,43 @@
       {
         "title": "Shop sentences, not pronoun rules",
         "rule": "Ask the price with cuesta. Point with esto. Me lo llevo and puedo probarme are fixed sentences. Hay means there is. The shop may say tiene, quiere, or le ayudo. Answer with busco, puedo, and pago. ¿Dónde está el probador? reuses está from day 8. Solo estoy mirando reuses estoy from day 11.",
+        "pattern": "¿Cuánto cuesta? · Cuesta + price",
         "examples": [
           { "spanish": "¿Cuánto cuesta?", "english": "How much does it cost?" },
           { "spanish": "¿Puedo probarme esto?", "english": "Can I try this on?" },
           { "spanish": "Me lo llevo.", "english": "I’ll take it." },
           { "spanish": "¿Hay descuento?", "english": "Is there a discount?" }
+        ],
+        "tables": [
+          {
+            "title": "Shop sentences",
+            "columns": ["You want to", "Say"],
+            "rows": [
+              ["ask the price", "¿Cuánto cuesta?"],
+              ["point at it", "esto"],
+              ["try it on", "¿Puedo probarme esto?"],
+              ["buy it", "Me lo llevo."],
+              ["ask for a discount", "¿Hay descuento?"],
+              ["pay by card", "Pago con tarjeta."],
+              ["just browse", "Solo estoy mirando."]
+            ]
+          }
+        ],
+        "tips": [
+          "Cuesta is for one item. Several items use cuestan: ¿cuánto cuestan?",
+          "Hay means both there is and there are. It never changes.",
+          "Staff speak to you with usted: ¿tiene…?, ¿qué quiere? You still answer with yo forms."
+        ],
+        "mistakes": [
+          { "avoid": "¿Cuánto es cuesta?", "say": "¿Cuánto cuesta?", "why": "Cuesta is already the verb. Add nothing." },
+          { "avoid": "Pago por tarjeta.", "say": "Pago con tarjeta.", "why": "You pay with a card, so con." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "How much does it cost?", "answer": "¿Cuánto cuesta?" },
+      { "prompt": "I am looking for a blue shirt.", "answer": "Busco una camisa azul." },
+      { "prompt": "I’ll take it.", "answer": "Me lo llevo." }
     ],
     "notYet": "Object pronouns and este, esta, and estos. Leave me lo llevo whole."
   },

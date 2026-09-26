@@ -11,13 +11,44 @@
       {
         "title": "Memorise the words, not the tense",
         "rule": "Ayer puts the story in the past. No still goes before the verb. Learn each past word next to the chunk you already say: fui with voy, hice with hago, comí with como, tuve with tengo, and estuve with estoy. Trabajé and cené are the one regular pattern worth copying: an -ar “I” form ends in -é. Fue means it was, next to es.",
+        "pattern": "Ayer + past chunk",
         "examples": [
           { "spanish": "Ayer fui al trabajo.", "english": "Yesterday I went to work." },
           { "spanish": "Hice ejercicio. Comí. Vi. Tuve.", "english": "I did. I ate. I saw. I had." },
           { "spanish": "No fui a casa temprano.", "english": "I did not go home early." },
           { "spanish": "Fue un día largo. Estuve en casa.", "english": "It was a long day. I was at home." }
+        ],
+        "tables": [
+          {
+            "title": "Now and yesterday",
+            "columns": ["English", "Now", "Yesterday"],
+            "rows": [
+              ["go · went", "voy", "fui"],
+              ["do · did", "hago", "hice"],
+              ["eat · ate", "como", "comí"],
+              ["see · saw", "veo", "vi"],
+              ["have · had", "tengo", "tuve"],
+              ["am · was", "estoy", "estuve"],
+              ["work · worked", "trabajo", "trabajé"],
+              ["it is · it was", "es", "fue"]
+            ]
+          }
+        ],
+        "tips": [
+          "The accent matters: trabajo is I work, trabajé is I worked.",
+          "Time words set the scene: ayer, por la mañana, por la noche.",
+          "¿Qué hiciste ayer? is the question you will hear most."
+        ],
+        "mistakes": [
+          { "avoid": "Ayer voy al trabajo.", "say": "Ayer fui al trabajo.", "why": "Ayer needs a past form." },
+          { "avoid": "Trabaje ayer.", "say": "Trabajé ayer.", "why": "Without the accent it is a different form. Stress the last syllable." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Yesterday I went to work.", "answer": "Ayer fui al trabajo." },
+      { "prompt": "I ate at a restaurant.", "answer": "Comí en un restaurante." },
+      { "prompt": "It was a long day.", "answer": "Fue un día largo." }
     ],
     "notYet": "The preterite chart, the imperfect, and every other past form."
   },

@@ -11,13 +11,48 @@
       {
         "title": "Say it once, then replace it",
         "rule": "Me lo llevo from day 12 was one fixed chunk. Now build it from parts. Lo replaces a masculine singular thing, la a feminine singular thing, los and las the plurals. The pronoun goes before a conjugated verb, or attaches to the end of an infinitive. Lo voy a comprar and Voy a comprarlo both mean you are going to buy it.",
+        "pattern": "pronoun + conjugated verb · infinitive + pronoun",
         "examples": [
           { "spanish": "¿Quieres el café? Sí, lo quiero.", "english": "Do you want the coffee? Yes, I want it." },
           { "spanish": "¿Tienes la llave? No, no la tengo.", "english": "Do you have the key? No, I don’t have it." },
           { "spanish": "¿Ves los mensajes? Sí, los veo.", "english": "Do you see the messages? Yes, I see them." },
           { "spanish": "¿Compras las manzanas? Sí, las compro.", "english": "Are you buying the apples? Yes, I am buying them." }
+        ],
+        "tables": [
+          {
+            "title": "Pronouns for things",
+            "columns": ["", "Masculine", "Feminine"],
+            "rows": [
+              ["one", "lo", "la"],
+              ["more than one", "los", "las"]
+            ]
+          },
+          {
+            "title": "Where the pronoun goes",
+            "columns": ["Verb", "Example"],
+            "rows": [
+              ["one verb", "Lo quiero."],
+              ["with no", "No lo tengo."],
+              ["verb + infinitive", "Lo voy a comprar. / Voy a comprarlo."]
+            ]
+          }
+        ],
+        "tips": [
+          "Match the pronoun to the thing: la llave becomes la tengo.",
+          "No comes before the pronoun: no lo tengo.",
+          "Me and te work the same way for people: ¿puedes ayudarme? Sí, puedo ayudarte."
+        ],
+        "mistakes": [
+          { "avoid": "Lo no tengo.", "say": "No lo tengo.", "why": "No always comes first." },
+          { "avoid": "Quiero lo.", "say": "Lo quiero.", "why": "With a single conjugated verb, the pronoun goes in front." },
+          { "avoid": "¿La película? Lo veo.", "say": "¿La película? La veo.", "why": "Película is feminine, so la." }
         ]
       }
+    ],
+    "check": [
+      { "prompt": "Do you have the key? Yes, I have it.", "answer": "¿Tienes la llave? Sí, la tengo." },
+      { "prompt": "I don’t understand them. (the messages)", "answer": "No los entiendo." },
+      { "prompt": "I am going to buy it. (the coffee)", "answer": "Voy a comprarlo. / Lo voy a comprar." }
     ],
     "notYet": "Indirect object pronouns come on day 18. Combining the two pronouns together waits."
   },
