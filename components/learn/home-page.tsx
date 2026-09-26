@@ -86,16 +86,16 @@ export function HomePage() {
       </Card>
 
       <Link
-        to={paths.conjugations()}
+        to={paths.concepts()}
         className="flex items-center gap-3 rounded-xl border bg-card px-4 py-4 hover:bg-muted/60"
       >
         <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
           <Languages className="size-4" />
         </span>
         <span className="min-w-0">
-          <span className="block text-sm font-medium">Common verb conjugations</span>
+          <span className="block text-sm font-medium">Concepts</span>
           <span className="block text-xs text-muted-foreground">
-            Present forms for ser, estar, tener, ir, and the other verbs that do not follow the regular endings.
+            Common verb conjugations, plus a grammar reference: gender, ser and estar, tenses, pronouns, and por or para.
           </span>
         </span>
       </Link>

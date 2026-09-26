@@ -6,7 +6,7 @@ import { paths } from '@/lib/routes'
 const NAV = [
   { to: paths.home(), label: 'Today', icon: Home, end: true },
   { to: paths.plan(), label: 'Plan', icon: BookOpen },
-  { to: paths.conjugations(), label: 'Verbs', icon: Languages },
+  { to: paths.concepts(), label: 'Concepts', icon: Languages },
   { to: paths.review(), label: 'Review', icon: RotateCcw },
   { to: paths.settings(), label: 'Settings', icon: Settings },
 ]

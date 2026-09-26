@@ -1,12 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { ArrowLeft, Volume2 } from 'lucide-react'
+import { Volume2 } from 'lucide-react'
 import {
   CONJUGATION_GROUPS,
   conjugationPersonLabel,
   type VerbConjugation,
 } from '@/lib/curriculum/conjugations'
-import { paths } from '@/lib/routes'
 import { speakSpanish, stopSpeaking } from '@/lib/speech'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -59,7 +57,7 @@ function CoverToggle({ covered, onToggle }: { covered: boolean; onToggle: () => 
   )
 }
 
-export function ConjugationsPage() {
+export function ConjugationDrill() {
   const [verbId, setVerbId] = useState(CONJUGATION_GROUPS[0].verbs[0].id)
   const [covered, setCovered] = useState(readCovered)
   const [revealed, setRevealed] = useState<string[]>([])
@@ -109,21 +107,14 @@ export function ConjugationsPage() {
   }
 
   return (
-    <main className="flex flex-1 flex-col gap-5 px-4 py-6">
-      <Link
-        to={paths.home()}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> Today
-      </Link>
-      <header className="space-y-1">
-        <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Separate from the daily phrases</p>
-        <h1 className="font-display text-3xl">Conjugations</h1>
+    <section id="conjugations" className="flex scroll-mt-4 flex-col gap-5">
+      <div className="space-y-1">
+        <h2 className="font-display text-2xl">Common verb conjugations</h2>
         <p className="text-sm text-muted-foreground">
           Common verbs in the present. Five forms only: yo, tú, él or ella, nosotros, and ellos or ellas. Regular -ar,
           -er, and -ir endings stay on day 10.
         </p>
-      </header>
+      </div>
 
       {CONJUGATION_GROUPS.map((group) => (
         <section key={group.id} className="space-y-2">
@@ -195,6 +186,6 @@ export function ConjugationsPage() {
       </section>
 
       <CoverToggle covered={covered} onToggle={toggleCovered} />
-    </main>
+    </section>
   )
 }
