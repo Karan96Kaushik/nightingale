@@ -6,6 +6,7 @@ export const paths = {
   plan: () => '/plan',
   review: () => '/review',
   concepts: () => '/concepts',
+  conceptPage: (pageId: string) => `/concepts/${pageId}`,
   settings: () => '/settings',
   day: (day: number) => `/learn/${day}`,
   section: (day: number, section: SectionId) => `/learn/${day}/${section}`,

@@ -16,6 +16,7 @@ import { ListenSession } from '@/components/learn/listen-session'
 import { PracticeSession } from '@/components/learn/practice-session'
 import { ReviewPage } from '@/components/learn/review-page'
 import { ConceptsPage } from '@/components/learn/concepts-page'
+import { ConceptPage } from '@/components/learn/concept-page'
 import { SettingsPage } from '@/components/settings/settings-page'
 import { paths } from '@/lib/routes'
 import { preloadVoices } from '@/lib/speech'
@@ -62,6 +63,7 @@ function AppRoutes() {
           <Route path="/plan" element={<PlanPage />} />
           <Route path="/review" element={<ReviewPage />} />
           <Route path="/concepts" element={<ConceptsPage />} />
+          <Route path="/concepts/:pageId" element={<ConceptPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="/learn/:day" element={<DayPage />} />
           <Route path="/learn/:day/vocab" element={<VocabSession />} />

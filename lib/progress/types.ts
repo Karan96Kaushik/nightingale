@@ -9,6 +9,7 @@ export type PhraseReview = {
   repetitions: number
   dueAt: string
   lastRating?: ReviewRating
+  lastReviewedAt?: string
 }
 
 export type SectionProgress = {

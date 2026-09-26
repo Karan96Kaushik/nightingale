@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Volume2 } from 'lucide-react'
 import {
-  CONJUGATION_GROUPS,
   conjugationPersonLabel,
+  type ConjugationGroup,
   type VerbConjugation,
 } from '@/lib/curriculum/conjugations'
 import { speakSpanish, stopSpeaking } from '@/lib/speech'
@@ -57,12 +57,12 @@ function CoverToggle({ covered, onToggle }: { covered: boolean; onToggle: () => 
   )
 }
 
-export function ConjugationDrill() {
-  const [verbId, setVerbId] = useState(CONJUGATION_GROUPS[0].verbs[0].id)
+export function ConjugationDrill({ group }: { group: ConjugationGroup }) {
+  const [verbId, setVerbId] = useState(group.verbs[0].id)
   const [covered, setCovered] = useState(readCovered)
   const [revealed, setRevealed] = useState<string[]>([])
   const hearGeneration = useRef(0)
-  const verb = CONJUGATION_GROUPS.flatMap((group) => group.verbs).find((item) => item.id === verbId) ?? CONJUGATION_GROUPS[0].verbs[0]
+  const verb = group.verbs.find((item) => item.id === verbId) ?? group.verbs[0]
 
   useEffect(
     () => () => {
@@ -107,42 +107,26 @@ export function ConjugationDrill() {
   }
 
   return (
-    <section id="conjugations" className="flex scroll-mt-4 flex-col gap-5">
-      <div className="space-y-1">
-        <h2 className="font-display text-2xl">Common verb conjugations</h2>
-        <p className="text-sm text-muted-foreground">
-          Common verbs in the present. Five forms only: yo, tú, él or ella, nosotros, and ellos or ellas. Regular -ar,
-          -er, and -ir endings stay on day 10.
-        </p>
+    <div className="flex flex-col gap-5">
+      <div className="flex flex-wrap gap-2" role="group" aria-label="Choose a verb">
+        {group.verbs.map((item) => {
+          const selected = item.id === verb.id
+          return (
+            <button
+              key={item.id}
+              type="button"
+              aria-pressed={selected}
+              onClick={() => selectVerb(item)}
+              className={cn(
+                'rounded-full border px-3 py-1.5 text-sm',
+                selected ? 'border-primary bg-primary text-primary-foreground' : 'bg-card hover:bg-muted/60',
+              )}
+            >
+              {item.infinitive}
+            </button>
+          )
+        })}
       </div>
-
-      {CONJUGATION_GROUPS.map((group) => (
-        <section key={group.id} className="space-y-2">
-          <div>
-            <h2 className="text-sm font-medium">{group.title}</h2>
-            <p className="text-xs text-muted-foreground">{group.description}</p>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {group.verbs.map((item) => {
-              const selected = item.id === verb.id
-              return (
-                <button
-                  key={item.id}
-                  type="button"
-                  aria-pressed={selected}
-                  onClick={() => selectVerb(item)}
-                  className={cn(
-                    'rounded-full border px-3 py-1.5 text-sm',
-                    selected ? 'border-primary bg-primary text-primary-foreground' : 'bg-card hover:bg-muted/60',
-                  )}
-                >
-                  {item.infinitive}
-                </button>
-              )
-            })}
-          </div>
-        </section>
-      ))}
 
       <section className="space-y-3 rounded-xl border bg-card p-4">
         <div className="flex items-start justify-between gap-3">
@@ -186,6 +170,6 @@ export function ConjugationDrill() {
       </section>
 
       <CoverToggle covered={covered} onToggle={toggleCovered} />
-    </section>
+    </div>
   )
 }
