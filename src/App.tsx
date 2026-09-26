@@ -15,6 +15,7 @@ import { GrammarSession } from '@/components/learn/grammar-session'
 import { ListenSession } from '@/components/learn/listen-session'
 import { PracticeSession } from '@/components/learn/practice-session'
 import { ReviewPage } from '@/components/learn/review-page'
+import { ConjugationsPage } from '@/components/learn/conjugations-page'
 import { SettingsPage } from '@/components/settings/settings-page'
 import { paths } from '@/lib/routes'
 import { preloadVoices } from '@/lib/speech'
@@ -60,6 +61,7 @@ function AppRoutes() {
           <Route path="/" element={<HomePage />} />
           <Route path="/plan" element={<PlanPage />} />
           <Route path="/review" element={<ReviewPage />} />
+          <Route path="/conjugations" element={<ConjugationsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="/learn/:day" element={<DayPage />} />
           <Route path="/learn/:day/vocab" element={<VocabSession />} />

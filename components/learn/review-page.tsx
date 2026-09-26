@@ -4,12 +4,14 @@ import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
 import { vocabAudioSrc } from '@/lib/audio/dialogue-path'
 import { useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
+import { ReverseVocabToggle, readReverseVocab, writeReverseVocab } from '@/components/learn/reverse-vocab-toggle'
 import type { ReviewRating } from '@/lib/progress/types'
 
 export function ReviewPage() {
   const { dueReviews, ratePhrase } = useProgress()
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const [reversed, setReversed] = useState(readReverseVocab)
   const phrase = dueReviews[index]
 
   useEffect(() => () => stopDialogue(), [])
@@ -24,6 +26,19 @@ export function ReviewPage() {
       return value >= nextLength ? 0 : value
     })
   }
+
+  const toggleReverse = () => {
+    setReversed((value) => {
+      const next = !value
+      writeReverseVocab(next)
+      return next
+    })
+    setFlipped(false)
+  }
+
+  const prompt = phrase ? (reversed ? phrase.english : phrase.spanish) : ''
+  const answer = phrase ? (reversed ? phrase.spanish : phrase.english) : ''
+  const answerLanguage = reversed ? 'Spanish' : 'English'
 
   return (
     <main className="flex flex-1 flex-col gap-5 px-4 py-6">
@@ -51,9 +66,11 @@ export function ReviewPage() {
             onClick={() => setFlipped((value) => !value)}
             className="flex min-h-56 flex-col justify-between rounded-2xl border bg-card p-6 text-left"
           >
-            <p className="font-display text-3xl leading-tight">{phrase.spanish}</p>
-            {flipped && <p className="text-lg">{phrase.english}</p>}
-            <p className="text-xs text-muted-foreground">{flipped ? 'Tap to hide' : 'Tap for English'}</p>
+            <p className="font-display text-3xl leading-tight">{prompt}</p>
+            {flipped && <p className="text-lg">{answer}</p>}
+            <p className="text-xs text-muted-foreground">
+              {flipped ? `Tap to hide ${answerLanguage}` : `Tap to show ${answerLanguage}`}
+            </p>
           </button>
           <Button
             type="button"
@@ -78,6 +95,7 @@ export function ReviewPage() {
           </div>
         </>
       )}
+      <ReverseVocabToggle reversed={reversed} onToggle={toggleReverse} />
     </main>
   )
 }

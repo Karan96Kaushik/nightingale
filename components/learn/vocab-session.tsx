@@ -5,61 +5,13 @@ import { playSpanishClip, stopDialogue } from '@/lib/audio/dialogue-player'
 import { vocabAudioSrc } from '@/lib/audio/dialogue-path'
 import { getDay } from '@/lib/curriculum/plan'
 import { paths } from '@/lib/routes'
-import { cn } from '@/lib/utils'
 import { useDayProgress, useProgress } from '@/hooks/use-progress'
 import { Button } from '@/components/ui/button'
+import { ReverseVocabToggle, readReverseVocab, writeReverseVocab } from '@/components/learn/reverse-vocab-toggle'
 import { SessionActions } from '@/components/learn/session-actions'
 import { SessionTimer } from '@/components/learn/session-timer'
 import { VocabTutorial } from '@/components/learn/vocab-tutorial'
 import type { ReviewRating } from '@/lib/progress/types'
-
-const REVERSE_KEY = 'nightingale_vocab_reverse'
-
-function readReverseVocab() {
-  try {
-    return localStorage.getItem(REVERSE_KEY) === '1'
-  } catch {
-    return false
-  }
-}
-
-function writeReverseVocab(reversed: boolean) {
-  try {
-    localStorage.setItem(REVERSE_KEY, reversed ? '1' : '0')
-  } catch {
-    // Storage can be blocked; the toggle still works for this visit.
-  }
-}
-
-function ReverseVocabToggle({ reversed, onToggle }: { reversed: boolean; onToggle: () => void }) {
-  return (
-    <button
-      type="button"
-      role="switch"
-      aria-checked={reversed}
-      onClick={onToggle}
-      className="flex items-center justify-between gap-3 rounded-xl border bg-card px-4 py-3 text-left"
-    >
-      <span>
-        <span className="block text-sm font-medium">Reverse vocabulary</span>
-        <span className="block text-xs text-muted-foreground">
-          {reversed ? 'English first. Tap the card for Spanish.' : 'Spanish first. Tap the card for English.'}
-        </span>
-      </span>
-      <span
-        aria-hidden
-        className={cn('relative h-6 w-11 shrink-0 rounded-full transition-colors', reversed ? 'bg-primary' : 'bg-border')}
-      >
-        <span
-          className={cn(
-            'absolute top-0.5 size-5 rounded-full bg-card shadow-sm transition-transform',
-            reversed ? 'translate-x-5' : 'translate-x-0.5',
-          )}
-        />
-      </span>
-    </button>
-  )
-}
 
 export function VocabSession() {
   const { day: dayParam } = useParams()
